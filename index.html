@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>College in Florence — The Student Map of Firenze</title>
+<meta name="description" content="Interactive map of every college in Florence, Italy — plus the best study cafés and budget-friendly nightlife, curated from real student reviews.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">CiF</span>
+    <span class="brand-name">College in <em>Florence</em></span>
+  </a>
+  <nav class="topnav">
+    <a href="index.html" class="active">Map</a>
+    <a href="chat.html">Chat</a>
+    <a href="register.html" class="nav-cta">Join with your school email</a>
+  </nav>
+  <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+</header>
+
+<div class="layer-bar" id="layerBar">
+  <button class="layer-chip active" data-layer="colleges">
+    <span class="dot dot-colleges"></span> Colleges <span class="count" id="count-colleges"></span>
+  </button>
+  <button class="layer-chip active" data-layer="studyspots">
+    <span class="dot dot-studyspots"></span> Study Spots <span class="count" id="count-studyspots"></span>
+  </button>
+  <button class="layer-chip active" data-layer="nightlife">
+    <span class="dot dot-nightlife"></span> Eat &amp; Nightlife <span class="count" id="count-nightlife"></span>
+  </button>
+  <div class="layer-bar-right">
+    <input type="search" id="searchBox" placeholder="Search places…" autocomplete="off">
+  </div>
+</div>
+
+<main class="map-shell">
+  <div id="map"></div>
+
+  <aside class="detail-panel" id="detailPanel" aria-hidden="true">
+    <button class="panel-close" id="panelClose" aria-label="Close">×</button>
+    <div class="panel-content" id="panelContent"></div>
+  </aside>
+
+  <div class="search-results" id="searchResults"></div>
+</main>
+
+<footer class="site-footer">
+  <p><strong>College in Florence</strong> — a curated student map of Firenze. Recommendation scores are synthesized from public reviews, Reddit threads, and student blogs. Not affiliated with any institution.</p>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

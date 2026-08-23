@@ -1,0 +1,574 @@
+/* ==========================================================================
+   College in Florence — sophisticated modern theme
+   Palette: Florentine ink, warm stone, terracotta, plum
+   ========================================================================== */
+
+:root {
+  --ink: #1c2333;
+  --ink-soft: #3d465c;
+  --stone: #f6f3ee;
+  --stone-deep: #ece7de;
+  --paper: #fffdf9;
+  --line: #e2dcd2;
+
+  --c-colleges: #2c4d9e;      /* Florentine blue */
+  --c-colleges-soft: #e4eafb;
+  --c-studyspots: #c2611e;    /* terracotta */
+  --c-studyspots-soft: #fdeadd;
+  --c-nightlife: #8e2f63;     /* sangiovese plum */
+  --c-nightlife-soft: #f9e4f0;
+
+  --gold: #b98a2f;
+  --radius: 14px;
+  --shadow: 0 10px 40px rgba(28, 35, 51, 0.14);
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", -apple-system, sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body { height: 100%; }
+
+body {
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--stone);
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- Top bar ---------- */
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.7rem 1.4rem;
+  background: var(--ink);
+  color: var(--stone);
+  z-index: 1200;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.brand-mark {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  background: var(--gold);
+  color: var(--ink);
+  border-radius: 8px;
+  padding: 0.3rem 0.5rem;
+  letter-spacing: 0.02em;
+}
+
+.brand-name {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+.brand-name em { color: var(--gold); font-style: italic; }
+
+.topnav { display: flex; align-items: center; gap: 1.4rem; }
+
+.topnav a {
+  color: rgba(246, 243, 238, 0.85);
+  text-decoration: none;
+  font-size: 0.92rem;
+  font-weight: 500;
+  padding: 0.35rem 0;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s;
+}
+.topnav a:hover { color: #fff; }
+.topnav a.active { color: #fff; border-bottom-color: var(--gold); }
+
+.topnav a.nav-cta {
+  background: var(--gold);
+  color: var(--ink);
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border-bottom: none;
+  font-weight: 600;
+}
+.topnav a.nav-cta:hover { background: #d3a145; color: var(--ink); }
+
+.hamburger { display: none; background: none; border: none; color: var(--stone); font-size: 1.5rem; cursor: pointer; }
+
+/* ---------- Layer bar ---------- */
+
+.layer-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.65rem 1.4rem;
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+  z-index: 1100;
+  flex-wrap: wrap;
+}
+
+.layer-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  background: var(--stone);
+  border: 1.5px solid var(--line);
+  border-radius: 999px;
+  padding: 0.45rem 1rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.layer-chip:hover { border-color: var(--ink-soft); }
+.layer-chip.active { background: var(--ink); color: #fff; border-color: var(--ink); }
+.layer-chip .count { opacity: 0.6; font-weight: 500; font-size: 0.8rem; }
+
+.dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.dot-colleges { background: var(--c-colleges); }
+.dot-studyspots { background: var(--c-studyspots); }
+.dot-nightlife { background: var(--c-nightlife); }
+.layer-chip.active .dot { outline: 2px solid rgba(255,255,255,0.5); }
+
+.layer-bar-right { margin-left: auto; }
+
+#searchBox {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border: 1.5px solid var(--line);
+  border-radius: 999px;
+  background: var(--stone);
+  width: 220px;
+  outline: none;
+  transition: border-color 0.15s, width 0.2s;
+}
+#searchBox:focus { border-color: var(--c-colleges); background: #fff; width: 260px; }
+
+/* ---------- Map shell ---------- */
+
+.map-shell { position: relative; flex: 1; min-height: 420px; }
+
+#map { position: absolute; inset: 0; background: var(--stone-deep); }
+
+/* markers */
+.cif-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50% 50% 50% 4px;
+  transform: rotate(0deg);
+  color: #fff;
+  font-size: 13px;
+  border: 2.5px solid #fff;
+  box-shadow: 0 2px 8px rgba(28,35,51,0.35);
+}
+.cif-marker.m-colleges { background: var(--c-colleges); }
+.cif-marker.m-studyspots { background: var(--c-studyspots); }
+.cif-marker.m-nightlife { background: var(--c-nightlife); }
+
+.cif-cluster {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  border: 3px solid rgba(255,255,255,0.85);
+  box-shadow: 0 2px 10px rgba(28,35,51,0.3);
+  width: 100% !important;
+  height: 100% !important;
+}
+.cif-cluster.m-colleges { background: var(--c-colleges); }
+.cif-cluster.m-studyspots { background: var(--c-studyspots); }
+.cif-cluster.m-nightlife { background: var(--c-nightlife); }
+
+.leaflet-popup-content-wrapper {
+  border-radius: 12px;
+  font-family: var(--font-body);
+  box-shadow: var(--shadow);
+}
+.popup-mini { min-width: 180px; }
+.popup-mini h4 { font-family: var(--font-display); font-size: 1.02rem; margin-bottom: 2px; }
+.popup-mini .popup-cat { font-size: 0.75rem; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 0.06em; }
+.popup-mini .popup-more { display: inline-block; margin-top: 6px; font-size: 0.82rem; font-weight: 600; color: var(--c-colleges); cursor: pointer; text-decoration: underline; }
+
+/* ---------- Detail panel ---------- */
+
+.detail-panel {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  bottom: 16px;
+  width: min(400px, calc(100vw - 32px));
+  background: var(--paper);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  z-index: 1000;
+  transform: translateX(calc(100% + 32px));
+  transition: transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.detail-panel.open { transform: translateX(0); }
+
+.panel-close {
+  position: absolute;
+  top: 10px; right: 12px;
+  background: var(--stone);
+  border: none;
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--ink);
+  z-index: 2;
+}
+.panel-close:hover { background: var(--stone-deep); }
+
+.panel-content { overflow-y: auto; padding: 1.5rem 1.5rem 2rem; }
+
+.panel-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  margin-bottom: 0.8rem;
+}
+.panel-kicker.k-colleges { background: var(--c-colleges-soft); color: var(--c-colleges); }
+.panel-kicker.k-studyspots { background: var(--c-studyspots-soft); color: var(--c-studyspots); }
+.panel-kicker.k-nightlife { background: var(--c-nightlife-soft); color: var(--c-nightlife); }
+
+.panel-content h2 {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.15;
+  margin-bottom: 0.35rem;
+  padding-right: 1.5rem;
+}
+
+.panel-address { font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 1rem; }
+
+.rec-score {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  background: var(--stone);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.8rem 1rem;
+  margin-bottom: 1.1rem;
+}
+.rec-score .score-num {
+  font-family: var(--font-display);
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.rec-score .score-meta { font-size: 0.8rem; color: var(--ink-soft); line-height: 1.35; }
+.rec-score .score-label { font-weight: 700; color: var(--ink); text-transform: uppercase; font-size: 0.68rem; letter-spacing: 0.08em; }
+
+.panel-desc { font-size: 0.92rem; line-height: 1.55; margin-bottom: 1.1rem; }
+
+.panel-section-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--ink-soft);
+  margin: 1.1rem 0 0.5rem;
+}
+
+.tag-row { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.tag {
+  font-size: 0.78rem;
+  background: var(--stone);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.25rem 0.7rem;
+  color: var(--ink-soft);
+}
+
+.fact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem 1rem; font-size: 0.85rem; }
+.fact-grid .fact b { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-soft); margin-bottom: 1px; }
+
+blockquote.review-quote {
+  border-left: 3px solid var(--gold);
+  padding: 0.4rem 0 0.4rem 0.9rem;
+  margin-bottom: 0.7rem;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+blockquote.review-quote cite {
+  display: block;
+  font-style: normal;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+  color: var(--ink-soft);
+}
+blockquote.review-quote cite a { color: var(--c-colleges); }
+
+.panel-links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.6rem; }
+.panel-links a {
+  font-size: 0.84rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--c-colleges);
+  border: 1.5px solid var(--c-colleges);
+  border-radius: 999px;
+  padding: 0.4rem 0.9rem;
+  transition: all 0.15s;
+}
+.panel-links a:hover { background: var(--c-colleges); color: #fff; }
+
+.chat-cta-inline {
+  display: block;
+  margin-top: 1.2rem;
+  background: var(--ink);
+  color: #fff !important;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 0.7rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.chat-cta-inline:hover { background: #2b3550; }
+
+/* ---------- Search results dropdown ---------- */
+
+.search-results {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(380px, 90vw);
+  background: var(--paper);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  z-index: 1050;
+  max-height: 320px;
+  overflow-y: auto;
+  display: none;
+}
+.search-results.open { display: block; }
+.search-result-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.65rem 1rem;
+  cursor: pointer;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.9rem;
+}
+.search-result-item:hover { background: var(--stone); }
+.search-result-item .sr-cat { margin-left: auto; font-size: 0.72rem; color: var(--ink-soft); }
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  background: var(--ink);
+  color: rgba(246,243,238,0.75);
+  font-size: 0.8rem;
+  padding: 0.8rem 1.4rem;
+  line-height: 1.5;
+}
+.site-footer strong { color: var(--stone); }
+
+/* ---------- Auth & chat pages ---------- */
+
+.page-wrap {
+  flex: 1;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 3rem 1.4rem 4rem;
+}
+
+.page-wrap h1 {
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+.page-wrap .lede { font-size: 1.02rem; color: var(--ink-soft); line-height: 1.6; margin-bottom: 2rem; }
+
+.card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 20px rgba(28,35,51,0.06);
+  padding: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.field { margin-bottom: 1.1rem; }
+.field label { display: block; font-size: 0.82rem; font-weight: 600; margin-bottom: 0.35rem; }
+.field input, .field select {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  padding: 0.7rem 0.9rem;
+  border: 1.5px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+  outline: none;
+}
+.field input:focus, .field select:focus { border-color: var(--c-colleges); }
+.field .hint { font-size: 0.78rem; color: var(--ink-soft); margin-top: 0.3rem; }
+
+.btn {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+  background: var(--ink);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 0.75rem 1.6rem;
+  cursor: pointer;
+  transition: background 0.15s;
+  text-decoration: none;
+}
+.btn:hover { background: #2b3550; }
+.btn.btn-gold { background: var(--gold); color: var(--ink); }
+.btn.btn-gold:hover { background: #d3a145; }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.notice { border-radius: 10px; padding: 0.9rem 1.1rem; font-size: 0.88rem; line-height: 1.5; margin-bottom: 1rem; }
+.notice.ok { background: #e5f4e8; color: #1e6b34; border: 1px solid #bfe3c8; }
+.notice.err { background: #fbe7e5; color: #a2372c; border: 1px solid #f0c6c1; }
+.notice.info { background: var(--c-colleges-soft); color: var(--c-colleges); border: 1px solid #c8d6f5; }
+
+/* chat layout */
+.chat-shell {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  min-height: 0;
+  background: var(--paper);
+}
+.chat-rooms {
+  border-right: 1px solid var(--line);
+  overflow-y: auto;
+  background: var(--stone);
+  padding: 1rem 0;
+}
+.chat-rooms h3 {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--ink-soft);
+  padding: 0.6rem 1.1rem 0.3rem;
+}
+.room-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  padding: 0.55rem 1.1rem;
+  cursor: pointer;
+  color: var(--ink-soft);
+  border-left: 3px solid transparent;
+}
+.room-item:hover { background: var(--stone-deep); }
+.room-item.active { background: var(--paper); color: var(--ink); font-weight: 600; border-left-color: var(--gold); }
+
+.chat-main { display: flex; flex-direction: column; min-height: 0; }
+.chat-header {
+  padding: 0.9rem 1.4rem;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chat-header h2 { font-family: var(--font-display); font-size: 1.2rem; font-weight: 600; }
+.chat-header .whoami { font-size: 0.8rem; color: var(--ink-soft); }
+.chat-header .whoami button { background:none; border:none; color: var(--c-colleges); cursor:pointer; font-size:0.8rem; text-decoration:underline; }
+
+.chat-messages { flex: 1; overflow-y: auto; padding: 1.2rem 1.4rem; display: flex; flex-direction: column; gap: 0.7rem; }
+.msg { max-width: 78%; }
+.msg .msg-meta { font-size: 0.72rem; color: var(--ink-soft); margin-bottom: 2px; }
+.msg .msg-bubble {
+  background: var(--stone);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.55rem 0.9rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  word-wrap: break-word;
+}
+.msg.mine { align-self: flex-end; }
+.msg.mine .msg-bubble { background: var(--c-colleges); color: #fff; border-color: var(--c-colleges); }
+.msg.mine .msg-meta { text-align: right; }
+
+.chat-input-row { display: flex; gap: 0.6rem; padding: 0.9rem 1.4rem; border-top: 1px solid var(--line); }
+.chat-input-row input {
+  flex: 1;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  padding: 0.7rem 1rem;
+  border: 1.5px solid var(--line);
+  border-radius: 999px;
+  outline: none;
+}
+.chat-input-row input:focus { border-color: var(--c-colleges); }
+
+.gate { text-align: center; padding: 3rem 1.4rem; }
+.gate .gate-icon { font-size: 2.6rem; margin-bottom: 0.8rem; }
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 760px) {
+  .topnav { display: none; }
+  .topnav.open {
+    display: flex;
+    position: absolute;
+    top: 56px; left: 0; right: 0;
+    flex-direction: column;
+    background: var(--ink);
+    padding: 1rem 1.4rem;
+    gap: 1rem;
+    z-index: 1300;
+  }
+  .hamburger { display: block; }
+  .brand-name { font-size: 1.05rem; }
+  .layer-bar { padding: 0.55rem 0.8rem; }
+  .layer-bar-right { margin-left: 0; width: 100%; }
+  #searchBox, #searchBox:focus { width: 100%; }
+  .detail-panel { top: auto; left: 8px; right: 8px; bottom: 8px; width: auto; max-height: 62%; transform: translateY(calc(100% + 16px)); }
+  .detail-panel.open { transform: translateY(0); }
+  .chat-shell { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
+  .chat-rooms { display: flex; overflow-x: auto; padding: 0.4rem; border-right: none; border-bottom: 1px solid var(--line); }
+  .chat-rooms h3 { display: none; }
+  .room-item { white-space: nowrap; border-left: none; border-bottom: 3px solid transparent; }
+  .room-item.active { border-bottom-color: var(--gold); }
+}

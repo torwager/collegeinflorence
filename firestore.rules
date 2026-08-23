@@ -1,0 +1,44 @@
+rules_version = '2';
+// College in Florence — Firestore security rules.
+// Enforces the school-domain access-control list SERVER-SIDE, so the
+// client-side check in js/chat.js cannot be bypassed.
+//
+// Setup: create a document  config/allowlist  with a field
+//   domains: ["nyu.edu", "syr.edu", "unifi.it", ...]
+// containing every domain listed in data/colleges.json (emailDomains).
+// See README.md for a one-liner that generates this list.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function allowedDomains() {
+      return get(/databases/$(database)/documents/config/allowlist).data.domains;
+    }
+
+    function emailDomain() {
+      return request.auth.token.email.split('@')[1];
+    }
+
+    function isVerifiedStudent() {
+      return request.auth != null
+        && request.auth.token.email_verified
+        && emailDomain() in allowedDomains();
+    }
+
+    match /config/allowlist {
+      allow read: if true;
+      allow write: if false; // edit only from the Firebase console
+    }
+
+    match /rooms/{roomId}/messages/{messageId} {
+      allow read: if isVerifiedStudent();
+      allow create: if isVerifiedStudent()
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.email == request.auth.token.email
+        && request.resource.data.text is string
+        && request.resource.data.text.size() > 0
+        && request.resource.data.text.size() <= 500;
+      allow update, delete: if false;
+    }
+  }
+}

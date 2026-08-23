@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chat — College in Florence</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>html, body { height: 100%; overflow: hidden; }</style>
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">CiF</span>
+    <span class="brand-name">College in <em>Florence</em></span>
+  </a>
+  <nav class="topnav">
+    <a href="index.html">Map</a>
+    <a href="chat.html" class="active">Chat</a>
+    <a href="register.html" class="nav-cta">Join with your school email</a>
+  </nav>
+  <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+</header>
+
+<div class="chat-shell" id="chatShell">
+  <aside class="chat-rooms" id="roomList">
+    <h3>Rooms</h3>
+  </aside>
+  <section class="chat-main">
+    <div class="chat-header">
+      <h2 id="roomTitle">Piazza — All Schools</h2>
+      <div class="whoami" id="whoami"></div>
+    </div>
+    <div class="chat-messages" id="messages">
+      <div class="gate" id="gate">
+        <div class="gate-icon">🔐</div>
+        <h2 style="font-family:var(--font-display); margin-bottom:0.5rem">Students only</h2>
+        <p style="color:var(--ink-soft); max-width:420px; margin:0 auto 1.2rem; line-height:1.6">
+          The chats are open to verified students and staff of the colleges on the map.
+          Register with your school email and we'll send you a sign-in link.
+        </p>
+        <a class="btn btn-gold" href="register.html">Register with school email</a>
+      </div>
+    </div>
+    <div class="chat-input-row" id="inputRow" style="display:none">
+      <input type="text" id="msgInput" placeholder="Say ciao…" maxlength="500">
+      <button class="btn" id="sendBtn">Send</button>
+    </div>
+  </section>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+<script src="js/firebase-config.js"></script>
+<script src="js/chat.js"></script>
+<script>
+  document.getElementById('hamburger').addEventListener('click', () =>
+    document.querySelector('.topnav').classList.toggle('open'));
+</script>
+</body>
+</html>

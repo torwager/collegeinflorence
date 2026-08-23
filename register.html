@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register — College in Florence</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">CiF</span>
+    <span class="brand-name">College in <em>Florence</em></span>
+  </a>
+  <nav class="topnav">
+    <a href="index.html">Map</a>
+    <a href="chat.html">Chat</a>
+    <a href="register.html" class="nav-cta active">Join with your school email</a>
+  </nav>
+  <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+</header>
+
+<div class="page-wrap">
+  <h1>Join the conversation</h1>
+  <p class="lede">The chats are students-only. Register with your <strong>school email address</strong> from one of the colleges on the map — we'll send you a verification link, and clicking it signs you in. No passwords, no spam.</p>
+
+  <div id="statusArea"></div>
+
+  <div class="card" id="registerCard">
+    <div class="field">
+      <label for="regName">Display name</label>
+      <input type="text" id="regName" placeholder="e.g. Giulia, or Mike from Syracuse" maxlength="40">
+    </div>
+    <div class="field">
+      <label for="regSchool">Your school</label>
+      <select id="regSchool"><option value="">Loading schools…</option></select>
+      <div class="hint">Every college on the map has a chat room of its own.</div>
+    </div>
+    <div class="field">
+      <label for="regEmail">School email address</label>
+      <input type="email" id="regEmail" placeholder="you@nyu.edu" autocomplete="email">
+      <div class="hint" id="domainHint">Must match a recognized school domain.</div>
+    </div>
+    <button class="btn btn-gold" id="regSubmit">Send my verification link</button>
+  </div>
+
+  <div class="card">
+    <strong style="font-family:var(--font-display)">How verification works</strong>
+    <p style="font-size:0.88rem; color:var(--ink-soft); line-height:1.6; margin-top:0.5rem">
+      1. We check your email against the list of recognized school domains.<br>
+      2. You receive a one-time sign-in link at that address — receiving it proves the address is really yours.<br>
+      3. Clicking the link opens the chat, signed in. Your access is tied to your verified school.
+    </p>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p><strong>College in Florence</strong> — a curated student map of Firenze. Not affiliated with any institution.</p>
+</footer>
+
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+<script src="js/firebase-config.js"></script>
+<script src="js/auth.js"></script>
+<script>
+  document.getElementById('hamburger').addEventListener('click', () =>
+    document.querySelector('.topnav').classList.toggle('open'));
+</script>
+</body>
+</html>
