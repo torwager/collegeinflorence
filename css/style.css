@@ -1,24 +1,27 @@
 /* ==========================================================================
    College in Florence — sophisticated modern theme
-   Palette: Florentine ink, warm stone, terracotta, plum
+   Palette: cool ink + ripe-fruit layer colors (seaborn-inspired):
+   blueberry, kiwi, tangerine, grape, with a raspberry accent
    ========================================================================== */
 
 :root {
-  --ink: #1c2333;
-  --ink-soft: #3d465c;
-  --stone: #f6f3ee;
-  --stone-deep: #ece7de;
-  --paper: #fffdf9;
-  --line: #e2dcd2;
+  --ink: #1d2433;
+  --ink-soft: #46506a;
+  --stone: #f4f6fa;
+  --stone-deep: #e8ecf3;
+  --paper: #ffffff;
+  --line: #dfe5ee;
 
-  --c-colleges: #2c4d9e;      /* Florentine blue */
-  --c-colleges-soft: #e4eafb;
-  --c-studyspots: #c2611e;    /* terracotta */
-  --c-studyspots-soft: #fdeadd;
-  --c-nightlife: #8e2f63;     /* sangiovese plum */
-  --c-nightlife-soft: #f9e4f0;
+  --c-colleges: #4c72b0;      /* blueberry */
+  --c-colleges-soft: #e7edf8;
+  --c-studyspots: #2f9e60;    /* kiwi */
+  --c-studyspots-soft: #e2f4e9;
+  --c-eateries: #e8630c;      /* tangerine */
+  --c-eateries-soft: #fdeadd;
+  --c-nightlife: #8a4fd0;     /* grape */
+  --c-nightlife-soft: #f0e8fb;
 
-  --gold: #b98a2f;
+  --accent: #d63384;          /* raspberry */
   --radius: 14px;
   --shadow: 0 10px 40px rgba(28, 35, 51, 0.14);
   --font-display: "Fraunces", Georgia, serif;
@@ -63,8 +66,8 @@ body {
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 0.95rem;
-  background: var(--gold);
-  color: var(--ink);
+  background: var(--accent);
+  color: #fff;
   border-radius: 8px;
   padding: 0.3rem 0.5rem;
   letter-spacing: 0.02em;
@@ -76,7 +79,7 @@ body {
   font-weight: 600;
   letter-spacing: 0.01em;
 }
-.brand-name em { color: var(--gold); font-style: italic; }
+.brand-name em { color: var(--accent); font-style: italic; }
 
 .topnav { display: flex; align-items: center; gap: 1.4rem; }
 
@@ -90,17 +93,17 @@ body {
   transition: color 0.15s;
 }
 .topnav a:hover { color: #fff; }
-.topnav a.active { color: #fff; border-bottom-color: var(--gold); }
+.topnav a.active { color: #fff; border-bottom-color: var(--accent); }
 
 .topnav a.nav-cta {
-  background: var(--gold);
-  color: var(--ink);
+  background: var(--accent);
+  color: #fff;
   padding: 0.5rem 1rem;
   border-radius: 999px;
   border-bottom: none;
   font-weight: 600;
 }
-.topnav a.nav-cta:hover { background: #d3a145; color: var(--ink); }
+.topnav a.nav-cta:hover { background: #e2499a; color: #fff; }
 
 .hamburger { display: none; background: none; border: none; color: var(--stone); font-size: 1.5rem; cursor: pointer; }
 
@@ -139,8 +142,13 @@ body {
 .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
 .dot-colleges { background: var(--c-colleges); }
 .dot-studyspots { background: var(--c-studyspots); }
+.dot-eateries { background: var(--c-eateries); }
 .dot-nightlife { background: var(--c-nightlife); }
 .layer-chip.active .dot { outline: 2px solid rgba(255,255,255,0.5); }
+
+.filter-chip { border-style: dashed; }
+.filter-chip.active { background: var(--accent); border-color: var(--accent); border-style: solid; color: #fff; }
+.filter-divider { width: 1px; align-self: stretch; background: var(--line); margin: 0 0.3rem; }
 
 .layer-bar-right { margin-left: auto; }
 
@@ -179,6 +187,7 @@ body {
 }
 .cif-marker.m-colleges { background: var(--c-colleges); }
 .cif-marker.m-studyspots { background: var(--c-studyspots); }
+.cif-marker.m-eateries { background: var(--c-eateries); }
 .cif-marker.m-nightlife { background: var(--c-nightlife); }
 
 .cif-cluster {
@@ -196,6 +205,7 @@ body {
 }
 .cif-cluster.m-colleges { background: var(--c-colleges); }
 .cif-cluster.m-studyspots { background: var(--c-studyspots); }
+.cif-cluster.m-eateries { background: var(--c-eateries); }
 .cif-cluster.m-nightlife { background: var(--c-nightlife); }
 
 .leaflet-popup-content-wrapper {
@@ -258,6 +268,7 @@ body {
 }
 .panel-kicker.k-colleges { background: var(--c-colleges-soft); color: var(--c-colleges); }
 .panel-kicker.k-studyspots { background: var(--c-studyspots-soft); color: var(--c-studyspots); }
+.panel-kicker.k-eateries { background: var(--c-eateries-soft); color: var(--c-eateries); }
 .panel-kicker.k-nightlife { background: var(--c-nightlife-soft); color: var(--c-nightlife); }
 
 .panel-content h2 {
@@ -315,7 +326,7 @@ body {
 .fact-grid .fact b { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-soft); margin-bottom: 1px; }
 
 blockquote.review-quote {
-  border-left: 3px solid var(--gold);
+  border-left: 3px solid var(--accent);
   padding: 0.4rem 0 0.4rem 0.9rem;
   margin-bottom: 0.7rem;
   font-size: 0.88rem;
@@ -456,8 +467,8 @@ blockquote.review-quote cite a { color: var(--c-colleges); }
   text-decoration: none;
 }
 .btn:hover { background: #2b3550; }
-.btn.btn-gold { background: var(--gold); color: var(--ink); }
-.btn.btn-gold:hover { background: #d3a145; }
+.btn.btn-accent { background: var(--accent); color: #fff; }
+.btn.btn-accent:hover { background: #e2499a; }
 .btn:disabled { opacity: 0.5; cursor: not-allowed; }
 
 .notice { border-radius: 10px; padding: 0.9rem 1.1rem; font-size: 0.88rem; line-height: 1.5; margin-bottom: 1rem; }
@@ -500,7 +511,7 @@ blockquote.review-quote cite a { color: var(--c-colleges); }
   border-left: 3px solid transparent;
 }
 .room-item:hover { background: var(--stone-deep); }
-.room-item.active { background: var(--paper); color: var(--ink); font-weight: 600; border-left-color: var(--gold); }
+.room-item.active { background: var(--paper); color: var(--ink); font-weight: 600; border-left-color: var(--accent); }
 
 .chat-main { display: flex; flex-direction: column; min-height: 0; }
 .chat-header {
@@ -570,5 +581,5 @@ blockquote.review-quote cite a { color: var(--c-colleges); }
   .chat-rooms { display: flex; overflow-x: auto; padding: 0.4rem; border-right: none; border-bottom: 1px solid var(--line); }
   .chat-rooms h3 { display: none; }
   .room-item { white-space: nowrap; border-left: none; border-bottom: 3px solid transparent; }
-  .room-item.active { border-bottom-color: var(--gold); }
+  .room-item.active { border-bottom-color: var(--accent); }
 }

@@ -13,11 +13,27 @@
       "recScore": 9,
       "reviewSummary": "Named repeatedly across local and student guides as Florence's most-loved budget aperitivo, with consistently warm reviews of staff, music and prices.",
       "quotes": [
-        {"text": "Prices at Café Volume remain affordable without sacrificing quality.", "source": "Eating Around Italy", "url": "https://eatingarounditaly.com/aperitivo-on-a-budget-in-florence-italy/"},
-        {"text": "Where young professionals and students gather for strong cocktails and live music. Most cocktails are 9 euro and excellent.", "source": "AFAR", "url": "https://www.afar.com/places/volume-florence"}
+        {
+          "text": "Prices at Café Volume remain affordable without sacrificing quality.",
+          "source": "Eating Around Italy",
+          "url": "https://eatingarounditaly.com/aperitivo-on-a-budget-in-florence-italy/"
+        },
+        {
+          "text": "Where young professionals and students gather for strong cocktails and live music. Most cocktails are 9 euro and excellent.",
+          "source": "AFAR",
+          "url": "https://www.afar.com/places/volume-florence"
+        }
       ],
-      "practical": {"price": "€", "bestFor": "aperitivo on the piazza", "hours": "Daily ~8:30am-1:30am"},
-      "links": {"instagram": "https://www.instagram.com/volumefirenze/", "maps": "https://maps.google.com/?q=Volume+Piazza+Santo+Spirito+Firenze"}
+      "practical": {
+        "price": "€",
+        "bestFor": "aperitivo on the piazza",
+        "hours": "Daily ~8:30am-1:30am"
+      },
+      "links": {
+        "instagram": "https://www.instagram.com/volumefirenze/",
+        "maps": "https://maps.google.com/?q=Volume+Piazza+Santo+Spirito+Firenze"
+      },
+      "openLate": true
     },
     {
       "id": "bulli-e-balene",
@@ -30,10 +46,22 @@
       "recScore": 8.5,
       "reviewSummary": "Local guides single it out as exceptional value for spritz plus cicchetti in an otherwise pricey area.",
       "quotes": [
-        {"text": "Serves up exceptionally budget friendly Spritz and ombra for around 4.50 euro.", "source": "Eating Around Italy", "url": "https://eatingarounditaly.com/aperitivo-on-a-budget-in-florence-italy/"}
+        {
+          "text": "Serves up exceptionally budget friendly Spritz and ombra for around 4.50 euro.",
+          "source": "Eating Around Italy",
+          "url": "https://eatingarounditaly.com/aperitivo-on-a-budget-in-florence-italy/"
+        }
       ],
-      "practical": {"price": "€", "bestFor": "cheap spritz + cicchetti", "hours": "Daily ~11am-10pm"},
-      "links": {"instagram": "https://www.instagram.com/bulliebalene_firenze/", "maps": "https://maps.google.com/?q=Bulli+e+Balene+Firenze"}
+      "practical": {
+        "price": "€",
+        "bestFor": "cheap spritz + cicchetti",
+        "hours": "Daily ~11am-10pm"
+      },
+      "links": {
+        "instagram": "https://www.instagram.com/bulliebalene_firenze/",
+        "maps": "https://maps.google.com/?q=Bulli+e+Balene+Firenze"
+      },
+      "openLate": false
     },
     {
       "id": "sosta-dei-papi",
@@ -46,11 +74,26 @@
       "recScore": 9,
       "reviewSummary": "Repeatedly cited by locals and students as the best cheap wine hang in Florence; reviewers marvel at the prices.",
       "quotes": [
-        {"text": "Sample local Tuscan wines on a dime... by the glass or by the liter from barrels.", "source": "Eating Around Italy", "url": "https://eatingarounditaly.com/aperitivo-on-a-budget-in-florence-italy/"},
-        {"text": "The prices are amazingly cheap... a bottle of house red, house white and two glasses of red for 13 euro.", "source": "Wanderlog reviews", "url": "https://wanderlog.com/place/details/542493/enoteca-alla-sosta-dei-papi"}
+        {
+          "text": "Sample local Tuscan wines on a dime... by the glass or by the liter from barrels.",
+          "source": "Eating Around Italy",
+          "url": "https://eatingarounditaly.com/aperitivo-on-a-budget-in-florence-italy/"
+        },
+        {
+          "text": "The prices are amazingly cheap... a bottle of house red, house white and two glasses of red for 13 euro.",
+          "source": "Wanderlog reviews",
+          "url": "https://wanderlog.com/place/details/542493/enoteca-alla-sosta-dei-papi"
+        }
       ],
-      "practical": {"price": "€", "bestFor": "cheap wine + coccoli", "hours": "Mon-Sat ~10am-9:30pm"},
-      "links": {"maps": "https://maps.google.com/?q=Enoteca+alla+Sosta+dei+Papi+Firenze"}
+      "practical": {
+        "price": "€",
+        "bestFor": "cheap wine + coccoli",
+        "hours": "Mon-Sat ~10am-9:30pm"
+      },
+      "links": {
+        "maps": "https://maps.google.com/?q=Enoteca+alla+Sosta+dei+Papi+Firenze"
+      },
+      "openLate": false
     },
     {
       "id": "amble",
@@ -63,10 +106,22 @@
       "recScore": 8,
       "reviewSummary": "Praised for keeping flat, honest prices and a cool design-shop vibe despite a prime Ponte Vecchio location.",
       "quotes": [
-        {"text": "Choose from over 15 different Spritz variations, all for 7 euro.", "source": "Eating Around Italy", "url": "https://eatingarounditaly.com/aperitivo-on-a-budget-in-florence-italy/"}
+        {
+          "text": "Choose from over 15 different Spritz variations, all for 7 euro.",
+          "source": "Eating Around Italy",
+          "url": "https://eatingarounditaly.com/aperitivo-on-a-budget-in-florence-italy/"
+        }
       ],
-      "practical": {"price": "€", "bestFor": "spritz near Ponte Vecchio", "hours": "Tue-Sun ~11am-midnight"},
-      "links": {"website": "https://www.amble.it", "maps": "https://maps.google.com/?q=Amble+Firenze"}
+      "practical": {
+        "price": "€",
+        "bestFor": "spritz near Ponte Vecchio",
+        "hours": "Tue-Sun ~11am-midnight"
+      },
+      "links": {
+        "website": "https://www.amble.it",
+        "maps": "https://maps.google.com/?q=Amble+Firenze"
+      },
+      "openLate": true
     },
     {
       "id": "le-volpi-e-luva",
@@ -79,10 +134,22 @@
       "recScore": 8.5,
       "reviewSummary": "A fixture on every quality-for-price aperitivo list; loved for expert pours at fair prices in a tourist-free pocket.",
       "quotes": [
-        {"text": "Small plate of meats & cheeses and a glass of wine for 10-15 euro.", "source": "Curious Appetite", "url": "https://thecuriousappetite.com/2025/09/08/where-to-eat-budget-cheap-in-florence-italy/"}
+        {
+          "text": "Small plate of meats & cheeses and a glass of wine for 10-15 euro.",
+          "source": "Curious Appetite",
+          "url": "https://thecuriousappetite.com/2025/09/08/where-to-eat-budget-cheap-in-florence-italy/"
+        }
       ],
-      "practical": {"price": "€€", "bestFor": "wine + crostini", "hours": "Mon-Sat 11am-9pm"},
-      "links": {"website": "https://www.levolpieluva.com", "maps": "https://maps.google.com/?q=Le+Volpi+e+l'Uva+Firenze"}
+      "practical": {
+        "price": "€€",
+        "bestFor": "wine + crostini",
+        "hours": "Mon-Sat 11am-9pm"
+      },
+      "links": {
+        "website": "https://www.levolpieluva.com",
+        "maps": "https://maps.google.com/?q=Le+Volpi+e+l'Uva+Firenze"
+      },
+      "openLate": false
     },
     {
       "id": "oblate-cafeteria",
@@ -95,10 +162,21 @@
       "recScore": 8.5,
       "reviewSummary": "Beloved by local and international students alike for a budget apericena directly facing the Duomo.",
       "quotes": [
-        {"text": "The Oblate Library upstairs student cafe is the best spot for apericena with a view in Florence.", "source": "Curious Appetite", "url": "https://thecuriousappetite.com/2023/03/03/budget-aperitivo-in-florence-italy/"}
+        {
+          "text": "The Oblate Library upstairs student cafe is the best spot for apericena with a view in Florence.",
+          "source": "Curious Appetite",
+          "url": "https://thecuriousappetite.com/2023/03/03/budget-aperitivo-in-florence-italy/"
+        }
       ],
-      "practical": {"price": "€", "bestFor": "apericena with Duomo view", "hours": "Apericena Wed-Sat 6:30-9:30pm"},
-      "links": {"maps": "https://maps.google.com/?q=Caffetteria+delle+Oblate+Firenze"}
+      "practical": {
+        "price": "€",
+        "bestFor": "apericena with Duomo view",
+        "hours": "Apericena Wed-Sat 6:30-9:30pm"
+      },
+      "links": {
+        "maps": "https://maps.google.com/?q=Caffetteria+delle+Oblate+Firenze"
+      },
+      "openLate": false
     },
     {
       "id": "santarosa-bistrot",
@@ -111,10 +189,22 @@
       "recScore": 8,
       "reviewSummary": "A consistent local-crowd favorite for garden aperitivo; slightly pricier drinks but the setting wins reviewers over.",
       "quotes": [
-        {"text": "Popular among families in the morning and students and professionals in the evening, resembling a Berlin vibe more than San Frediano.", "source": "Restaurant Guru reviews", "url": "https://restaurantguru.com/Santarosa-Bistrot-Florence"}
+        {
+          "text": "Popular among families in the morning and students and professionals in the evening, resembling a Berlin vibe more than San Frediano.",
+          "source": "Restaurant Guru reviews",
+          "url": "https://restaurantguru.com/Santarosa-Bistrot-Florence"
+        }
       ],
-      "practical": {"price": "€€", "bestFor": "garden aperitivo", "hours": "Daily ~10am-midnight"},
-      "links": {"instagram": "https://www.instagram.com/santarosa.bistrot/", "maps": "https://maps.google.com/?q=Santarosa+Bistrot+Firenze"}
+      "practical": {
+        "price": "€€",
+        "bestFor": "garden aperitivo",
+        "hours": "Daily ~10am-midnight"
+      },
+      "links": {
+        "instagram": "https://www.instagram.com/santarosa.bistrot/",
+        "maps": "https://maps.google.com/?q=Santarosa+Bistrot+Firenze"
+      },
+      "openLate": true
     },
     {
       "id": "la-cite",
@@ -127,10 +217,22 @@
       "recScore": 8.5,
       "reviewSummary": "A long-running Oltrarno institution that locals and study-abroad blogs both recommend for live music without tourist pricing.",
       "quotes": [
-        {"text": "Lively student haunts around Sant'Ambrogio and the Oltrarno offer a casual aperitivo crawl from bar to bar.", "source": "Curious Appetite", "url": "https://thecuriousappetite.com/food-drinks-aperitivo-in-florence-italy/"}
+        {
+          "text": "Lively student haunts around Sant'Ambrogio and the Oltrarno offer a casual aperitivo crawl from bar to bar.",
+          "source": "Curious Appetite",
+          "url": "https://thecuriousappetite.com/food-drinks-aperitivo-in-florence-italy/"
+        }
       ],
-      "practical": {"price": "€", "bestFor": "live music + study sessions", "hours": "Daily ~10:30am-1am"},
-      "links": {"website": "https://www.lacitelibreria.info", "maps": "https://maps.google.com/?q=La+Cite+Libreria+Cafe+Firenze"}
+      "practical": {
+        "price": "€",
+        "bestFor": "live music + study sessions",
+        "hours": "Daily ~10:30am-1am"
+      },
+      "links": {
+        "website": "https://www.lacitelibreria.info",
+        "maps": "https://maps.google.com/?q=La+Cite+Libreria+Cafe+Firenze"
+      },
+      "openLate": true
     },
     {
       "id": "lions-fountain",
@@ -143,11 +245,27 @@
       "recScore": 8,
       "reviewSummary": "The single most-mentioned bar in study-abroad guides; scores for atmosphere and deals rather than craft.",
       "quotes": [
-        {"text": "Dollar Night: 6 of them or 5 euros for your choice of draft beer and the shot of your choosing.", "source": "Bus2alps nightlife guide", "url": "https://bus2alps.com/a-night-by-night-guide-to-going-out-in-florence/"},
-        {"text": "They allow you to bring food from outside and eat alongside your beer.", "source": "Eating Around Italy", "url": "https://eatingarounditaly.com/aperitivo-on-a-budget-in-florence-italy/"}
+        {
+          "text": "Dollar Night: 6 of them or 5 euros for your choice of draft beer and the shot of your choosing.",
+          "source": "Bus2alps nightlife guide",
+          "url": "https://bus2alps.com/a-night-by-night-guide-to-going-out-in-florence/"
+        },
+        {
+          "text": "They allow you to bring food from outside and eat alongside your beer.",
+          "source": "Eating Around Italy",
+          "url": "https://eatingarounditaly.com/aperitivo-on-a-budget-in-florence-italy/"
+        }
       ],
-      "practical": {"price": "€", "bestFor": "meeting other students", "hours": "Daily ~10am-2am"},
-      "links": {"website": "https://www.thelionsfountain.com", "maps": "https://maps.google.com/?q=The+Lion's+Fountain+Firenze"}
+      "practical": {
+        "price": "€",
+        "bestFor": "meeting other students",
+        "hours": "Daily ~10am-2am"
+      },
+      "links": {
+        "website": "https://www.thelionsfountain.com",
+        "maps": "https://maps.google.com/?q=The+Lion's+Fountain+Firenze"
+      },
+      "openLate": true
     },
     {
       "id": "red-garter",
@@ -160,10 +278,22 @@
       "recScore": 7,
       "reviewSummary": "Universally known and reliably fun for the student crowd, though reviewers agree it's an American bubble rather than an Italian night out.",
       "quotes": [
-        {"text": "Florence's unofficial study abroad headquarters... the biggest appeal is the karaoke on a full-blown stage with a live guitar player.", "source": "The Tab (Syracuse)", "url": "https://archive.thetab.com/us/syracuse/2017/01/12/best-places-party-florence-italy-9596"}
+        {
+          "text": "Florence's unofficial study abroad headquarters... the biggest appeal is the karaoke on a full-blown stage with a live guitar player.",
+          "source": "The Tab (Syracuse)",
+          "url": "https://archive.thetab.com/us/syracuse/2017/01/12/best-places-party-florence-italy-9596"
+        }
       ],
-      "practical": {"price": "€€", "bestFor": "karaoke + game nights", "hours": "Daily ~11am-3am"},
-      "links": {"website": "https://www.redgarterflorence.com", "maps": "https://maps.google.com/?q=Red+Garter+Firenze"}
+      "practical": {
+        "price": "€€",
+        "bestFor": "karaoke + game nights",
+        "hours": "Daily ~11am-3am"
+      },
+      "links": {
+        "website": "https://www.redgarterflorence.com",
+        "maps": "https://maps.google.com/?q=Red+Garter+Firenze"
+      },
+      "openLate": true
     },
     {
       "id": "kikuya",
@@ -176,11 +306,27 @@
       "recScore": 7.5,
       "reviewSummary": "A student-guide staple for decades; scores on deals and energy, with the Dragoon beer its signature draw.",
       "quotes": [
-        {"text": "Buy any beer (Dragoon's are the best!) and underneath will be a sticker you peel off for the chance to win beers, shots, t-shirts, hats.", "source": "Bus2alps nightlife guide", "url": "https://bus2alps.com/a-night-by-night-guide-to-going-out-in-florence/"},
-        {"text": "Known among Italians and foreigners for their Dragoon Beer which has an incredible 10% alcohol content.", "source": "StudentsVille", "url": "https://www.studentsville.it/pubs-and-breweries-in-florence/"}
+        {
+          "text": "Buy any beer (Dragoon's are the best!) and underneath will be a sticker you peel off for the chance to win beers, shots, t-shirts, hats.",
+          "source": "Bus2alps nightlife guide",
+          "url": "https://bus2alps.com/a-night-by-night-guide-to-going-out-in-florence/"
+        },
+        {
+          "text": "Known among Italians and foreigners for their Dragoon Beer which has an incredible 10% alcohol content.",
+          "source": "StudentsVille",
+          "url": "https://www.studentsville.it/pubs-and-breweries-in-florence/"
+        }
       ],
-      "practical": {"price": "€", "bestFor": "cheap strong beer", "hours": "Daily ~6pm-2am"},
-      "links": {"website": "https://www.kikuyapub.it", "maps": "https://maps.google.com/?q=Kikuya+Pub+Firenze"}
+      "practical": {
+        "price": "€",
+        "bestFor": "cheap strong beer",
+        "hours": "Daily ~6pm-2am"
+      },
+      "links": {
+        "website": "https://www.kikuyapub.it",
+        "maps": "https://maps.google.com/?q=Kikuya+Pub+Firenze"
+      },
+      "openLate": true
     },
     {
       "id": "shot-cafe",
@@ -193,10 +339,21 @@
       "recScore": 7,
       "reviewSummary": "Wins on price and party energy across student guides; drink quality is beside the point.",
       "quotes": [
-        {"text": "One of the cheapest bars in Florence, offering shot trays, large mixed-drink pitchers, and varied shot options.", "source": "Bus2alps nightlife guide", "url": "https://bus2alps.com/a-night-by-night-guide-to-going-out-in-florence/"}
+        {
+          "text": "One of the cheapest bars in Florence, offering shot trays, large mixed-drink pitchers, and varied shot options.",
+          "source": "Bus2alps nightlife guide",
+          "url": "https://bus2alps.com/a-night-by-night-guide-to-going-out-in-florence/"
+        }
       ],
-      "practical": {"price": "€", "bestFor": "pregame shot trays", "hours": "Daily ~6pm-3am"},
-      "links": {"maps": "https://maps.google.com/?q=Shot+Cafe+Firenze"}
+      "practical": {
+        "price": "€",
+        "bestFor": "pregame shot trays",
+        "hours": "Daily ~6pm-3am"
+      },
+      "links": {
+        "maps": "https://maps.google.com/?q=Shot+Cafe+Firenze"
+      },
+      "openLate": true
     },
     {
       "id": "monkey-bar",
@@ -209,10 +366,21 @@
       "recScore": 7.5,
       "reviewSummary": "Recommended in student guides precisely because it draws more locals than study-abroad crowds while keeping dive-bar prices.",
       "quotes": [
-        {"text": "Attracts more locals than American students; a cultural experience.", "source": "Bus2alps nightlife guide", "url": "https://bus2alps.com/a-night-by-night-guide-to-going-out-in-florence/"}
+        {
+          "text": "Attracts more locals than American students; a cultural experience.",
+          "source": "Bus2alps nightlife guide",
+          "url": "https://bus2alps.com/a-night-by-night-guide-to-going-out-in-florence/"
+        }
       ],
-      "practical": {"price": "€", "bestFor": "drinking with locals", "hours": "Daily ~6pm-2am"},
-      "links": {"maps": "https://maps.google.com/?q=Monkey+Bar+Via+della+Mattonaia+Firenze"}
+      "practical": {
+        "price": "€",
+        "bestFor": "drinking with locals",
+        "hours": "Daily ~6pm-2am"
+      },
+      "links": {
+        "maps": "https://maps.google.com/?q=Monkey+Bar+Via+della+Mattonaia+Firenze"
+      },
+      "openLate": true
     },
     {
       "id": "box-bar",
@@ -225,10 +393,21 @@
       "recScore": 7.5,
       "reviewSummary": "A Gen-Z budget-guide find prized for rock-bottom prices and a genuine local dive atmosphere; zero polish by design.",
       "quotes": [
-        {"text": "It's conveniently located on Via Borgo Pinti, but you might miss it since there's no sign outside.", "source": "I'M Firenze Digest", "url": "https://imfirenzedigest.com/2025/07/04/florence-on-a-budget-genz-guide/"}
+        {
+          "text": "It's conveniently located on Via Borgo Pinti, but you might miss it since there's no sign outside.",
+          "source": "I'M Firenze Digest",
+          "url": "https://imfirenzedigest.com/2025/07/04/florence-on-a-budget-genz-guide/"
+        }
       ],
-      "practical": {"price": "€", "bestFor": "cheapest spritz in town", "hours": "Evenings; hours informal"},
-      "links": {"maps": "https://maps.google.com/?q=Box+Bar+Borgo+Pinti+Firenze"}
+      "practical": {
+        "price": "€",
+        "bestFor": "cheapest spritz in town",
+        "hours": "Evenings; hours informal"
+      },
+      "links": {
+        "maps": "https://maps.google.com/?q=Box+Bar+Borgo+Pinti+Firenze"
+      },
+      "openLate": true
     },
     {
       "id": "mad-souls-spirits",
@@ -241,11 +420,27 @@
       "recScore": 9,
       "reviewSummary": "Appears on every credible Florence cocktail list while staying walk-in casual and affordable, a rare combination reviewers keep noting.",
       "quotes": [
-        {"text": "No reservations or secret codes required - just walk in and enjoy expertly crafted cocktails.", "source": "Bar Magazine", "url": "https://barmagazine.com/bars/mad-souls-spirits"},
-        {"text": "The place, like its prices, is easy and accessible.", "source": "En Primeur Club guide", "url": "https://www.enprimeurclub.com/guide/best-cocktail-bars-in-florence"}
+        {
+          "text": "No reservations or secret codes required - just walk in and enjoy expertly crafted cocktails.",
+          "source": "Bar Magazine",
+          "url": "https://barmagazine.com/bars/mad-souls-spirits"
+        },
+        {
+          "text": "The place, like its prices, is easy and accessible.",
+          "source": "En Primeur Club guide",
+          "url": "https://www.enprimeurclub.com/guide/best-cocktail-bars-in-florence"
+        }
       ],
-      "practical": {"price": "€€", "bestFor": "craft cocktails", "hours": "Daily 6pm-2am"},
-      "links": {"instagram": "https://www.instagram.com/madsoulsandspirits/", "maps": "https://maps.google.com/?q=Mad+Souls+%26+Spirits+Firenze"}
+      "practical": {
+        "price": "€€",
+        "bestFor": "craft cocktails",
+        "hours": "Daily 6pm-2am"
+      },
+      "links": {
+        "instagram": "https://www.instagram.com/madsoulsandspirits/",
+        "maps": "https://maps.google.com/?q=Mad+Souls+%26+Spirits+Firenze"
+      },
+      "openLate": true
     },
     {
       "id": "il-santino",
@@ -258,202 +453,21 @@
       "recScore": 8,
       "reviewSummary": "Small-format wine bar loved by locals and food writers alike for quality far above its price point.",
       "quotes": [
-        {"text": "Though it has only four tables... Il Santino is blessed with a big wine list and superior cheeses, cured meats, and other delicacies to match.", "source": "Fodor's", "url": "https://www.fodors.com/world/europe/italy/florence/things-to-do/nightlife"}
+        {
+          "text": "Though it has only four tables... Il Santino is blessed with a big wine list and superior cheeses, cured meats, and other delicacies to match.",
+          "source": "Fodor's",
+          "url": "https://www.fodors.com/world/europe/italy/florence/things-to-do/nightlife"
+        }
       ],
-      "practical": {"price": "€€", "bestFor": "wine + taglieri", "hours": "Daily ~12:30-11pm"},
-      "links": {"maps": "https://maps.google.com/?q=Il+Santino+Firenze"}
-    },
-    {
-      "id": "allantico-vinaio",
-      "name": "All'Antico Vinaio",
-      "category": "street-food",
-      "address": "Via dei Neri 65r, 50122 Firenze",
-      "lat": 43.7676,
-      "lng": 11.2585,
-      "description": "The world's most famous sandwich shop: enormous schiacciata stuffed with sbriciolona, truffle cream, pecorino and pistachio spreads for around €7-9. The line down Via dei Neri is part of the experience; multiple storefronts on the same street keep it moving. Iconic first-week-of-the-semester food.",
-      "recScore": 9,
-      "reviewSummary": "Earns near-universal acclaim and 30,000+ reviews; a few locals call it hyped, but the quality-to-price ratio still wins.",
-      "quotes": [
-        {"text": "Earned the title 'Home of the World's Best Sandwiches' from Saveur... crowds willing to queue for 45 minutes to an hour.", "source": "Time Out", "url": "https://www.timeout.com/los-angeles/restaurants/allantico-vinaio"}
-      ],
-      "practical": {"price": "€", "bestFor": "la Favolosa schiacciata", "hours": "Daily ~10am-10pm"},
-      "links": {"website": "https://www.allanticovinaio.com", "maps": "https://maps.google.com/?q=All'Antico+Vinaio+Via+dei+Neri+Firenze"}
-    },
-    {
-      "id": "semel",
-      "name": "Semel",
-      "category": "street-food",
-      "address": "Piazza Ghiberti 44r, 50122 Firenze",
-      "lat": 43.7708,
-      "lng": 11.2688,
-      "description": "A closet-sized sandwich counter opposite Sant'Ambrogio market where the owner invents small gourmet panini — think anchovy with orange, or stewed boar — for a few euros each. No seats, just a shelf and a glass of wine. The connoisseur's answer to the All'Antico Vinaio line.",
-      "recScore": 8.5,
-      "reviewSummary": "Food writers' consistent pick for the most creative cheap panino in Florence, with a devoted local following.",
-      "quotes": [
-        {"text": "Tuscan cooked specialties stuffed in a roll.", "source": "Curious Appetite", "url": "https://thecuriousappetite.com/2025/09/08/where-to-eat-budget-cheap-in-florence-italy/"}
-      ],
-      "practical": {"price": "€", "bestFor": "gourmet mini panini", "hours": "Mon-Sat ~11:30am-3pm"},
-      "links": {"maps": "https://maps.google.com/?q=Semel+Piazza+Ghiberti+Firenze"}
-    },
-    {
-      "id": "i-due-fratellini",
-      "name": "I Due Fratellini",
-      "category": "street-food",
-      "address": "Via dei Cimatori 38r, 50122 Firenze",
-      "lat": 43.7705,
-      "lng": 11.2565,
-      "description": "A literal hole in the wall (since 1875) two blocks from the Duomo serving ~30 numbered panini and glasses of Chianti you rest on a wooden ledge. Sandwich plus wine runs well under €10. Order the finocchiona with pecorino and eat standing in the street like generations before you.",
-      "recScore": 8,
-      "reviewSummary": "A 150-year-old institution that guides love for the ritual as much as the sandwich; fast, cheap and central.",
-      "quotes": [
-        {"text": "Super hole in the wall experience.", "source": "Curious Appetite", "url": "https://thecuriousappetite.com/2025/09/08/where-to-eat-budget-cheap-in-florence-italy/"}
-      ],
-      "practical": {"price": "€", "bestFor": "panino + street wine", "hours": "Daily ~10am-7pm"},
-      "links": {"website": "https://www.iduefratellini.it", "maps": "https://maps.google.com/?q=I+Due+Fratellini+Firenze"}
-    },
-    {
-      "id": "da-nerbone",
-      "name": "Da Nerbone",
-      "category": "street-food",
-      "address": "Mercato Centrale (ground floor), Piazza del Mercato Centrale, 50123 Firenze",
-      "lat": 43.7764,
-      "lng": 11.2531,
-      "description": "The grand old counter of the Mercato Centrale, serving lampredotto and bollito (boiled beef) sandwiches dunked in broth since 1872. Order 'bagnato con salsa verde' and eat at the marble tables. The classic gateway into Florence's offal street-food tradition.",
-      "recScore": 9,
-      "reviewSummary": "In every guide and still worth it: reviewers across sources call the lunchtime queue justified by the broth-soaked bollito.",
-      "quotes": [
-        {"text": "The grand old name in Florentine boiled meat sandwiches... there's almost always a queue at lunchtime, and it's worth it.", "source": "Firenze Made in Tuscany", "url": "https://www.firenzemadeintuscany.com/en/best-of/trippa-lampredotto-where-to-eat-best-florence/"}
-      ],
-      "practical": {"price": "€", "bestFor": "lampredotto + bollito", "hours": "Mon-Sat 8am-3pm"},
-      "links": {"maps": "https://maps.google.com/?q=Da+Nerbone+Mercato+Centrale+Firenze"}
-    },
-    {
-      "id": "sergio-pollini-lampredotto",
-      "name": "Tripperia Pollini (Sergio Pollini)",
-      "category": "street-food",
-      "address": "Via de' Macci 126r, 50122 Firenze",
-      "lat": 43.7706,
-      "lng": 11.2687,
-      "description": "The Sant'Ambrogio lampredotto stand where actual market shoppers eat lunch: a €4-5 tripe sandwich with salsa verde and a plastic cup of wine. Quieter and arguably better-brothed than the famous central carts. Peak cheap-and-real Florence.",
-      "recScore": 8.5,
-      "reviewSummary": "Named by local food press as having some of the best broth in the city, with a genuinely local clientele.",
-      "quotes": [
-        {"text": "The counter where the people who actually shop at Sant'Ambrogio have their lunch... some of the best broth in the city.", "source": "Firenze Made in Tuscany", "url": "https://www.firenzemadeintuscany.com/en/best-of/trippa-lampredotto-where-to-eat-best-florence/"}
-      ],
-      "practical": {"price": "€", "bestFor": "lampredotto under €5", "hours": "Mon-Sat ~9am-3pm"},
-      "links": {"maps": "https://maps.google.com/?q=Tripperia+Pollini+Via+de+Macci+Firenze"}
-    },
-    {
-      "id": "trippaio-del-porcellino",
-      "name": "Il Trippaio del Porcellino",
-      "category": "street-food",
-      "address": "Piazza del Mercato Nuovo, 50123 Firenze",
-      "lat": 43.7702,
-      "lng": 11.2544,
-      "description": "The most central lampredotto cart, parked beside the bronze boar of the Mercato Nuovo. A fast-moving lunch line of office workers and brave students grabbing tripe sandwiches between classes. Rub the Porcellino's snout for luck, then order 'bagnato'.",
-      "recScore": 8,
-      "reviewSummary": "Consistently rated excellent and the easiest lampredotto to reach from anywhere in the center.",
-      "quotes": [
-        {"text": "Busy, fast moving lunchtime queue, generally excellent.", "source": "Firenze Made in Tuscany", "url": "https://www.firenzemadeintuscany.com/en/best-of/trippa-lampredotto-where-to-eat-best-florence/"}
-      ],
-      "practical": {"price": "€", "bestFor": "central lampredotto fix", "hours": "Mon-Sat ~9am-4pm"},
-      "links": {"maps": "https://maps.google.com/?q=Trippaio+del+Porcellino+Firenze"}
-    },
-    {
-      "id": "pugi",
-      "name": "Focacceria Pugi",
-      "category": "street-food",
-      "address": "Piazza San Marco 9b, 50121 Firenze",
-      "lat": 43.7778,
-      "lng": 11.2591,
-      "description": "The legendary schiacciata bakery on Piazza San Marco, steps from the Accademia and half the study-abroad classrooms in town. Slabs of oily, salty schiacciata — plain or stuffed — sold by weight for pocket change. The default between-class snack since 1924.",
-      "recScore": 8.5,
-      "reviewSummary": "Routinely called the best schiacciata in town and perfectly placed for students; cheap, fast and reliably great.",
-      "quotes": [
-        {"text": "One of the best bakeries for schiacciata in town.", "source": "Curious Appetite", "url": "https://thecuriousappetite.com/2025/09/08/where-to-eat-budget-cheap-in-florence-italy/"}
-      ],
-      "practical": {"price": "€", "bestFor": "schiacciata by weight", "hours": "Mon-Sat 7:45am-8pm"},
-      "links": {"website": "https://www.focacceria-pugi.it", "maps": "https://maps.google.com/?q=Pugi+Piazza+San+Marco+Firenze"}
-    },
-    {
-      "id": "trattoria-mario",
-      "name": "Trattoria Mario",
-      "category": "restaurant",
-      "address": "Via Rosina 2r, 50123 Firenze",
-      "lat": 43.7766,
-      "lng": 11.2543,
-      "description": "A lunch-only, cash-friendly, shared-table trattoria behind the Mercato Centrale run by the same family since 1953. Handwritten daily menu, ribollita and pasta for single digits, and famously cheap grilled steak. Arrive before noon or accept the queue — either way it's the best-value sit-down meal in Florence.",
-      "recScore": 9,
-      "reviewSummary": "Legendary status confirmed across every source: genuine Florentine cooking at the lowest prices in town, hence the daily line.",
-      "quotes": [
-        {"text": "Genuine Florentine cooking at the lowest prices in town... a boneless grilled steak for 12 euros plus a glass of red wine, totaling 14 euros.", "source": "Restaurant Guru reviews", "url": "https://restaurantguru.com/Mario-Florence"}
-      ],
-      "practical": {"price": "€", "bestFor": "shared-table Tuscan lunch", "hours": "Mon-Sat 12-3:30pm, no reservations"},
-      "links": {"website": "https://www.trattoria-mario.com", "maps": "https://maps.google.com/?q=Trattoria+Mario+Firenze"}
-    },
-    {
-      "id": "trattoria-da-rocco",
-      "name": "Trattoria da Rocco",
-      "category": "restaurant",
-      "address": "Inside Mercato di Sant'Ambrogio, Piazza Ghiberti, 50122 Firenze",
-      "lat": 43.771,
-      "lng": 11.2685,
-      "description": "A booth-seating trattoria inside the Sant'Ambrogio market hall where primi run €5-6 and a full lunch with wine stays under €15. Home-style Florentine plates — pasta al ragù, polpette, roast meats — served at market speed. The single best cheap sit-down lunch trick students learn.",
-      "recScore": 8.5,
-      "reviewSummary": "A top pick in budget dining guides for quality home cooking at market-stall prices.",
-      "quotes": [
-        {"text": "Dirt cheap and quality home-style Florentine fare - top pick.", "source": "Curious Appetite", "url": "https://thecuriousappetite.com/2025/09/08/where-to-eat-budget-cheap-in-florence-italy/"}
-      ],
-      "practical": {"price": "€", "bestFor": "€10 market lunch", "hours": "Mon-Sat ~12-3:30pm"},
-      "links": {"maps": "https://maps.google.com/?q=Trattoria+da+Rocco+Sant'Ambrogio+Firenze"}
-    },
-    {
-      "id": "gustapizza",
-      "name": "Gustapizza",
-      "category": "restaurant",
-      "address": "Via Maggio 46r, 50125 Firenze",
-      "lat": 43.7663,
-      "lng": 11.2483,
-      "description": "The Oltrarno pizzeria that every study-abroad student learns in week one: proper Neapolitan-style pies from about €6-9, heart-shaped if you ask nicely, eaten in the tiny room or carried to Piazza Santo Spirito. The line out the door at 7pm is all students. Cheap, fast and genuinely good.",
-      "recScore": 8,
-      "reviewSummary": "The consensus student pizza in Florence: long lines, soft-dough pies and prices that fit a student budget.",
-      "quotes": [
-        {"text": "A popular pizzeria in Florence with long lines and soft dough pies.", "source": "Aki's Substack", "url": "https://akis.substack.com/p/gustapizza0924"}
-      ],
-      "practical": {"price": "€", "bestFor": "takeaway pizza to the piazza", "hours": "Tue-Sun ~11:30am-3pm, 7-11pm"},
-      "links": {"instagram": "https://www.instagram.com/gustapizza_firenze/", "maps": "https://maps.google.com/?q=Gustapizza+Firenze"}
-    },
-    {
-      "id": "trattoria-sabatino",
-      "name": "Trattoria Sabatino",
-      "category": "restaurant",
-      "address": "Via Pisana 2r, 50143 Firenze",
-      "lat": 43.7695,
-      "lng": 11.2377,
-      "description": "A fluorescent-lit, family-run time capsule just outside Porta San Frediano where handwritten menus list primi around €5 and secondi under €10. No frills, no tourists, no reservations — just honest Florentine home cooking. Where Oltrarno locals and in-the-know students eat when rent is due.",
-      "recScore": 8.5,
-      "reviewSummary": "Beloved across local guides as the realest cheap trattoria left in Florence; simplicity is the entire point.",
-      "quotes": [
-        {"text": "Truly simple, non-fussy food.", "source": "Curious Appetite", "url": "https://thecuriousappetite.com/2025/09/08/where-to-eat-budget-cheap-in-florence-italy/"}
-      ],
-      "practical": {"price": "€", "bestFor": "sub-€15 dinner", "hours": "Mon-Fri lunch + dinner"},
-      "links": {"maps": "https://maps.google.com/?q=Trattoria+Sabatino+Firenze"}
-    },
-    {
-      "id": "antica-mescita-san-niccolo",
-      "name": "L'Antica Mescita San Niccolò",
-      "category": "restaurant",
-      "address": "Via di San Niccolò 60r, 50125 Firenze",
-      "lat": 43.7644,
-      "lng": 11.2646,
-      "description": "A rustic osteria partly set in an 11th-century crypt in the San Niccolò bar district, serving ribollita, peposo and big plates of Tuscan comfort food at low prices. Perfectly placed for dinner before drinks in Piazza Poggi or the climb to Piazzale Michelangelo. Cozy, candlelit and cheap.",
-      "recScore": 8,
-      "reviewSummary": "Budget guides recommend it for no-frills Tuscan classics in one of the best evening neighborhoods.",
-      "quotes": [
-        {"text": "No-frills dirt cheap Tuscan fare in a rustic atmosphere.", "source": "Curious Appetite", "url": "https://thecuriousappetite.com/2025/09/08/where-to-eat-budget-cheap-in-florence-italy/"}
-      ],
-      "practical": {"price": "€", "bestFor": "ribollita in San Niccolò", "hours": "Daily 12-11pm"},
-      "links": {"maps": "https://maps.google.com/?q=Antica+Mescita+San+Niccolo+Firenze"}
+      "practical": {
+        "price": "€€",
+        "bestFor": "wine + taglieri",
+        "hours": "Daily ~12:30-11pm"
+      },
+      "links": {
+        "maps": "https://maps.google.com/?q=Il+Santino+Firenze"
+      },
+      "openLate": false
     },
     {
       "id": "space-club",
@@ -466,11 +480,27 @@
       "recScore": 7.5,
       "reviewSummary": "The most consistently named club in student guides; big, reliable fun even if drinks inside add up.",
       "quotes": [
-        {"text": "Florence's biggest club of them all... multiple floors, dancers everywhere, some of the world's biggest DJ's.", "source": "Bus2alps nightlife guide", "url": "https://bus2alps.com/a-night-by-night-guide-to-going-out-in-florence/"},
-        {"text": "The biggest club in the historic centre, with two dance floors... attracts people from all over the world.", "source": "Trip.com clubs list", "url": "https://uk.trip.com/toplist/tripbest/florence-best-clubs-100900005727"}
+        {
+          "text": "Florence's biggest club of them all... multiple floors, dancers everywhere, some of the world's biggest DJ's.",
+          "source": "Bus2alps nightlife guide",
+          "url": "https://bus2alps.com/a-night-by-night-guide-to-going-out-in-florence/"
+        },
+        {
+          "text": "The biggest club in the historic centre, with two dance floors... attracts people from all over the world.",
+          "source": "Trip.com clubs list",
+          "url": "https://uk.trip.com/toplist/tripbest/florence-best-clubs-100900005727"
+        }
       ],
-      "practical": {"price": "€€", "bestFor": "big weekend club night", "hours": "Tue-Sat ~10pm-4am"},
-      "links": {"website": "https://www.spaceclubfirenze.com", "maps": "https://maps.google.com/?q=Space+Club+Firenze"}
+      "practical": {
+        "price": "€€",
+        "bestFor": "big weekend club night",
+        "hours": "Tue-Sat ~10pm-4am"
+      },
+      "links": {
+        "website": "https://www.spaceclubfirenze.com",
+        "maps": "https://maps.google.com/?q=Space+Club+Firenze"
+      },
+      "openLate": true
     },
     {
       "id": "yab",
@@ -483,10 +513,22 @@
       "recScore": 7.5,
       "reviewSummary": "The Monday-night institution of Florence nightlife, still going strong in 2026 with an international student following.",
       "quotes": [
-        {"text": "SMOOVE every Monday night... the go-to for the international crowd looking for a consistent nightlife experience.", "source": "Mato events", "url": "https://ma.to/venue/yabfirenze"}
+        {
+          "text": "SMOOVE every Monday night... the go-to for the international crowd looking for a consistent nightlife experience.",
+          "source": "Mato events",
+          "url": "https://ma.to/venue/yabfirenze"
+        }
       ],
-      "practical": {"price": "€€", "bestFor": "Monday night hip-hop", "hours": "Club nights ~11pm-4am"},
-      "links": {"website": "https://www.yab.it", "maps": "https://maps.google.com/?q=YAB+Firenze"}
+      "practical": {
+        "price": "€€",
+        "bestFor": "Monday night hip-hop",
+        "hours": "Club nights ~11pm-4am"
+      },
+      "links": {
+        "website": "https://www.yab.it",
+        "maps": "https://maps.google.com/?q=YAB+Firenze"
+      },
+      "openLate": true
     },
     {
       "id": "blob-club",
@@ -499,10 +541,21 @@
       "recScore": 7,
       "reviewSummary": "Student guides recommend it exactly for the no-cover, cheap-drinks formula; divey but dependable.",
       "quotes": [
-        {"text": "No cover charge; dancing venue for budget-conscious visitors.", "source": "Bus2alps nightlife guide", "url": "https://bus2alps.com/a-night-by-night-guide-to-going-out-in-florence/"}
+        {
+          "text": "No cover charge; dancing venue for budget-conscious visitors.",
+          "source": "Bus2alps nightlife guide",
+          "url": "https://bus2alps.com/a-night-by-night-guide-to-going-out-in-florence/"
+        }
       ],
-      "practical": {"price": "€", "bestFor": "no-cover dancing", "hours": "Daily ~9pm-4am"},
-      "links": {"maps": "https://maps.google.com/?q=Blob+Club+Firenze"}
+      "practical": {
+        "price": "€",
+        "bestFor": "no-cover dancing",
+        "hours": "Daily ~9pm-4am"
+      },
+      "links": {
+        "maps": "https://maps.google.com/?q=Blob+Club+Firenze"
+      },
+      "openLate": true
     },
     {
       "id": "club-twentyone",
@@ -515,74 +568,21 @@
       "recScore": 7,
       "reviewSummary": "A student-guide regular for free-entry midweek nights with better-than-expected DJs.",
       "quotes": [
-        {"text": "Smaller club with no cover on Wednesdays; features quality DJs.", "source": "Bus2alps nightlife guide", "url": "https://bus2alps.com/a-night-by-night-guide-to-going-out-in-florence/"}
+        {
+          "text": "Smaller club with no cover on Wednesdays; features quality DJs.",
+          "source": "Bus2alps nightlife guide",
+          "url": "https://bus2alps.com/a-night-by-night-guide-to-going-out-in-florence/"
+        }
       ],
-      "practical": {"price": "€", "bestFor": "midweek dancing", "hours": "~11pm-4am"},
-      "links": {"maps": "https://maps.google.com/?q=Club+21+Via+de+Cimatori+Firenze"}
-    },
-    {
-      "id": "gelateria-della-passera",
-      "name": "Gelateria della Passera",
-      "category": "gelato",
-      "address": "Via Toscanella 15r, 50125 Firenze",
-      "lat": 43.7674,
-      "lng": 11.2508,
-      "description": "A tiny all-natural gelateria on the adorable Piazza della Passera in the Oltrarno, churning seasonal flavors like fig, prickly pear and superb pistachio from a kitchen right behind the counter. Small scoops, real fruit, fair prices. Combine with an evening drink on the piazza.",
-      "recScore": 9,
-      "reviewSummary": "A quality-first hidden gem that food writers and gelato obsessives consistently rank among Florence's very best.",
-      "quotes": [
-        {"text": "A hidden gem known for its exceptional gelato quality and unique flavors... made with the freshest seasonal ingredients.", "source": "Wanderlog reviews", "url": "https://wanderlog.com/place/details/779927"}
-      ],
-      "practical": {"price": "€", "bestFor": "seasonal fruit flavors", "hours": "Daily ~12-11pm"},
-      "links": {"maps": "https://maps.google.com/?q=Gelateria+della+Passera+Firenze"}
-    },
-    {
-      "id": "la-carraia",
-      "name": "Gelateria La Carraia",
-      "category": "gelato",
-      "address": "Piazza Nazario Sauro 25r, 50124 Firenze",
-      "lat": 43.7702,
-      "lng": 11.2437,
-      "description": "The student favorite at the foot of Ponte alla Carraia: huge creamy scoops, a famous €1 mini-cone, and lines of locals every evening. Get a cone and eat it on the bridge at sunset. Unbeatable quantity-quality-price ratio.",
-      "recScore": 8.5,
-      "reviewSummary": "Years of student and local loyalty for generous portions at some of the lowest prices of any quality gelateria in town.",
-      "quotes": [
-        {"text": "A favorite among university students and residents for years... the quality-price ratio is truly unbeatable.", "source": "Scuola Leonardo student blog", "url": "https://blog.scuolaleonardo.com/2026/08/20/florence-the-perfect-gelato/"}
-      ],
-      "practical": {"price": "€", "bestFor": "€1 cone on the bridge", "hours": "Daily ~11am-midnight"},
-      "links": {"website": "https://www.lacarraiagroup.eu", "maps": "https://maps.google.com/?q=Gelateria+La+Carraia+Firenze"}
-    },
-    {
-      "id": "la-sorbettiera",
-      "name": "La Sorbettiera",
-      "category": "gelato",
-      "address": "Piazza Torquato Tasso 11r, 50124 Firenze",
-      "lat": 43.7688,
-      "lng": 11.2394,
-      "description": "An artisan gelateria on quiet Piazza Tasso in San Frediano, famous for 'Catrame' — a dense 75% Peruvian dark-chocolate sorbet — plus perfect peach and hazelnut. Local families and Oltrarno students only; almost no tourists make it out here. Worth the ten-minute detour every time.",
-      "recScore": 9,
-      "reviewSummary": "Gelato obsessives call the Catrame chocolate sorbet life-changing; consistently ranked at the top of local lists.",
-      "quotes": [
-        {"text": "A mind-blowing dark chocolate sorbet called Catrame that sends people into absolute ecstasy.", "source": "Chandi Wyant, Substack gelato guide", "url": "https://chandiwyant.substack.com/p/a-guide-to-gelato-and-granita-in"}
-      ],
-      "practical": {"price": "€", "bestFor": "Catrame chocolate sorbet", "hours": "Daily ~12-11pm"},
-      "links": {"website": "https://www.lasorbettiera.com", "maps": "https://maps.google.com/?q=La+Sorbettiera+Firenze"}
-    },
-    {
-      "id": "gelateria-dei-neri",
-      "name": "Gelateria dei Neri",
-      "category": "gelato",
-      "address": "Via dei Neri 9r, 50122 Firenze",
-      "lat": 43.7679,
-      "lng": 11.2575,
-      "description": "The classic gelato stop on the All'Antico Vinaio street, with a huge ever-changing case of seasonal flavors — the ricotta-and-fig is the cult order. Cheap, generous and open late, it's the natural dessert after a schiacciata. A genuine local favorite despite the touristy street.",
-      "recScore": 8,
-      "reviewSummary": "A local meeting point praised for quality ingredients, big flavor range and fair prices on a high-traffic street.",
-      "quotes": [
-        {"text": "A true meeting place for young people and students of all ages... pistachio and ricotta-fig combinations stand out.", "source": "Scuola Leonardo student blog", "url": "https://blog.scuolaleonardo.com/2026/08/20/florence-the-perfect-gelato/"}
-      ],
-      "practical": {"price": "€", "bestFor": "ricotta e fichi", "hours": "Daily ~9am-midnight"},
-      "links": {"maps": "https://maps.google.com/?q=Gelateria+dei+Neri+Firenze"}
+      "practical": {
+        "price": "€",
+        "bestFor": "midweek dancing",
+        "hours": "~11pm-4am"
+      },
+      "links": {
+        "maps": "https://maps.google.com/?q=Club+21+Via+de+Cimatori+Firenze"
+      },
+      "openLate": true
     }
   ]
 }

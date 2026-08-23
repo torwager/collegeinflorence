@@ -11,17 +11,33 @@
       "lat": 43.77772,
       "lng": 11.25968,
       "description": "Florence's public research university, tracing its origins to the Studium Generale of 1321 and formally established as a university in 1924. Its historic rectorate on Piazza San Marco anchors a network of schools spread across the city, from humanities in the centro storico to medicine at Careggi. It is one of Italy's largest and most productive research universities.",
-      "programs": ["Humanities", "Law", "Medicine", "Engineering", "Architecture", "Economics", "Natural Sciences", "Political Science", "Agriculture"],
+      "programs": [
+        "Humanities",
+        "Law",
+        "Medicine",
+        "Engineering",
+        "Architecture",
+        "Economics",
+        "Natural Sciences",
+        "Political Science",
+        "Agriculture"
+      ],
       "students": "About 50,000 enrolled",
       "demographics": "Mostly Italian undergraduates and graduate students; roughly 10% international, plus Erasmus exchange students",
       "founded": 1321,
       "links": {
         "website": "https://www.unifi.it",
         "other": [
-          {"label": "International students", "url": "https://www.unifi.it/en"}
+          {
+            "label": "International students",
+            "url": "https://www.unifi.it/en"
+          }
         ]
       },
-      "emailDomains": ["unifi.it", "stud.unifi.it"]
+      "emailDomains": [
+        "unifi.it",
+        "stud.unifi.it"
+      ]
     },
     {
       "id": "unifi-campus-novoli",
@@ -32,17 +48,27 @@
       "lat": 43.79289,
       "lng": 11.23076,
       "description": "The University of Florence's modern social-sciences campus, opened in 2004 in the redeveloped Novoli district on the site of the former FIAT factory. It gathers the schools of Law, Economics and Political Science around a contemporary quad and the D'Ancona-designed university park.",
-      "programs": ["Law", "Economics and Management", "Political Science 'Cesare Alfieri'"],
+      "programs": [
+        "Law",
+        "Economics and Management",
+        "Political Science 'Cesare Alfieri'"
+      ],
       "students": "About 15,000 enrolled across the three schools",
       "demographics": "Predominantly Italian students, with Erasmus and international exchange students",
       "founded": 2004,
       "links": {
         "website": "https://www.unifi.it",
         "other": [
-          {"label": "Campus map", "url": "https://www.unifi.it/it/ateneo/sedi-e-orari"}
+          {
+            "label": "Campus map",
+            "url": "https://www.unifi.it/it/ateneo/sedi-e-orari"
+          }
         ]
       },
-      "emailDomains": ["unifi.it", "stud.unifi.it"]
+      "emailDomains": [
+        "unifi.it",
+        "stud.unifi.it"
+      ]
     },
     {
       "id": "european-university-institute",
@@ -53,17 +79,30 @@
       "lat": 43.80266,
       "lng": 11.2829,
       "description": "An intergovernmental doctoral and postdoctoral institute created by the European Community, welcoming its first researchers in 1976. From the hillside Badia Fiesolana and surrounding villas it grants PhDs in economics, law, history and political science and hosts the Robert Schuman Centre and the Historical Archives of the European Union.",
-      "programs": ["PhD in Economics", "PhD in Law", "PhD in History", "PhD in Political and Social Sciences", "LLM in Comparative, European and International Laws", "Max Weber Postdoctoral Programme", "School of Transnational Governance master's and executive training"],
+      "programs": [
+        "PhD in Economics",
+        "PhD in Law",
+        "PhD in History",
+        "PhD in Political and Social Sciences",
+        "LLM in Comparative, European and International Laws",
+        "Max Weber Postdoctoral Programme",
+        "School of Transnational Governance master's and executive training"
+      ],
       "students": "About 600 doctoral researchers plus roughly 300 fellows and master's students",
       "demographics": "Graduate researchers from all EU member states and beyond; highly international, all-postgraduate community",
       "founded": 1976,
       "links": {
         "website": "https://www.eui.eu",
         "other": [
-          {"label": "Doctoral admissions", "url": "https://www.eui.eu/en/apply"}
+          {
+            "label": "Doctoral admissions",
+            "url": "https://www.eui.eu/en/apply"
+          }
         ]
       },
-      "emailDomains": ["eui.eu"]
+      "emailDomains": [
+        "eui.eu"
+      ]
     },
     {
       "id": "accademia-di-belle-arti-firenze",
@@ -74,17 +113,30 @@
       "lat": 43.77624,
       "lng": 11.25818,
       "description": "Italy's state fine-arts academy in Florence, refounded by Grand Duke Pietro Leopoldo in 1784 and descended from Vasari's 1563 Accademia delle Arti del Disegno — the first art academy in Europe. It shares a building with the Galleria dell'Accademia, home of Michelangelo's David, and grants degrees equivalent to university diplomas.",
-      "programs": ["Painting", "Sculpture", "Printmaking", "Set Design", "Restoration", "New Media Arts", "Graphic Design"],
+      "programs": [
+        "Painting",
+        "Sculpture",
+        "Printmaking",
+        "Set Design",
+        "Restoration",
+        "New Media Arts",
+        "Graphic Design"
+      ],
       "students": "About 1,200 enrolled",
       "demographics": "Mix of Italian students and a large international contingent, notably from China and other non-EU countries",
       "founded": 1784,
       "links": {
         "website": "https://www.accademia.firenze.it",
         "other": [
-          {"label": "Admissions", "url": "https://www.accademia.firenze.it/it/didattica"}
+          {
+            "label": "Admissions",
+            "url": "https://www.accademia.firenze.it/it/didattica"
+          }
         ]
       },
-      "emailDomains": ["accademia.firenze.it"]
+      "emailDomains": [
+        "accademia.firenze.it"
+      ]
     },
     {
       "id": "conservatorio-luigi-cherubini",
@@ -95,7 +147,15 @@
       "lat": 43.7764,
       "lng": 11.25846,
       "description": "Florence's state music conservatory, founded in 1849 and named for the Florentine composer Luigi Cherubini. Steps from Piazza San Marco, it trains musicians at bachelor's and master's level and holds an important collection of historical instruments, including pieces by Stradivari from the Medici court.",
-      "programs": ["Instrumental performance", "Voice", "Composition", "Conducting", "Jazz", "Electronic music", "Music education"],
+      "programs": [
+        "Instrumental performance",
+        "Voice",
+        "Composition",
+        "Conducting",
+        "Jazz",
+        "Electronic music",
+        "Music education"
+      ],
       "students": "About 900 enrolled",
       "demographics": "Mainly Italian music students with a growing international enrollment, especially from Asia",
       "founded": 1849,
@@ -103,7 +163,9 @@
         "website": "https://www.conservatorio.firenze.it",
         "other": []
       },
-      "emailDomains": ["conservatorio.firenze.it"]
+      "emailDomains": [
+        "conservatorio.firenze.it"
+      ]
     },
     {
       "id": "polimoda",
@@ -114,17 +176,29 @@
       "lat": 43.77401,
       "lng": 11.24218,
       "description": "One of the world's top-ranked independent fashion schools, founded in 1986 with backing from the city of Florence and originally in partnership with FIT New York. Headquartered in the 19th-century Villa Favard on the Arno, with design labs at the Manifattura Tabacchi complex, it feeds talent directly into the Florentine and global luxury industry.",
-      "programs": ["Fashion Design", "Fashion Business", "Fashion Marketing", "Fashion Art Direction", "Footwear and Accessories", "Master's programs in fashion disciplines"],
+      "programs": [
+        "Fashion Design",
+        "Fashion Business",
+        "Fashion Marketing",
+        "Fashion Art Direction",
+        "Footwear and Accessories",
+        "Master's programs in fashion disciplines"
+      ],
       "students": "About 2,500 enrolled",
       "demographics": "Roughly 70% international students from over 70 countries; undergraduate and master's level",
       "founded": 1986,
       "links": {
         "website": "https://www.polimoda.com",
         "other": [
-          {"label": "Admissions", "url": "https://www.polimoda.com/admissions"}
+          {
+            "label": "Admissions",
+            "url": "https://www.polimoda.com/admissions"
+          }
         ]
       },
-      "emailDomains": ["polimoda.com"]
+      "emailDomains": [
+        "polimoda.com"
+      ]
     },
     {
       "id": "ied-firenze",
@@ -135,7 +209,13 @@
       "lat": 43.77363,
       "lng": 11.25879,
       "description": "The Florence branch of Italy's largest private design education group, founded in Milan in 1966. Steps from the Duomo, IED Firenze focuses on fashion, accessories and luxury goods, with additional spaces in Palazzo Pucci for its fashion department.",
-      "programs": ["Fashion Design", "Fashion Marketing", "Fashion Stylist", "Accessories Design", "Semester and summer courses in design and fashion"],
+      "programs": [
+        "Fashion Design",
+        "Fashion Marketing",
+        "Fashion Stylist",
+        "Accessories Design",
+        "Semester and summer courses in design and fashion"
+      ],
       "students": "Several hundred enrolled",
       "demographics": "Mixed Italian and international students; undergraduate-level three-year courses plus short programs",
       "founded": 2008,
@@ -143,7 +223,10 @@
         "website": "https://www.ied.it/firenze",
         "other": []
       },
-      "emailDomains": ["ied.it", "ied.edu"]
+      "emailDomains": [
+        "ied.it",
+        "ied.edu"
+      ]
     },
     {
       "id": "istituto-marangoni-firenze",
@@ -154,7 +237,14 @@
       "lat": 43.77137,
       "lng": 11.25129,
       "description": "The Florence campus of the storied Milanese fashion school founded in 1935, opened in 2016 in a historic palazzo on Via de' Tornabuoni, the city's luxury shopping street. The school specializes in fashion styling, design and the art business, drawing on Florence's museums, ateliers and leather-goods industry.",
-      "programs": ["Fashion Design", "Fashion Styling", "Fashion Business", "Art History and Culture", "Multimedia Arts", "Short courses"],
+      "programs": [
+        "Fashion Design",
+        "Fashion Styling",
+        "Fashion Business",
+        "Art History and Culture",
+        "Multimedia Arts",
+        "Short courses"
+      ],
       "students": "Several hundred enrolled",
       "demographics": "Strongly international student body at undergraduate and master's level",
       "founded": 2016,
@@ -162,7 +252,9 @@
         "website": "https://www.istitutomarangoni.com/en/schools/firenze-school-of-fashion-and-art",
         "other": []
       },
-      "emailDomains": ["istitutomarangoni.com"]
+      "emailDomains": [
+        "istitutomarangoni.com"
+      ]
     },
     {
       "id": "accademia-italiana",
@@ -173,7 +265,14 @@
       "lat": 43.76554,
       "lng": 11.24984,
       "description": "A private academy of art, fashion and design founded in 1984, occupying the Temple Leader building directly on Piazza Pitti. It grants accredited bachelor's and master's degrees and has long welcomed both Italian and international students, with a rooftop loggia overlooking the Pitti Palace.",
-      "programs": ["Fashion Design", "Interior and Product Design", "Graphic Design", "Photography", "Jewelry Design", "Semester programs for study-abroad students"],
+      "programs": [
+        "Fashion Design",
+        "Interior and Product Design",
+        "Graphic Design",
+        "Photography",
+        "Jewelry Design",
+        "Semester programs for study-abroad students"
+      ],
       "students": "About 600 enrolled",
       "demographics": "Mixed Italian and international students; also hosts US study-abroad semester students",
       "founded": 1984,
@@ -181,7 +280,9 @@
         "website": "https://www.accademiaitaliana.com",
         "other": []
       },
-      "emailDomains": ["accademiaitaliana.com"]
+      "emailDomains": [
+        "accademiaitaliana.com"
+      ]
     },
     {
       "id": "laba-firenze",
@@ -192,7 +293,14 @@
       "lat": 43.75559,
       "lng": 11.29837,
       "description": "A legally recognized private fine-arts academy in the Badia a Ripoli district, granting AFAM degrees equivalent to university diplomas. LABA emphasizes contemporary creative industries, from photography and graphic design to fashion and cinema.",
-      "programs": ["Graphic Design", "Photography", "Fashion Design", "Painting", "Interior Design", "Cinema and Audiovisual Arts"],
+      "programs": [
+        "Graphic Design",
+        "Photography",
+        "Fashion Design",
+        "Painting",
+        "Interior Design",
+        "Cinema and Audiovisual Arts"
+      ],
       "students": "About 1,000 enrolled",
       "demographics": "Mostly Italian undergraduates, with some international students",
       "founded": null,
@@ -200,7 +308,9 @@
         "website": "https://www.laba.biz",
         "other": []
       },
-      "emailDomains": ["laba.biz"]
+      "emailDomains": [
+        "laba.biz"
+      ]
     },
     {
       "id": "saci-florence",
@@ -211,17 +321,31 @@
       "lat": 43.77542,
       "lng": 11.25146,
       "description": "A US-accredited (NASAD) studio art college founded in 1975, housed in the Baroque Palazzo dei Cartelloni near San Lorenzo. SACI offers studio art, design and conservation courses for study-abroad students and grants MFA degrees, with galleries that host regular exhibitions open to the public.",
-      "programs": ["Studio Art", "Painting and Drawing", "Art Conservation", "Photography", "Design", "MFA in Studio Art", "MFA in Photography", "Post-baccalaureate programs"],
+      "programs": [
+        "Studio Art",
+        "Painting and Drawing",
+        "Art Conservation",
+        "Photography",
+        "Design",
+        "MFA in Studio Art",
+        "MFA in Photography",
+        "Post-baccalaureate programs"
+      ],
       "students": "About 300 per year",
       "demographics": "Mostly US undergraduates on semester programs plus small MFA and post-bac cohorts",
       "founded": 1975,
       "links": {
         "website": "https://www.saci-florence.edu",
         "other": [
-          {"label": "Admissions", "url": "https://www.saci-florence.edu/admissions"}
+          {
+            "label": "Admissions",
+            "url": "https://www.saci-florence.edu/admissions"
+          }
         ]
       },
-      "emailDomains": ["saci-florence.edu"]
+      "emailDomains": [
+        "saci-florence.edu"
+      ]
     },
     {
       "id": "srisa",
@@ -232,7 +356,16 @@
       "lat": 43.77963,
       "lng": 11.25799,
       "description": "An American-style art school founded in 1970 as a printmaking workshop, now spread across several sites around Via San Gallo in the historic center. SRISA offers studio art, design and liberal arts courses to visiting university students and partners with Maryville University as its US school of record.",
-      "programs": ["Studio Art", "Printmaking", "Painting", "Photography", "Graphic Design", "Fashion", "Liberal Arts semester courses", "Summer programs"],
+      "programs": [
+        "Studio Art",
+        "Printmaking",
+        "Painting",
+        "Photography",
+        "Graphic Design",
+        "Fashion",
+        "Liberal Arts semester courses",
+        "Summer programs"
+      ],
       "students": "Several hundred per year",
       "demographics": "Mostly US study-abroad undergraduates, with some independent international students",
       "founded": 1970,
@@ -240,7 +373,10 @@
         "website": "https://srisa.org",
         "other": []
       },
-      "emailDomains": ["srisa.org", "maryville.edu"]
+      "emailDomains": [
+        "srisa.org",
+        "maryville.edu"
+      ]
     },
     {
       "id": "florence-academy-of-art",
@@ -251,7 +387,12 @@
       "lat": 43.768,
       "lng": 11.29897,
       "description": "Founded in 1991 by American painter Daniel Graves, this atelier revived rigorous 19th-century academic training in drawing, painting and sculpture. Now housed in a converted 19th-century customs house east of the center, it is the flagship of the international classical-realist movement, with sister campuses in the US and Sweden.",
-      "programs": ["Three-year program in Painting", "Three-year program in Sculpture", "Drawing intensive", "Summer courses"],
+      "programs": [
+        "Three-year program in Painting",
+        "Three-year program in Sculpture",
+        "Drawing intensive",
+        "Summer courses"
+      ],
       "students": "About 120 full-time students",
       "demographics": "Adult students from around 30 countries, largely from the US and northern Europe",
       "founded": 1991,
@@ -259,7 +400,9 @@
         "website": "https://www.florenceacademyofart.edu",
         "other": []
       },
-      "emailDomains": ["florenceacademyofart.edu"]
+      "emailDomains": [
+        "florenceacademyofart.edu"
+      ]
     },
     {
       "id": "angel-academy-of-art",
@@ -270,7 +413,10 @@
       "lat": 43.77068,
       "lng": 11.27435,
       "description": "A private atelier founded in 1997 by Michael John Angel, a pupil of Pietro Annigoni, teaching old-master drawing and painting methods. Its three-year diploma program uses sight-size and classical techniques in the tradition of the 19th-century academies.",
-      "programs": ["Three-year Diploma in Drawing and Painting", "Short courses and workshops"],
+      "programs": [
+        "Three-year Diploma in Drawing and Painting",
+        "Short courses and workshops"
+      ],
       "students": "About 60 full-time students",
       "demographics": "Small international cohort of adult students, many from the US, UK and northern Europe",
       "founded": 1997,
@@ -278,7 +424,9 @@
         "website": "https://angelacademyofart.com",
         "other": []
       },
-      "emailDomains": ["angelacademyofart.com"]
+      "emailDomains": [
+        "angelacademyofart.com"
+      ]
     },
     {
       "id": "charles-cecil-studios",
@@ -289,7 +437,11 @@
       "lat": 43.77037,
       "lng": 11.2411,
       "description": "An intimate portrait-painting atelier in a former church in the San Frediano quarter of the Oltrarno, led by American painter Charles Cecil. Successor to the Cecil-Graves studio, it teaches the sight-size method in studios once used by 19th-century sculptors, training a small number of dedicated painters each year.",
-      "programs": ["Full-time atelier training in drawing and oil painting", "Portrait painting", "Summer courses"],
+      "programs": [
+        "Full-time atelier training in drawing and oil painting",
+        "Portrait painting",
+        "Summer courses"
+      ],
       "students": "About 30 full-time students",
       "demographics": "Small international group of adult students, predominantly American and British",
       "founded": 1991,
@@ -297,7 +449,9 @@
         "website": "https://charlescecilstudios.com",
         "other": []
       },
-      "emailDomains": ["charlescecilstudios.com"]
+      "emailDomains": [
+        "charlescecilstudios.com"
+      ]
     },
     {
       "id": "fondazione-studio-marangoni",
@@ -308,7 +462,11 @@
       "lat": 43.77851,
       "lng": 11.25493,
       "description": "Florence's center for contemporary photography, founded by photographer Martino Marangoni, with classrooms, darkrooms and an exhibition gallery on Via San Zanobi. It runs a three-year photography program and hosts exchange students from US universities including NYU Tisch.",
-      "programs": ["Three-year program in Contemporary Photography", "One-year and summer photography courses", "Workshops and exhibitions"],
+      "programs": [
+        "Three-year program in Contemporary Photography",
+        "One-year and summer photography courses",
+        "Workshops and exhibitions"
+      ],
       "students": "About 150 per year",
       "demographics": "Mix of Italian and international photography students",
       "founded": null,
@@ -316,7 +474,9 @@
         "website": "https://studiomarangoni.it/en/",
         "other": []
       },
-      "emailDomains": ["studiomarangoni.it"]
+      "emailDomains": [
+        "studiomarangoni.it"
+      ]
     },
     {
       "id": "palazzo-spinelli",
@@ -327,7 +487,13 @@
       "lat": 43.76809,
       "lng": 11.26094,
       "description": "A renowned institute for art restoration and conservation founded in 1976, based in the Renaissance Palazzo Spinelli near Santa Croce. It trains restorers of paintings, frescoes, paper, ceramics and furniture, and has restored thousands of artworks including flood-damaged pieces from 1966.",
-      "programs": ["Restoration of paintings and frescoes", "Restoration of paper and books", "Restoration of ceramics, wood and stone", "Master's in Conservation", "Cultural heritage management"],
+      "programs": [
+        "Restoration of paintings and frescoes",
+        "Restoration of paper and books",
+        "Restoration of ceramics, wood and stone",
+        "Master's in Conservation",
+        "Cultural heritage management"
+      ],
       "students": "Several hundred per year",
       "demographics": "Italian and international students, including many US and Asian trainees on professional courses",
       "founded": 1976,
@@ -335,7 +501,9 @@
         "website": "https://www.palazzospinelli.org",
         "other": []
       },
-      "emailDomains": ["palazzospinelli.org"]
+      "emailDomains": [
+        "palazzospinelli.org"
+      ]
     },
     {
       "id": "scuola-di-musica-di-fiesole",
@@ -346,7 +514,12 @@
       "lat": 43.79937,
       "lng": 11.29231,
       "description": "One of Italy's most prestigious music schools, founded in 1974 by violist Piero Farulli of the Quartetto Italiano and housed in Villa La Torraccia near San Domenico. It teaches everyone from toddlers to professionals, grants accredited higher-education music degrees, and is home to the celebrated Orchestra Giovanile Italiana.",
-      "programs": ["Instrumental and vocal training at all levels", "Accredited AFAM bachelor's and master's degrees", "Orchestra Giovanile Italiana", "Chamber music"],
+      "programs": [
+        "Instrumental and vocal training at all levels",
+        "Accredited AFAM bachelor's and master's degrees",
+        "Orchestra Giovanile Italiana",
+        "Chamber music"
+      ],
       "students": "Over 1,000 enrolled across all ages",
       "demographics": "Mostly Italian students from children to conservatory-level; advanced courses draw students from across Italy and abroad",
       "founded": 1974,
@@ -354,7 +527,9 @@
         "website": "https://www.scuolamusicafiesole.it",
         "other": []
       },
-      "emailDomains": ["scuolamusicafiesole.it"]
+      "emailDomains": [
+        "scuolamusicafiesole.it"
+      ]
     },
     {
       "id": "istituto-lorenzo-de-medici",
@@ -365,17 +540,30 @@
       "lat": 43.7758,
       "lng": 11.25216,
       "description": "Founded in 1973, LdM is one of Italy's largest international education institutions, occupying a former convent complex near San Lorenzo. Since 2006 it has served as the Florence branch campus of Marist University, whose students can complete full four-year US bachelor's degrees here alongside thousands of semester study-abroad visitors from dozens of partner universities.",
-      "programs": ["Semester and summer study abroad in liberal arts", "Studio art and restoration", "Fashion and design", "Italian language", "Marist bachelor's degrees (Studio Art, Art History, Fashion Design, Digital Media, Interior Design, Italian, Conservation)", "First-Year Florence Experience"],
+      "programs": [
+        "Semester and summer study abroad in liberal arts",
+        "Studio art and restoration",
+        "Fashion and design",
+        "Italian language",
+        "Marist bachelor's degrees (Studio Art, Art History, Fashion Design, Digital Media, Interior Design, Italian, Conservation)",
+        "First-Year Florence Experience"
+      ],
       "students": "About 3,000 per year across programs",
       "demographics": "Mostly US undergraduates on semester programs, plus degree-seeking students from many countries",
       "founded": 1973,
       "links": {
         "website": "https://www.ldminstitute.com",
         "other": [
-          {"label": "Marist Italy", "url": "https://www.marist.edu/italy"}
+          {
+            "label": "Marist Italy",
+            "url": "https://www.marist.edu/italy"
+          }
         ]
       },
-      "emailDomains": ["ldminstitute.com", "marist.edu"]
+      "emailDomains": [
+        "ldminstitute.com",
+        "marist.edu"
+      ]
     },
     {
       "id": "florence-university-of-the-arts",
@@ -386,17 +574,31 @@
       "lat": 43.76717,
       "lng": 11.2609,
       "description": "A private American-model institution whose schools span hospitality, food and wine (Apicius), fine arts, fashion and liberal arts, with teaching sites clustered near Santa Croce. FUA-AUF pioneered 'community engagement' learning through student-run venues like the Fedora pastry shop and Ganzo restaurant, and partners with Fairfield University as its school of record.",
-      "programs": ["Culinary Arts and Hospitality (Apicius)", "Fashion and Accessories", "Fine Arts", "Liberal Arts", "Communication and Publishing", "Wine Studies", "Semester, summer and career programs"],
+      "programs": [
+        "Culinary Arts and Hospitality (Apicius)",
+        "Fashion and Accessories",
+        "Fine Arts",
+        "Liberal Arts",
+        "Communication and Publishing",
+        "Wine Studies",
+        "Semester, summer and career programs"
+      ],
       "students": "Around 2,000 per year",
       "demographics": "Predominantly US study-abroad undergraduates, with international certificate students",
       "founded": 2006,
       "links": {
         "website": "https://www.fua.it",
         "other": [
-          {"label": "Apicius culinary school", "url": "https://apicius.it"}
+          {
+            "label": "Apicius culinary school",
+            "url": "https://apicius.it"
+          }
         ]
       },
-      "emailDomains": ["fua.it", "fairfield.edu"]
+      "emailDomains": [
+        "fua.it",
+        "fairfield.edu"
+      ]
     },
     {
       "id": "british-institute-of-florence",
@@ -407,17 +609,28 @@
       "lat": 43.77079,
       "lng": 11.25231,
       "description": "Founded in 1917, this is the oldest British cultural institute abroad, teaching Italian to foreigners and English to Italians from Palazzo dello Strozzino. Its Harold Acton Library on the Lungarno Guicciardini holds the largest collection of English-language books in Italy and hosts a beloved weekly lecture series.",
-      "programs": ["Italian language courses", "English language courses", "Art history courses", "Drawing lessons", "Cultural programme and lectures"],
+      "programs": [
+        "Italian language courses",
+        "English language courses",
+        "Art history courses",
+        "Drawing lessons",
+        "Cultural programme and lectures"
+      ],
       "students": "Several thousand course enrollments per year",
       "demographics": "International adults learning Italian and Florentines learning English; also hosts visiting university groups",
       "founded": 1917,
       "links": {
         "website": "https://www.britishinstitute.it",
         "other": [
-          {"label": "Harold Acton Library", "url": "https://www.britishinstitute.it/en/library-cultural-centre"}
+          {
+            "label": "Harold Acton Library",
+            "url": "https://www.britishinstitute.it/en/library-cultural-centre"
+          }
         ]
       },
-      "emailDomains": ["britishinstitute.it"]
+      "emailDomains": [
+        "britishinstitute.it"
+      ]
     },
     {
       "id": "scuola-leonardo-da-vinci-firenze",
@@ -428,7 +641,12 @@
       "lat": 43.77336,
       "lng": 11.25908,
       "description": "The Florence seat of one of Italy's best-known Italian-language school networks, teaching since 1977 just two blocks from the Duomo. Alongside intensive Italian courses it offers exam preparation, cultural electives and professional courses in fashion, art and cuisine.",
-      "programs": ["Intensive Italian language", "CILS/AIL exam preparation", "Italian plus art, cooking or fashion electives", "University preparation"],
+      "programs": [
+        "Intensive Italian language",
+        "CILS/AIL exam preparation",
+        "Italian plus art, cooking or fashion electives",
+        "University preparation"
+      ],
       "students": "Several thousand per year",
       "demographics": "International students of all ages from over 90 countries on short- and long-term courses",
       "founded": 1977,
@@ -436,7 +654,9 @@
         "website": "https://www.scuolaleonardo.com",
         "other": []
       },
-      "emailDomains": ["scuolaleonardo.com"]
+      "emailDomains": [
+        "scuolaleonardo.com"
+      ]
     },
     {
       "id": "linguaviva",
@@ -447,7 +667,12 @@
       "lat": 43.77754,
       "lng": 11.24962,
       "description": "A family-run Italian language school founded in the 1970s, located in an elegant palazzina near Santa Maria Novella station. Linguaviva is accredited for university foundation programs and pathways into Italian universities and art academies.",
-      "programs": ["Italian language courses", "University foundation year", "Italian for art and design school admission", "Junior summer programs"],
+      "programs": [
+        "Italian language courses",
+        "University foundation year",
+        "Italian for art and design school admission",
+        "Junior summer programs"
+      ],
       "students": "Several hundred per year",
       "demographics": "International students, many preparing for Italian university or academy admission",
       "founded": 1976,
@@ -455,7 +680,9 @@
         "website": "https://linguavivagroup.com",
         "other": []
       },
-      "emailDomains": ["linguaviva.it"]
+      "emailDomains": [
+        "linguaviva.it"
+      ]
     },
     {
       "id": "centro-machiavelli",
@@ -466,7 +693,12 @@
       "lat": 43.76662,
       "lng": 11.24778,
       "description": "An intimate Italian language and culture school on Piazza Santo Spirito, teaching since 1978 in the heart of the artisan Oltrarno. Its trademark is combining language classes with craft internships in Florentine workshops, from bookbinding to mosaics.",
-      "programs": ["Italian language courses", "Artisan workshop internships", "Art and craft courses", "Cooking and culture courses"],
+      "programs": [
+        "Italian language courses",
+        "Artisan workshop internships",
+        "Art and craft courses",
+        "Cooking and culture courses"
+      ],
       "students": "Several hundred per year",
       "demographics": "Adult international learners from Europe, the Americas and Asia",
       "founded": 1978,
@@ -474,7 +706,9 @@
         "website": "https://www.centromachiavelli.it",
         "other": []
       },
-      "emailDomains": ["centromachiavelli.it"]
+      "emailDomains": [
+        "centromachiavelli.it"
+      ]
     },
     {
       "id": "europass-italian-language-school",
@@ -485,7 +719,12 @@
       "lat": 43.77232,
       "lng": 11.26104,
       "description": "An Italian language school in the neoclassical Palazzo Galletti, a short walk from the Duomo, also known for its large teacher-training academy. It offers intensive Italian, exam preparation and cultural courses year-round.",
-      "programs": ["Intensive Italian language", "CILS exam preparation", "Italian and culture electives", "Teacher training (Europass Teacher Academy)"],
+      "programs": [
+        "Intensive Italian language",
+        "CILS exam preparation",
+        "Italian and culture electives",
+        "Teacher training (Europass Teacher Academy)"
+      ],
       "students": "About 1,000 language students per year",
       "demographics": "Adult international learners and visiting European teachers on Erasmus+ mobility",
       "founded": 1992,
@@ -493,7 +732,9 @@
         "website": "https://www.europassitalian.com",
         "other": []
       },
-      "emailDomains": ["europassitalian.com"]
+      "emailDomains": [
+        "europassitalian.com"
+      ]
     },
     {
       "id": "istituto-europeo",
@@ -504,7 +745,12 @@
       "lat": 43.77031,
       "lng": 11.25092,
       "description": "A language, music and culture school on the corner of Via de' Tornabuoni in the heart of Florence. Beyond Italian language courses it is known for opera, voice and instrumental music programs and university-partnered study-abroad offerings.",
-      "programs": ["Italian language courses", "Music and opera programs", "Art and culture courses", "Custom university programs"],
+      "programs": [
+        "Italian language courses",
+        "Music and opera programs",
+        "Art and culture courses",
+        "Custom university programs"
+      ],
       "students": "A few hundred per year",
       "demographics": "International students, including US study-abroad groups and music students",
       "founded": null,
@@ -512,7 +758,9 @@
         "website": "https://www.istitutoeuropeo.org",
         "other": []
       },
-      "emailDomains": ["istitutoeuropeo.it"]
+      "emailDomains": [
+        "istitutoeuropeo.it"
+      ]
     },
     {
       "id": "nyu-florence",
@@ -523,17 +771,29 @@
       "lat": 43.79787,
       "lng": 11.26229,
       "description": "New York University's Florence campus occupies the 57-acre Villa La Pietra estate on a hill north of the city, bequeathed to NYU by Sir Harold Acton in 1994. Students live and study among five historic villas, Renaissance-style gardens and one of the finest private art collections in Italy.",
-      "programs": ["Liberal arts semester and year programs", "Italian language and culture", "Politics and international relations", "Art history", "First-year Liberal Studies cohort", "Summer sessions and conferences"],
+      "programs": [
+        "Liberal arts semester and year programs",
+        "Italian language and culture",
+        "Politics and international relations",
+        "Art history",
+        "First-year Liberal Studies cohort",
+        "Summer sessions and conferences"
+      ],
       "students": "About 300 per semester",
       "demographics": "Mostly NYU undergraduates including a first-year cohort; visiting students from other US universities also admitted",
       "founded": 1994,
       "links": {
         "website": "https://www.nyu.edu/florence.html",
         "other": [
-          {"label": "Villa La Pietra", "url": "https://www.nyu.edu/global/global-academic-centers/florence/villa-la-pietra.html"}
+          {
+            "label": "Villa La Pietra",
+            "url": "https://www.nyu.edu/global/global-academic-centers/florence/villa-la-pietra.html"
+          }
         ]
       },
-      "emailDomains": ["nyu.edu"]
+      "emailDomains": [
+        "nyu.edu"
+      ]
     },
     {
       "id": "syracuse-university-florence",
@@ -544,17 +804,29 @@
       "lat": 43.78126,
       "lng": 11.26737,
       "description": "Established in 1959, Syracuse Florence is the oldest continuously operating American university program in Florence and one of the largest, centered on the Villa Rossa on Piazza Savonarola. Its architecture, art and liberal-arts curriculum is supplemented by studios and the Villa Rossa garden classrooms.",
-      "programs": ["Liberal arts semester programs", "Architecture", "Studio arts", "International relations", "Italian language", "Summer programs"],
+      "programs": [
+        "Liberal arts semester programs",
+        "Architecture",
+        "Studio arts",
+        "International relations",
+        "Italian language",
+        "Summer programs"
+      ],
       "students": "Around 300 per semester",
       "demographics": "Mostly US undergraduates from Syracuse and partner universities on semester programs",
       "founded": 1959,
       "links": {
         "website": "https://suabroad.syr.edu",
         "other": [
-          {"label": "Florence center", "url": "https://suabroad.syr.edu/explore-programs/explore-by-center/florence/"}
+          {
+            "label": "Florence center",
+            "url": "https://suabroad.syr.edu/explore-programs/explore-by-center/florence/"
+          }
         ]
       },
-      "emailDomains": ["syr.edu"]
+      "emailDomains": [
+        "syr.edu"
+      ]
     },
     {
       "id": "kent-state-florence",
@@ -565,17 +837,27 @@
       "lat": 43.77661,
       "lng": 11.2573,
       "description": "Kent State has taught in Florence for over 50 years, beginning with its architecture program in the early 1970s. Since 2016 the campus has occupied Palazzo Vettori at the corner of Via Cavour and Via degli Alfani, near the Duomo, hosting architecture, fashion and liberal-arts students year round.",
-      "programs": ["Architecture and Environmental Design", "Fashion Design and Merchandising", "Liberal arts semester", "Summer programs"],
+      "programs": [
+        "Architecture and Environmental Design",
+        "Fashion Design and Merchandising",
+        "Liberal arts semester",
+        "Summer programs"
+      ],
       "students": "About 400 per year",
       "demographics": "US undergraduates, primarily from Kent State's Ohio campuses",
       "founded": 1972,
       "links": {
         "website": "https://www.kent.edu/globaleducation/education-abroad/kent-state-florence",
         "other": [
-          {"label": "Fashion in Florence", "url": "https://www.kent.edu/fashion/florence"}
+          {
+            "label": "Fashion in Florence",
+            "url": "https://www.kent.edu/fashion/florence"
+          }
         ]
       },
-      "emailDomains": ["kent.edu"]
+      "emailDomains": [
+        "kent.edu"
+      ]
     },
     {
       "id": "gonzaga-in-florence",
@@ -586,7 +868,12 @@
       "lat": 43.77952,
       "lng": 11.26059,
       "description": "Gonzaga University's flagship study-abroad program, running in Florence since 1963 — one of the longest-standing American programs in Italy. Its center near Piazza San Marco serves a tight-knit cohort each semester with a Jesuit liberal-arts curriculum and extensive travel components.",
-      "programs": ["Liberal arts semester and year programs", "Business courses", "Italian language and culture", "Philosophy and theology"],
+      "programs": [
+        "Liberal arts semester and year programs",
+        "Business courses",
+        "Italian language and culture",
+        "Philosophy and theology"
+      ],
       "students": "Around 150 per semester",
       "demographics": "Mostly Gonzaga undergraduates, largely sophomores and juniors",
       "founded": 1963,
@@ -594,7 +881,10 @@
         "website": "https://www.gonzaga.edu/academics/global-engagement/for-students/study-abroad/gonzaga-in-florence",
         "other": []
       },
-      "emailDomains": ["gonzaga.edu", "zagmail.gonzaga.edu"]
+      "emailDomains": [
+        "gonzaga.edu",
+        "zagmail.gonzaga.edu"
+      ]
     },
     {
       "id": "pepperdine-florence",
@@ -605,7 +895,12 @@
       "lat": 43.78482,
       "lng": 11.25781,
       "description": "Seaver College's residential Florence house sits on Viale Milton along the Mugnone stream, a short walk from the historic center and Santa Maria Novella station. Students live and take classes together in the villa-style program house, following Pepperdine's faith-based liberal arts curriculum with extensive field trips.",
-      "programs": ["Liberal arts academic year and semester programs", "Italian language", "Great Books and humanities", "Summer program"],
+      "programs": [
+        "Liberal arts academic year and semester programs",
+        "Italian language",
+        "Great Books and humanities",
+        "Summer program"
+      ],
       "students": "About 45 per term",
       "demographics": "Pepperdine undergraduates, mostly sophomores, living in a single residential program house",
       "founded": null,
@@ -613,7 +908,9 @@
         "website": "https://community.pepperdine.edu/seaver/internationalprograms/programs/year-programs/florence/",
         "other": []
       },
-      "emailDomains": ["pepperdine.edu"]
+      "emailDomains": [
+        "pepperdine.edu"
+      ]
     },
     {
       "id": "stanford-florence",
@@ -624,17 +921,27 @@
       "lat": 43.76606,
       "lng": 11.25599,
       "description": "Stanford first opened a Florence campus in 1960, and its Bing Overseas Studies Program now operates from the medieval Palazzo Capponi alle Rovinate on the Oltrarno bank of the Arno. Small quarterly cohorts take Stanford courses in the humanities, social sciences and Italian culture with local internships and field trips.",
-      "programs": ["Quarter-length liberal arts programs", "Italian language and culture", "Art history", "Community-engaged learning and internships"],
+      "programs": [
+        "Quarter-length liberal arts programs",
+        "Italian language and culture",
+        "Art history",
+        "Community-engaged learning and internships"
+      ],
       "students": "About 40-50 per quarter",
       "demographics": "Stanford undergraduates on quarter-long rotations",
       "founded": 1960,
       "links": {
         "website": "https://florence.stanford.edu",
         "other": [
-          {"label": "Bing Overseas Studies", "url": "https://bosp.stanford.edu/explore/florence"}
+          {
+            "label": "Bing Overseas Studies",
+            "url": "https://bosp.stanford.edu/explore/florence"
+          }
         ]
       },
-      "emailDomains": ["stanford.edu"]
+      "emailDomains": [
+        "stanford.edu"
+      ]
     },
     {
       "id": "jmu-florence",
@@ -645,17 +952,27 @@
       "lat": 43.7668,
       "lng": 11.2484,
       "description": "JMU runs its European center from the 16th-century Palazzo Capponi in the Santo Spirito quarter, housing classrooms, a library and a student residence. It hosts the undergraduate Semester in Florence as well as a one-year M.A. in Political Science focused on European Union policy studies.",
-      "programs": ["Semester in Florence (undergraduate)", "M.A. in Political Science: European Union Policy Studies", "Summer programs"],
+      "programs": [
+        "Semester in Florence (undergraduate)",
+        "M.A. in Political Science: European Union Policy Studies",
+        "Summer programs"
+      ],
       "students": "About 200 per year across programs",
       "demographics": "JMU undergraduates plus a small international graduate cohort",
       "founded": null,
       "links": {
         "website": "https://www.jmu.edu/global/abroad/programs/florence/",
         "other": [
-          {"label": "EU Policy Studies MA", "url": "https://www.jmu.edu/eupolicystudies/"}
+          {
+            "label": "EU Policy Studies MA",
+            "url": "https://www.jmu.edu/eupolicystudies/"
+          }
         ]
       },
-      "emailDomains": ["jmu.edu", "dukes.jmu.edu"]
+      "emailDomains": [
+        "jmu.edu",
+        "dukes.jmu.edu"
+      ]
     },
     {
       "id": "richmond-in-florence",
@@ -666,7 +983,12 @@
       "lat": 43.76713,
       "lng": 11.24923,
       "description": "The Italian study center of Richmond, the American university in London, occupying the Renaissance Palazzo Michelozzi on Via Maggio near the Ponte Vecchio. The center specializes in studio and fine arts, art history and Italian culture for semester students, including AIFS program participants.",
-      "programs": ["Studio and fine arts", "Art history", "Liberal arts semester courses", "Italian language"],
+      "programs": [
+        "Studio and fine arts",
+        "Art history",
+        "Liberal arts semester courses",
+        "Italian language"
+      ],
       "students": "About 50-100 per semester",
       "demographics": "US and international undergraduates from Richmond London and AIFS partner universities",
       "founded": null,
@@ -674,7 +996,9 @@
         "website": "https://www.richmond.ac.uk",
         "other": []
       },
-      "emailDomains": ["richmond.ac.uk"]
+      "emailDomains": [
+        "richmond.ac.uk"
+      ]
     },
     {
       "id": "fairfield-florence",
@@ -685,17 +1009,28 @@
       "lat": 43.76739,
       "lng": 11.26028,
       "description": "Fairfield University opened its dedicated Florence campus in 2019 in the Santa Croce district, operated in partnership with Florence University of the Arts, for which Fairfield serves as US school of record. The Jesuit university's students take liberal-arts, business and nursing courses alongside FUA's experiential programs.",
-      "programs": ["Liberal arts semester", "Business courses", "Nursing and health studies electives", "Summer programs"],
+      "programs": [
+        "Liberal arts semester",
+        "Business courses",
+        "Nursing and health studies electives",
+        "Summer programs"
+      ],
       "students": "A few hundred per year",
       "demographics": "Mostly Fairfield undergraduates on semester programs",
       "founded": 2019,
       "links": {
         "website": "https://www.fairfield.edu",
         "other": [
-          {"label": "AACUPI listing", "url": "https://aacupi.org/members-a-z/fairfield-university-florence-campus/"}
+          {
+            "label": "AACUPI listing",
+            "url": "https://aacupi.org/members-a-z/fairfield-university-florence-campus/"
+          }
         ]
       },
-      "emailDomains": ["fairfield.edu", "student.fairfield.edu"]
+      "emailDomains": [
+        "fairfield.edu",
+        "student.fairfield.edu"
+      ]
     },
     {
       "id": "fsu-florence",
@@ -706,17 +1041,28 @@
       "lat": 43.76819,
       "lng": 11.25786,
       "description": "One of the oldest US programs in the city, Florida State has taught in Florence since 1966 and today operates a study center on Via dei Neri between the Uffizi and Santa Croce. FSU offers full academic-year, semester and summer terms, including a popular first-year-abroad option.",
-      "programs": ["Liberal arts semester and year programs", "First Year Abroad", "Italian studies", "Art history", "Summer programs"],
+      "programs": [
+        "Liberal arts semester and year programs",
+        "First Year Abroad",
+        "Italian studies",
+        "Art history",
+        "Summer programs"
+      ],
       "students": "Several hundred per year including large summer terms",
       "demographics": "Florida State undergraduates, including first-year students spending their freshman year abroad",
       "founded": 1966,
       "links": {
         "website": "https://international.fsu.edu",
         "other": [
-          {"label": "Florence study center", "url": "https://international.fsu.edu/StudyCenterFlorence.aspx"}
+          {
+            "label": "Florence study center",
+            "url": "https://international.fsu.edu/StudyCenterFlorence.aspx"
+          }
         ]
       },
-      "emailDomains": ["fsu.edu"]
+      "emailDomains": [
+        "fsu.edu"
+      ]
     },
     {
       "id": "csu-florence",
@@ -727,7 +1073,12 @@
       "lat": 43.77256,
       "lng": 11.26989,
       "description": "The systemwide California State University International Programs center, occupying two floors of a 19th-century palazzo near Piazza Beccaria. CSU students from across the 23-campus system spend a full academic year here, with options to study architecture and design or enroll directly in Italian institutions.",
-      "programs": ["Full academic year liberal arts program", "Architecture and design year", "Italian language and culture", "Studio art"],
+      "programs": [
+        "Full academic year liberal arts program",
+        "Architecture and design year",
+        "Italian language and culture",
+        "Studio art"
+      ],
       "students": "About 50-100 per year",
       "demographics": "California State University undergraduates on a year-long program",
       "founded": 1963,
@@ -735,7 +1086,9 @@
         "website": "https://csuip.calstate.edu",
         "other": []
       },
-      "emailDomains": ["calstate.edu"]
+      "emailDomains": [
+        "calstate.edu"
+      ]
     },
     {
       "id": "isi-florence",
@@ -743,20 +1096,32 @@
       "shortName": "ISI Florence",
       "category": "us-study-abroad",
       "address": "Palazzo Rucellai, Via della Vigna Nuova 18, 50123 Firenze",
-      "lat": 43.7710,
+      "lat": 43.771,
       "lng": 11.2491,
       "description": "An independent American study-abroad institute founded in 2001, headquartered on the piano nobile of Leon Battista Alberti's landmark Palazzo Rucellai, with a second seat in Palazzo Bargagli on the Arno. ISI hosts semester programs for numerous US partner universities in the liberal arts, architecture and business.",
-      "programs": ["Liberal arts semester programs", "Architecture studio", "Business and marketing", "Psychology", "Italian language", "Summer programs"],
+      "programs": [
+        "Liberal arts semester programs",
+        "Architecture studio",
+        "Business and marketing",
+        "Psychology",
+        "Italian language",
+        "Summer programs"
+      ],
       "students": "Over 600 per year",
       "demographics": "US undergraduates from partner universities such as Penn State, Rutgers and Villanova",
       "founded": 2001,
       "links": {
         "website": "https://isiflorence.org",
         "other": [
-          {"label": "Facilities", "url": "https://isiflorence.org/about/facilities/"}
+          {
+            "label": "Facilities",
+            "url": "https://isiflorence.org/about/facilities/"
+          }
         ]
       },
-      "emailDomains": ["isiflorence.org"]
+      "emailDomains": [
+        "isiflorence.org"
+      ]
     },
     {
       "id": "cet-florence",
@@ -767,7 +1132,13 @@
       "lat": 43.76515,
       "lng": 11.2593,
       "description": "CET's Florence center sits in the San Niccolò quarter of the Oltrarno, steps from the Arno near Ponte alle Grazie. Its semester programs pair US undergraduates with Italian student roommates and emphasize art conservation, sustainability and Italian studies.",
-      "programs": ["Liberal arts semester program", "Art and art conservation", "Italian language", "Internships", "Summer programs"],
+      "programs": [
+        "Liberal arts semester program",
+        "Art and art conservation",
+        "Italian language",
+        "Internships",
+        "Summer programs"
+      ],
       "students": "About 50-100 per semester",
       "demographics": "US undergraduates from many home universities, housed with Italian roommates",
       "founded": null,
@@ -775,7 +1146,9 @@
         "website": "https://cetacademicprograms.com/college-study-abroad/programs/italy/florence/",
         "other": []
       },
-      "emailDomains": ["cetacademicprograms.com"]
+      "emailDomains": [
+        "cetacademicprograms.com"
+      ]
     },
     {
       "id": "harding-university-florence",
@@ -786,17 +1159,27 @@
       "lat": 43.74583,
       "lng": 11.16309,
       "description": "Harding University's first international program, launched in 1980 and based since 1984 in a 15th-century hillside villa in Scandicci, southwest of Florence. Cohorts of up to 35 students live, study and travel together each semester in this residential Christian liberal-arts program overlooking the Arno valley.",
-      "programs": ["Residential liberal arts semester", "Bible and humanities courses", "Italian language and culture", "Group travel across Italy and Europe"],
+      "programs": [
+        "Residential liberal arts semester",
+        "Bible and humanities courses",
+        "Italian language and culture",
+        "Group travel across Italy and Europe"
+      ],
       "students": "Up to 35 per semester, three terms per year",
       "demographics": "Harding University undergraduates in a residential villa program",
       "founded": 1980,
       "links": {
         "website": "https://www.harding.edu/academics/study-abroad/programs/huf/",
         "other": [
-          {"label": "The villa", "url": "http://harding-firenze.org/the-villa/"}
+          {
+            "label": "The villa",
+            "url": "http://harding-firenze.org/the-villa/"
+          }
         ]
       },
-      "emailDomains": ["harding.edu"]
+      "emailDomains": [
+        "harding.edu"
+      ]
     },
     {
       "id": "sarah-lawrence-florence",
@@ -807,7 +1190,12 @@
       "lat": 43.76809,
       "lng": 11.26094,
       "description": "A small, deeply immersive year and semester program run from offices in Palazzo Spinelli near Santa Croce. True to Sarah Lawrence's seminar model, students take individual tutorials, enroll in University of Florence courses and live with Florentine families or in apartments.",
-      "programs": ["Year and semester liberal arts program", "Individual tutorials", "University of Florence course enrollment", "Italian language immersion"],
+      "programs": [
+        "Year and semester liberal arts program",
+        "Individual tutorials",
+        "University of Florence course enrollment",
+        "Italian language immersion"
+      ],
       "students": "About 20-30 per year",
       "demographics": "Sarah Lawrence and visiting US undergraduates with strong Italian preparation",
       "founded": null,
@@ -815,7 +1203,10 @@
         "website": "https://www.sarahlawrence.edu/italy/",
         "other": []
       },
-      "emailDomains": ["sarahlawrence.edu", "gm.slc.edu"]
+      "emailDomains": [
+        "sarahlawrence.edu",
+        "gm.slc.edu"
+      ]
     },
     {
       "id": "smith-college-florence",
@@ -826,7 +1217,12 @@
       "lat": 43.77618,
       "lng": 11.26595,
       "description": "Smith College has sent students to Florence since 1931, making it one of the oldest junior-year-abroad programs in Italy. From its center on Via Giusti, students take Smith seminars, enroll at the University of Florence and live with local host families for full linguistic immersion.",
-      "programs": ["Junior year abroad", "Smith seminars in Italian studies", "University of Florence coursework", "Homestay immersion"],
+      "programs": [
+        "Junior year abroad",
+        "Smith seminars in Italian studies",
+        "University of Florence coursework",
+        "Homestay immersion"
+      ],
       "students": "About 20-40 per year",
       "demographics": "Smith College students and Five College/consortium women undergraduates with Italian language preparation",
       "founded": 1931,
@@ -834,7 +1230,9 @@
         "website": "https://www.smith.edu/academics/smith-florence",
         "other": []
       },
-      "emailDomains": ["smith.edu"]
+      "emailDomains": [
+        "smith.edu"
+      ]
     },
     {
       "id": "middlebury-school-in-italy-florence",
@@ -845,7 +1243,12 @@
       "lat": 43.78138,
       "lng": 11.26565,
       "description": "Middlebury's language-pledge Florence school, where students commit to speaking only Italian, direct-enroll at the University of Florence and other local institutions, and live with Italian hosts. The sede on Via Pier Capponi supports both undergraduates and graduate students of the Italian School.",
-      "programs": ["Semester and year immersion with language pledge", "Direct enrollment at Italian universities", "Graduate Italian studies", "Internships and volunteering"],
+      "programs": [
+        "Semester and year immersion with language pledge",
+        "Direct enrollment at Italian universities",
+        "Graduate Italian studies",
+        "Internships and volunteering"
+      ],
       "students": "About 30-50 per year",
       "demographics": "US undergraduates and graduate students with advanced Italian; full immersion model",
       "founded": 1959,
@@ -853,7 +1256,9 @@
         "website": "https://www.middlebury.edu/schools-abroad/schools/italy",
         "other": []
       },
-      "emailDomains": ["middlebury.edu"]
+      "emailDomains": [
+        "middlebury.edu"
+      ]
     },
     {
       "id": "cea-capa-florence",
@@ -864,7 +1269,12 @@
       "lat": 43.77191,
       "lng": 11.25403,
       "description": "The Florence center of one of the largest US study-abroad providers, located directly on Piazza della Repubblica in the heart of the city. CEA CAPA offers semester, summer and internship programs with credit transcripted through the University of New Haven.",
-      "programs": ["Liberal arts and business semester programs", "Internships abroad", "Italian language", "Summer sessions"],
+      "programs": [
+        "Liberal arts and business semester programs",
+        "Internships abroad",
+        "Italian language",
+        "Summer sessions"
+      ],
       "students": "Around 1,000 per year",
       "demographics": "US undergraduates from a wide range of home universities",
       "founded": null,
@@ -872,7 +1282,10 @@
         "website": "https://www.ceastudyabroad.com/explore/discover-the-city/florence",
         "other": []
       },
-      "emailDomains": ["ceastudyabroad.com", "newhaven.edu"]
+      "emailDomains": [
+        "ceastudyabroad.com",
+        "newhaven.edu"
+      ]
     },
     {
       "id": "accent-florence",
@@ -883,7 +1296,11 @@
       "lat": 43.77241,
       "lng": 11.26088,
       "description": "ACCENT's Florence Study Center fills a four-story historic palazzo on Via Sant'Egidio, five minutes from the Duomo, with classrooms, a gallery, library and garden. It hosts more than 25 customized university-branded programs each year for partners including UC Education Abroad, the University of Minnesota and Michigan State.",
-      "programs": ["Customized university semester and summer programs", "Faculty-led programs", "Internships and field research support"],
+      "programs": [
+        "Customized university semester and summer programs",
+        "Faculty-led programs",
+        "Internships and field research support"
+      ],
       "students": "Several hundred per year across partner programs",
       "demographics": "US undergraduates on university-branded custom programs (UCEAP, Minnesota, TCU, MSU and others)",
       "founded": null,
@@ -891,7 +1308,9 @@
         "website": "https://accentglobal.com/study-centers/florence-study-center/",
         "other": []
       },
-      "emailDomains": ["accentglobal.com"]
+      "emailDomains": [
+        "accentglobal.com"
+      ]
     },
     {
       "id": "georgetown-villa-le-balze",
@@ -902,7 +1321,12 @@
       "lat": 43.80604,
       "lng": 11.28763,
       "description": "Georgetown's study center occupies a 1912 Cecil Pinsent-designed villa and terraced gardens clinging to the Fiesole hillside, given to the university in 1979 by the Rockefeller family. Small cohorts live and study on site with sweeping views over Florence, running programs since 1981.",
-      "programs": ["Semester liberal arts program", "Italian language and culture", "Art history", "Summer sessions"],
+      "programs": [
+        "Semester liberal arts program",
+        "Italian language and culture",
+        "Art history",
+        "Summer sessions"
+      ],
       "students": "About 25-30 per semester",
       "demographics": "Georgetown undergraduates plus some visiting US students",
       "founded": 1979,
@@ -910,7 +1334,12 @@
         "website": "https://villalebalze.georgetown.edu",
         "other": []
       },
-      "emailDomains": ["georgetown.edu"]
+      "emailDomains": [
+        "georgetown.edu"
+      ]
     }
+  ],
+  "extraDomains": [
+    "dartmouth.edu"
   ]
 }

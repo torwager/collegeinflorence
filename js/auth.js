@@ -26,8 +26,10 @@
         emailDomains: p.emailDomains || [],
       }));
       schoolSelect.innerHTML = '<option value="">Select your school…</option>' +
-        schools.map((s) => '<option value="' + s.id + '">' + s.name + "</option>").join("");
+        schools.map((s) => '<option value="' + s.id + '">' + s.name + "</option>").join("") +
+        '<option value="visiting">Visiting / other recognized school</option>';
       schools.forEach((s) => s.emailDomains.forEach((d) => allDomains.add(d.toLowerCase())));
+      (data.extraDomains || []).forEach((d) => allDomains.add(d.toLowerCase()));
     })
     .catch(() => {
       schoolSelect.innerHTML = '<option value="">Could not load school list</option>';

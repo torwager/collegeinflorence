@@ -26,8 +26,10 @@ The site works fully without this; the chat pages show "launching soon" until co
 6. Create the server-side domain allowlist — in Firestore, add collection `config`, document `allowlist`, with an array field `domains`. Generate the list from the map data:
 
    ```bash
-   python3 -c "import json; print(sorted({d.lower() for p in json.load(open('data/colleges.json'))['places'] for d in p.get('emailDomains', [])}))"
+   python3 -c "import json; d=json.load(open('data/colleges.json')); print(sorted({x.lower() for p in d['places'] for x in p.get('emailDomains', [])} | {x.lower() for x in d.get('extraDomains', [])}))"
    ```
+
+   (`extraDomains` in `data/colleges.json` holds recognized domains that aren't tied to a Florence college — currently `dartmouth.edu`.)
 
 7. Commit + push `js/firebase-config.js`. (The Firebase web config is safe to publish; access is enforced by the Firestore rules and email verification.)
 

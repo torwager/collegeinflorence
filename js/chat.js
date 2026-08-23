@@ -33,6 +33,7 @@
         id: p.id, name: p.shortName || p.name, emailDomains: p.emailDomains || [],
       }));
       schools.forEach((s) => s.emailDomains.forEach((d) => allDomains.add(d.toLowerCase())));
+      (data.extraDomains || []).forEach((d) => allDomains.add(d.toLowerCase()));
       renderRooms();
     })
     .catch(() => {});

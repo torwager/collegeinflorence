@@ -5,8 +5,12 @@
   const LAYERS = {
     colleges:   { file: "data/colleges.json",   icon: "🎓", label: "College" },
     studyspots: { file: "data/studyspots.json", icon: "☕", label: "Study Spot" },
-    nightlife:  { file: "data/nightlife.json",  icon: "🍷", label: "Eat & Nightlife" },
+    eateries:   { file: "data/eateries.json",   icon: "🥪", label: "Eatery" },
+    nightlife:  { file: "data/nightlife.json",  icon: "🍸", label: "Nightlife" },
   };
+
+  // "Open late" filters venue layers to places open after 11pm; colleges are unaffected
+  const filters = { openLate: false };
 
   const CATEGORY_LABELS = {
     "italian-university": "Italian University",
@@ -83,9 +87,9 @@
   }
 
   function scoreColor(score) {
-    if (score >= 9) return "#1e6b34";
-    if (score >= 8) return "#b98a2f";
-    return "#c2611e";
+    if (score >= 9) return "#2f9e60";
+    if (score >= 8) return "#4c72b0";
+    return "#e8630c";
   }
 
   /* ---------- Detail panel ---------- */
@@ -141,6 +145,7 @@
       if (pr.wifi !== undefined && pr.wifi !== "unknown") facts.push(["WiFi", pr.wifi === true ? "Yes" : pr.wifi === false ? "No" : pr.wifi]);
       if (pr.outlets) facts.push(["Outlets", pr.outlets === true ? "Yes" : pr.outlets]);
       if (pr.bestFor) facts.push(["Best for", pr.bestFor]);
+      if (p.openLate) facts.push(["Open late", "Yes — after 11pm 🌙"]);
       if (facts.length) {
         h += '<div class="panel-section-title">Practical</div><div class="fact-grid">';
         facts.forEach(([k, v]) => { h += '<div class="fact"><b>' + esc(k) + "</b>" + esc(v) + "</div>"; });
@@ -229,6 +234,11 @@
   function focusPlace(entry) {
     const chip = document.querySelector('.layer-chip[data-layer="' + entry.layer + '"]');
     if (chip && !chip.classList.contains("active")) chip.click();
+    if (!entryVisible(entry)) {
+      filters.openLate = false;
+      openLateChip.classList.remove("active");
+      Object.keys(LAYERS).forEach(refreshLayer);
+    }
     map.flyTo([entry.place.lat, entry.place.lng], 17, { duration: 0.8 });
     setTimeout(() => {
       clusterGroups[entry.layer].zoomToShowLayer(entry.marker, () => entry.marker.openPopup());
@@ -237,6 +247,28 @@
   }
 
   /* ---------- Load data ---------- */
+
+  function entryVisible(e) {
+    if (!filters.openLate || e.layer === "colleges") return true;
+    return !!e.place.openLate;
+  }
+
+  function refreshLayer(key) {
+    const group = clusterGroups[key];
+    group.clearLayers();
+    const visible = allPlaces.filter((e) => e.layer === key && entryVisible(e));
+    visible.forEach((e) => group.addLayer(e.marker));
+    const countEl = document.getElementById("count-" + key);
+    if (countEl) countEl.textContent = "(" + visible.length + ")";
+  }
+
+  const openLateChip = document.getElementById("openLateChip");
+  openLateChip.addEventListener("click", () => {
+    filters.openLate = !filters.openLate;
+    openLateChip.classList.toggle("active", filters.openLate);
+    closePanel();
+    Object.keys(LAYERS).forEach(refreshLayer);
+  });
 
   Object.keys(LAYERS).forEach((key) => {
     clusterGroups[key] = makeClusterGroup(key);
@@ -248,11 +280,9 @@
         places.forEach((p) => {
           const marker = makeMarker(key, p);
           marker.on("click", () => openPanel(key, p));
-          clusterGroups[key].addLayer(marker);
           allPlaces.push({ layer: key, place: p, marker });
         });
-        const countEl = document.getElementById("count-" + key);
-        if (countEl) countEl.textContent = "(" + places.length + ")";
+        refreshLayer(key);
       })
       .catch((err) => console.warn("[CiF] could not load layer " + key + ":", err));
   });

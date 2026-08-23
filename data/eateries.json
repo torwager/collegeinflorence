@@ -1,0 +1,445 @@
+{
+  "layer": "eateries",
+  "updated": "2026-08",
+  "places": [
+    {
+      "id": "allantico-vinaio",
+      "name": "All'Antico Vinaio",
+      "category": "street-food",
+      "address": "Via dei Neri 65r, 50122 Firenze",
+      "lat": 43.7676,
+      "lng": 11.2585,
+      "description": "The world's most famous sandwich shop: enormous schiacciata stuffed with sbriciolona, truffle cream, pecorino and pistachio spreads for around €7-9. The line down Via dei Neri is part of the experience; multiple storefronts on the same street keep it moving. Iconic first-week-of-the-semester food.",
+      "recScore": 9,
+      "reviewSummary": "Earns near-universal acclaim and 30,000+ reviews; a few locals call it hyped, but the quality-to-price ratio still wins.",
+      "quotes": [
+        {
+          "text": "Earned the title 'Home of the World's Best Sandwiches' from Saveur... crowds willing to queue for 45 minutes to an hour.",
+          "source": "Time Out",
+          "url": "https://www.timeout.com/los-angeles/restaurants/allantico-vinaio"
+        }
+      ],
+      "practical": {
+        "price": "€",
+        "bestFor": "la Favolosa schiacciata",
+        "hours": "Daily ~10am-10pm"
+      },
+      "links": {
+        "website": "https://www.allanticovinaio.com",
+        "maps": "https://maps.google.com/?q=All'Antico+Vinaio+Via+dei+Neri+Firenze"
+      },
+      "openLate": false
+    },
+    {
+      "id": "semel",
+      "name": "Semel",
+      "category": "street-food",
+      "address": "Piazza Ghiberti 44r, 50122 Firenze",
+      "lat": 43.7708,
+      "lng": 11.2688,
+      "description": "A closet-sized sandwich counter opposite Sant'Ambrogio market where the owner invents small gourmet panini — think anchovy with orange, or stewed boar — for a few euros each. No seats, just a shelf and a glass of wine. The connoisseur's answer to the All'Antico Vinaio line.",
+      "recScore": 8.5,
+      "reviewSummary": "Food writers' consistent pick for the most creative cheap panino in Florence, with a devoted local following.",
+      "quotes": [
+        {
+          "text": "Tuscan cooked specialties stuffed in a roll.",
+          "source": "Curious Appetite",
+          "url": "https://thecuriousappetite.com/2025/09/08/where-to-eat-budget-cheap-in-florence-italy/"
+        }
+      ],
+      "practical": {
+        "price": "€",
+        "bestFor": "gourmet mini panini",
+        "hours": "Mon-Sat ~11:30am-3pm"
+      },
+      "links": {
+        "maps": "https://maps.google.com/?q=Semel+Piazza+Ghiberti+Firenze"
+      },
+      "openLate": false
+    },
+    {
+      "id": "i-due-fratellini",
+      "name": "I Due Fratellini",
+      "category": "street-food",
+      "address": "Via dei Cimatori 38r, 50122 Firenze",
+      "lat": 43.7705,
+      "lng": 11.2565,
+      "description": "A literal hole in the wall (since 1875) two blocks from the Duomo serving ~30 numbered panini and glasses of Chianti you rest on a wooden ledge. Sandwich plus wine runs well under €10. Order the finocchiona with pecorino and eat standing in the street like generations before you.",
+      "recScore": 8,
+      "reviewSummary": "A 150-year-old institution that guides love for the ritual as much as the sandwich; fast, cheap and central.",
+      "quotes": [
+        {
+          "text": "Super hole in the wall experience.",
+          "source": "Curious Appetite",
+          "url": "https://thecuriousappetite.com/2025/09/08/where-to-eat-budget-cheap-in-florence-italy/"
+        }
+      ],
+      "practical": {
+        "price": "€",
+        "bestFor": "panino + street wine",
+        "hours": "Daily ~10am-7pm"
+      },
+      "links": {
+        "website": "https://www.iduefratellini.it",
+        "maps": "https://maps.google.com/?q=I+Due+Fratellini+Firenze"
+      },
+      "openLate": false
+    },
+    {
+      "id": "da-nerbone",
+      "name": "Da Nerbone",
+      "category": "street-food",
+      "address": "Mercato Centrale (ground floor), Piazza del Mercato Centrale, 50123 Firenze",
+      "lat": 43.7764,
+      "lng": 11.2531,
+      "description": "The grand old counter of the Mercato Centrale, serving lampredotto and bollito (boiled beef) sandwiches dunked in broth since 1872. Order 'bagnato con salsa verde' and eat at the marble tables. The classic gateway into Florence's offal street-food tradition.",
+      "recScore": 9,
+      "reviewSummary": "In every guide and still worth it: reviewers across sources call the lunchtime queue justified by the broth-soaked bollito.",
+      "quotes": [
+        {
+          "text": "The grand old name in Florentine boiled meat sandwiches... there's almost always a queue at lunchtime, and it's worth it.",
+          "source": "Firenze Made in Tuscany",
+          "url": "https://www.firenzemadeintuscany.com/en/best-of/trippa-lampredotto-where-to-eat-best-florence/"
+        }
+      ],
+      "practical": {
+        "price": "€",
+        "bestFor": "lampredotto + bollito",
+        "hours": "Mon-Sat 8am-3pm"
+      },
+      "links": {
+        "maps": "https://maps.google.com/?q=Da+Nerbone+Mercato+Centrale+Firenze"
+      },
+      "openLate": false
+    },
+    {
+      "id": "sergio-pollini-lampredotto",
+      "name": "Tripperia Pollini (Sergio Pollini)",
+      "category": "street-food",
+      "address": "Via de' Macci 126r, 50122 Firenze",
+      "lat": 43.7706,
+      "lng": 11.2687,
+      "description": "The Sant'Ambrogio lampredotto stand where actual market shoppers eat lunch: a €4-5 tripe sandwich with salsa verde and a plastic cup of wine. Quieter and arguably better-brothed than the famous central carts. Peak cheap-and-real Florence.",
+      "recScore": 8.5,
+      "reviewSummary": "Named by local food press as having some of the best broth in the city, with a genuinely local clientele.",
+      "quotes": [
+        {
+          "text": "The counter where the people who actually shop at Sant'Ambrogio have their lunch... some of the best broth in the city.",
+          "source": "Firenze Made in Tuscany",
+          "url": "https://www.firenzemadeintuscany.com/en/best-of/trippa-lampredotto-where-to-eat-best-florence/"
+        }
+      ],
+      "practical": {
+        "price": "€",
+        "bestFor": "lampredotto under €5",
+        "hours": "Mon-Sat ~9am-3pm"
+      },
+      "links": {
+        "maps": "https://maps.google.com/?q=Tripperia+Pollini+Via+de+Macci+Firenze"
+      },
+      "openLate": false
+    },
+    {
+      "id": "trippaio-del-porcellino",
+      "name": "Il Trippaio del Porcellino",
+      "category": "street-food",
+      "address": "Piazza del Mercato Nuovo, 50123 Firenze",
+      "lat": 43.7702,
+      "lng": 11.2544,
+      "description": "The most central lampredotto cart, parked beside the bronze boar of the Mercato Nuovo. A fast-moving lunch line of office workers and brave students grabbing tripe sandwiches between classes. Rub the Porcellino's snout for luck, then order 'bagnato'.",
+      "recScore": 8,
+      "reviewSummary": "Consistently rated excellent and the easiest lampredotto to reach from anywhere in the center.",
+      "quotes": [
+        {
+          "text": "Busy, fast moving lunchtime queue, generally excellent.",
+          "source": "Firenze Made in Tuscany",
+          "url": "https://www.firenzemadeintuscany.com/en/best-of/trippa-lampredotto-where-to-eat-best-florence/"
+        }
+      ],
+      "practical": {
+        "price": "€",
+        "bestFor": "central lampredotto fix",
+        "hours": "Mon-Sat ~9am-4pm"
+      },
+      "links": {
+        "maps": "https://maps.google.com/?q=Trippaio+del+Porcellino+Firenze"
+      },
+      "openLate": false
+    },
+    {
+      "id": "pugi",
+      "name": "Focacceria Pugi",
+      "category": "street-food",
+      "address": "Piazza San Marco 9b, 50121 Firenze",
+      "lat": 43.7778,
+      "lng": 11.2591,
+      "description": "The legendary schiacciata bakery on Piazza San Marco, steps from the Accademia and half the study-abroad classrooms in town. Slabs of oily, salty schiacciata — plain or stuffed — sold by weight for pocket change. The default between-class snack since 1924.",
+      "recScore": 8.5,
+      "reviewSummary": "Routinely called the best schiacciata in town and perfectly placed for students; cheap, fast and reliably great.",
+      "quotes": [
+        {
+          "text": "One of the best bakeries for schiacciata in town.",
+          "source": "Curious Appetite",
+          "url": "https://thecuriousappetite.com/2025/09/08/where-to-eat-budget-cheap-in-florence-italy/"
+        }
+      ],
+      "practical": {
+        "price": "€",
+        "bestFor": "schiacciata by weight",
+        "hours": "Mon-Sat 7:45am-8pm"
+      },
+      "links": {
+        "website": "https://www.focacceria-pugi.it",
+        "maps": "https://maps.google.com/?q=Pugi+Piazza+San+Marco+Firenze"
+      },
+      "openLate": false
+    },
+    {
+      "id": "trattoria-mario",
+      "name": "Trattoria Mario",
+      "category": "restaurant",
+      "address": "Via Rosina 2r, 50123 Firenze",
+      "lat": 43.7766,
+      "lng": 11.2543,
+      "description": "A lunch-only, cash-friendly, shared-table trattoria behind the Mercato Centrale run by the same family since 1953. Handwritten daily menu, ribollita and pasta for single digits, and famously cheap grilled steak. Arrive before noon or accept the queue — either way it's the best-value sit-down meal in Florence.",
+      "recScore": 9,
+      "reviewSummary": "Legendary status confirmed across every source: genuine Florentine cooking at the lowest prices in town, hence the daily line.",
+      "quotes": [
+        {
+          "text": "Genuine Florentine cooking at the lowest prices in town... a boneless grilled steak for 12 euros plus a glass of red wine, totaling 14 euros.",
+          "source": "Restaurant Guru reviews",
+          "url": "https://restaurantguru.com/Mario-Florence"
+        }
+      ],
+      "practical": {
+        "price": "€",
+        "bestFor": "shared-table Tuscan lunch",
+        "hours": "Mon-Sat 12-3:30pm, no reservations"
+      },
+      "links": {
+        "website": "https://www.trattoria-mario.com",
+        "maps": "https://maps.google.com/?q=Trattoria+Mario+Firenze"
+      },
+      "openLate": false
+    },
+    {
+      "id": "trattoria-da-rocco",
+      "name": "Trattoria da Rocco",
+      "category": "restaurant",
+      "address": "Inside Mercato di Sant'Ambrogio, Piazza Ghiberti, 50122 Firenze",
+      "lat": 43.771,
+      "lng": 11.2685,
+      "description": "A booth-seating trattoria inside the Sant'Ambrogio market hall where primi run €5-6 and a full lunch with wine stays under €15. Home-style Florentine plates — pasta al ragù, polpette, roast meats — served at market speed. The single best cheap sit-down lunch trick students learn.",
+      "recScore": 8.5,
+      "reviewSummary": "A top pick in budget dining guides for quality home cooking at market-stall prices.",
+      "quotes": [
+        {
+          "text": "Dirt cheap and quality home-style Florentine fare - top pick.",
+          "source": "Curious Appetite",
+          "url": "https://thecuriousappetite.com/2025/09/08/where-to-eat-budget-cheap-in-florence-italy/"
+        }
+      ],
+      "practical": {
+        "price": "€",
+        "bestFor": "€10 market lunch",
+        "hours": "Mon-Sat ~12-3:30pm"
+      },
+      "links": {
+        "maps": "https://maps.google.com/?q=Trattoria+da+Rocco+Sant'Ambrogio+Firenze"
+      },
+      "openLate": false
+    },
+    {
+      "id": "gustapizza",
+      "name": "Gustapizza",
+      "category": "restaurant",
+      "address": "Via Maggio 46r, 50125 Firenze",
+      "lat": 43.7663,
+      "lng": 11.2483,
+      "description": "The Oltrarno pizzeria that every study-abroad student learns in week one: proper Neapolitan-style pies from about €6-9, heart-shaped if you ask nicely, eaten in the tiny room or carried to Piazza Santo Spirito. The line out the door at 7pm is all students. Cheap, fast and genuinely good.",
+      "recScore": 8,
+      "reviewSummary": "The consensus student pizza in Florence: long lines, soft-dough pies and prices that fit a student budget.",
+      "quotes": [
+        {
+          "text": "A popular pizzeria in Florence with long lines and soft dough pies.",
+          "source": "Aki's Substack",
+          "url": "https://akis.substack.com/p/gustapizza0924"
+        }
+      ],
+      "practical": {
+        "price": "€",
+        "bestFor": "takeaway pizza to the piazza",
+        "hours": "Tue-Sun ~11:30am-3pm, 7-11pm"
+      },
+      "links": {
+        "instagram": "https://www.instagram.com/gustapizza_firenze/",
+        "maps": "https://maps.google.com/?q=Gustapizza+Firenze"
+      },
+      "openLate": false
+    },
+    {
+      "id": "trattoria-sabatino",
+      "name": "Trattoria Sabatino",
+      "category": "restaurant",
+      "address": "Via Pisana 2r, 50143 Firenze",
+      "lat": 43.7695,
+      "lng": 11.2377,
+      "description": "A fluorescent-lit, family-run time capsule just outside Porta San Frediano where handwritten menus list primi around €5 and secondi under €10. No frills, no tourists, no reservations — just honest Florentine home cooking. Where Oltrarno locals and in-the-know students eat when rent is due.",
+      "recScore": 8.5,
+      "reviewSummary": "Beloved across local guides as the realest cheap trattoria left in Florence; simplicity is the entire point.",
+      "quotes": [
+        {
+          "text": "Truly simple, non-fussy food.",
+          "source": "Curious Appetite",
+          "url": "https://thecuriousappetite.com/2025/09/08/where-to-eat-budget-cheap-in-florence-italy/"
+        }
+      ],
+      "practical": {
+        "price": "€",
+        "bestFor": "sub-€15 dinner",
+        "hours": "Mon-Fri lunch + dinner"
+      },
+      "links": {
+        "maps": "https://maps.google.com/?q=Trattoria+Sabatino+Firenze"
+      },
+      "openLate": false
+    },
+    {
+      "id": "antica-mescita-san-niccolo",
+      "name": "L'Antica Mescita San Niccolò",
+      "category": "restaurant",
+      "address": "Via di San Niccolò 60r, 50125 Firenze",
+      "lat": 43.7644,
+      "lng": 11.2646,
+      "description": "A rustic osteria partly set in an 11th-century crypt in the San Niccolò bar district, serving ribollita, peposo and big plates of Tuscan comfort food at low prices. Perfectly placed for dinner before drinks in Piazza Poggi or the climb to Piazzale Michelangelo. Cozy, candlelit and cheap.",
+      "recScore": 8,
+      "reviewSummary": "Budget guides recommend it for no-frills Tuscan classics in one of the best evening neighborhoods.",
+      "quotes": [
+        {
+          "text": "No-frills dirt cheap Tuscan fare in a rustic atmosphere.",
+          "source": "Curious Appetite",
+          "url": "https://thecuriousappetite.com/2025/09/08/where-to-eat-budget-cheap-in-florence-italy/"
+        }
+      ],
+      "practical": {
+        "price": "€",
+        "bestFor": "ribollita in San Niccolò",
+        "hours": "Daily 12-11pm"
+      },
+      "links": {
+        "maps": "https://maps.google.com/?q=Antica+Mescita+San+Niccolo+Firenze"
+      },
+      "openLate": false
+    },
+    {
+      "id": "gelateria-della-passera",
+      "name": "Gelateria della Passera",
+      "category": "gelato",
+      "address": "Via Toscanella 15r, 50125 Firenze",
+      "lat": 43.7674,
+      "lng": 11.2508,
+      "description": "A tiny all-natural gelateria on the adorable Piazza della Passera in the Oltrarno, churning seasonal flavors like fig, prickly pear and superb pistachio from a kitchen right behind the counter. Small scoops, real fruit, fair prices. Combine with an evening drink on the piazza.",
+      "recScore": 9,
+      "reviewSummary": "A quality-first hidden gem that food writers and gelato obsessives consistently rank among Florence's very best.",
+      "quotes": [
+        {
+          "text": "A hidden gem known for its exceptional gelato quality and unique flavors... made with the freshest seasonal ingredients.",
+          "source": "Wanderlog reviews",
+          "url": "https://wanderlog.com/place/details/779927"
+        }
+      ],
+      "practical": {
+        "price": "€",
+        "bestFor": "seasonal fruit flavors",
+        "hours": "Daily ~12-11pm"
+      },
+      "links": {
+        "maps": "https://maps.google.com/?q=Gelateria+della+Passera+Firenze"
+      },
+      "openLate": false
+    },
+    {
+      "id": "la-carraia",
+      "name": "Gelateria La Carraia",
+      "category": "gelato",
+      "address": "Piazza Nazario Sauro 25r, 50124 Firenze",
+      "lat": 43.7702,
+      "lng": 11.2437,
+      "description": "The student favorite at the foot of Ponte alla Carraia: huge creamy scoops, a famous €1 mini-cone, and lines of locals every evening. Get a cone and eat it on the bridge at sunset. Unbeatable quantity-quality-price ratio.",
+      "recScore": 8.5,
+      "reviewSummary": "Years of student and local loyalty for generous portions at some of the lowest prices of any quality gelateria in town.",
+      "quotes": [
+        {
+          "text": "A favorite among university students and residents for years... the quality-price ratio is truly unbeatable.",
+          "source": "Scuola Leonardo student blog",
+          "url": "https://blog.scuolaleonardo.com/2026/08/20/florence-the-perfect-gelato/"
+        }
+      ],
+      "practical": {
+        "price": "€",
+        "bestFor": "€1 cone on the bridge",
+        "hours": "Daily ~11am-midnight"
+      },
+      "links": {
+        "website": "https://www.lacarraiagroup.eu",
+        "maps": "https://maps.google.com/?q=Gelateria+La+Carraia+Firenze"
+      },
+      "openLate": true
+    },
+    {
+      "id": "la-sorbettiera",
+      "name": "La Sorbettiera",
+      "category": "gelato",
+      "address": "Piazza Torquato Tasso 11r, 50124 Firenze",
+      "lat": 43.7688,
+      "lng": 11.2394,
+      "description": "An artisan gelateria on quiet Piazza Tasso in San Frediano, famous for 'Catrame' — a dense 75% Peruvian dark-chocolate sorbet — plus perfect peach and hazelnut. Local families and Oltrarno students only; almost no tourists make it out here. Worth the ten-minute detour every time.",
+      "recScore": 9,
+      "reviewSummary": "Gelato obsessives call the Catrame chocolate sorbet life-changing; consistently ranked at the top of local lists.",
+      "quotes": [
+        {
+          "text": "A mind-blowing dark chocolate sorbet called Catrame that sends people into absolute ecstasy.",
+          "source": "Chandi Wyant, Substack gelato guide",
+          "url": "https://chandiwyant.substack.com/p/a-guide-to-gelato-and-granita-in"
+        }
+      ],
+      "practical": {
+        "price": "€",
+        "bestFor": "Catrame chocolate sorbet",
+        "hours": "Daily ~12-11pm"
+      },
+      "links": {
+        "website": "https://www.lasorbettiera.com",
+        "maps": "https://maps.google.com/?q=La+Sorbettiera+Firenze"
+      },
+      "openLate": false
+    },
+    {
+      "id": "gelateria-dei-neri",
+      "name": "Gelateria dei Neri",
+      "category": "gelato",
+      "address": "Via dei Neri 9r, 50122 Firenze",
+      "lat": 43.7679,
+      "lng": 11.2575,
+      "description": "The classic gelato stop on the All'Antico Vinaio street, with a huge ever-changing case of seasonal flavors — the ricotta-and-fig is the cult order. Cheap, generous and open late, it's the natural dessert after a schiacciata. A genuine local favorite despite the touristy street.",
+      "recScore": 8,
+      "reviewSummary": "A local meeting point praised for quality ingredients, big flavor range and fair prices on a high-traffic street.",
+      "quotes": [
+        {
+          "text": "A true meeting place for young people and students of all ages... pistachio and ricotta-fig combinations stand out.",
+          "source": "Scuola Leonardo student blog",
+          "url": "https://blog.scuolaleonardo.com/2026/08/20/florence-the-perfect-gelato/"
+        }
+      ],
+      "practical": {
+        "price": "€",
+        "bestFor": "ricotta e fichi",
+        "hours": "Daily ~9am-midnight"
+      },
+      "links": {
+        "maps": "https://maps.google.com/?q=Gelateria+dei+Neri+Firenze"
+      },
+      "openLate": true
+    }
+  ]
+}

@@ -38,7 +38,8 @@
       "links": {
         "website": "https://www.biblioteche.comune.fi.it/biblioteca_delle_oblate",
         "maps": "https://maps.google.com/?q=Biblioteca+delle+Oblate+Firenze"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "giunti-odeon",
@@ -76,7 +77,8 @@
       "links": {
         "website": "https://www.giuntiodeon.com/en",
         "maps": "https://maps.google.com/?q=Giunti+Odeon+Piazza+Strozzi+Firenze"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "la-cite",
@@ -114,7 +116,8 @@
       "links": {
         "website": "https://www.facebook.com/lacitelibreriacafe/",
         "maps": "https://maps.google.com/?q=La+Cite+Libreria+Cafe+Borgo+San+Frediano+Firenze"
-      }
+      },
+      "openLate": true
     },
     {
       "id": "ditta-artigianale-sprone",
@@ -147,7 +150,8 @@
       "links": {
         "website": "https://dittaartigianale.com/en/pages/punti-vendita",
         "maps": "https://maps.google.com/?q=Ditta+Artigianale+Via+dello+Sprone+Firenze"
-      }
+      },
+      "openLate": true
     },
     {
       "id": "le-murate-caffe-letterario",
@@ -180,7 +184,8 @@
       "links": {
         "website": "https://www.lemurate.it/",
         "maps": "https://maps.google.com/?q=Le+Murate+Caffe+Letterario+Firenze"
-      }
+      },
+      "openLate": true
     },
     {
       "id": "la-menagere",
@@ -218,7 +223,8 @@
       "links": {
         "website": "https://www.lamenagere.it/",
         "maps": "https://maps.google.com/?q=La+Menagere+Via+de+Ginori+Firenze"
-      }
+      },
+      "openLate": true
     },
     {
       "id": "ditta-artigianale-sant-ambrogio",
@@ -251,7 +257,8 @@
       "links": {
         "website": "https://dittaartigianale.com/en/pages/punti-vendita",
         "maps": "https://maps.google.com/?q=Ditta+Artigianale+Sant+Ambrogio+Firenze"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "ditta-artigianale-riva-darno",
@@ -284,7 +291,8 @@
       "links": {
         "website": "https://dittaartigianale.com/en/pages/punti-vendita",
         "maps": "https://maps.google.com/?q=Ditta+Artigianale+Lungarno+Soderini+Firenze"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "ditta-artigianale-neri",
@@ -317,7 +325,8 @@
       "links": {
         "website": "https://dittaartigianale.com/en/pages/punti-vendita",
         "maps": "https://maps.google.com/?q=Ditta+Artigianale+Via+dei+Neri+Firenze"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "todo-modo",
@@ -350,7 +359,8 @@
       "links": {
         "website": "https://todomodo.org/en",
         "maps": "https://maps.google.com/?q=Todo+Modo+Via+dei+Fossi+Firenze"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "rivarno-cafe",
@@ -383,7 +393,8 @@
       "links": {
         "website": "https://www.facebook.com/rivarnocafe/",
         "maps": "https://maps.google.com/?q=Rivarno+Cafe+Lungarno+delle+Grazie+Firenze"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "santarosa-bistrot",
@@ -416,7 +427,8 @@
       "links": {
         "website": "https://www.santarosabistrot.com/",
         "maps": "https://maps.google.com/?q=Santarosa+Bistrot+Firenze"
-      }
+      },
+      "openLate": true
     },
     {
       "id": "il-conventino",
@@ -444,7 +456,8 @@
       "links": {
         "website": "https://www.conventinofirenze.it/",
         "maps": "https://maps.google.com/?q=Il+Conventino+Via+Giano+della+Bella+Firenze"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "harold-acton-library",
@@ -477,7 +490,8 @@
       "links": {
         "website": "https://www.britishinstitute.it/en/library/harold-acton-library",
         "maps": "https://maps.google.com/?q=British+Institute+Harold+Acton+Library+Firenze"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "the-social-hub-lavagnini",
@@ -510,7 +524,8 @@
       "links": {
         "website": "https://www.thesocialhub.co/florence-lavagnini/co-working-space/",
         "maps": "https://maps.google.com/?q=The+Social+Hub+Firenze+Lavagnini"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "giardino-delle-rose",
@@ -543,7 +558,8 @@
       "links": {
         "website": "https://www.feelflorence.it/en/node/17762",
         "maps": "https://maps.google.com/?q=Giardino+delle+Rose+Firenze"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "la-loggia-degli-albizi",
@@ -576,7 +592,8 @@
       "links": {
         "website": "https://www.facebook.com/laloggiadeglialbizi/",
         "maps": "https://maps.google.com/?q=La+Loggia+degli+Albizi+Firenze"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "shake-cafe-cavour",
@@ -609,7 +626,8 @@
       "links": {
         "website": "https://www.shakecafe.bio/",
         "maps": "https://maps.google.com/?q=Shake+Cafe+Via+Cavour+Firenze"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "mamas-bakery",
@@ -637,7 +655,8 @@
       "links": {
         "website": "https://www.mamasbakery.it/",
         "maps": "https://maps.google.com/?q=Mamas+Bakery+Via+della+Chiesa+Firenze"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "red-feltrinelli",
@@ -665,7 +684,8 @@
       "links": {
         "website": "https://www.lafeltrinelli.it/",
         "maps": "https://maps.google.com/?q=RED+Feltrinelli+Piazza+della+Repubblica+Firenze"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "biblioteca-nazionale",
@@ -693,7 +713,8 @@
       "links": {
         "website": "https://www.bncf.firenze.sbn.it/",
         "maps": "https://maps.google.com/?q=Biblioteca+Nazionale+Centrale+Firenze"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "biblioteca-marucelliana",
@@ -721,7 +742,8 @@
       "links": {
         "website": "https://marucelliana.cultura.gov.it/",
         "maps": "https://maps.google.com/?q=Biblioteca+Marucelliana+Firenze"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "sit-n-breakfast",
@@ -749,7 +771,8 @@
       "links": {
         "website": "https://www.italiancoworking.it/firenze/spazi/sitnbreakfast/",
         "maps": "https://maps.google.com/?q=Sit+N+Breakfast+Via+San+Gallo+Firenze"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "impact-hub-firenze",
@@ -777,7 +800,8 @@
       "links": {
         "website": "https://florence.impacthub.net/",
         "maps": "https://maps.google.com/?q=Impact+Hub+Firenze+Via+Panciatichi"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "the-social-hub-belfiore",
@@ -805,7 +829,8 @@
       "links": {
         "website": "https://www.thesocialhub.co/florence-belfiore/co-working-space/",
         "maps": "https://maps.google.com/?q=The+Social+Hub+Firenze+Belfiore"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "manifattura-tabacchi",
@@ -833,7 +858,8 @@
       "links": {
         "website": "https://www.manifatturatabacchi.com/",
         "maps": "https://maps.google.com/?q=Manifattura+Tabacchi+Firenze"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "giardino-orticoltura",
@@ -861,7 +887,8 @@
       "links": {
         "website": "https://www.feelflorence.it/en/node/17765",
         "maps": "https://maps.google.com/?q=Giardino+dell+Orticoltura+Firenze"
-      }
+      },
+      "openLate": false
     },
     {
       "id": "biblioteca-thouar",
@@ -889,7 +916,8 @@
       "links": {
         "website": "https://www.biblioteche.comune.fi.it/biblioteca_thouar",
         "maps": "https://maps.google.com/?q=Biblioteca+Thouar+Piazza+Tasso+Firenze"
-      }
+      },
+      "openLate": false
     }
   ]
 }
