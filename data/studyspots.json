@@ -1,0 +1,895 @@
+{
+  "layer": "studyspots",
+  "updated": "2026-08",
+  "places": [
+    {
+      "id": "biblioteca-delle-oblate",
+      "name": "Biblioteca delle Oblate",
+      "category": "library",
+      "address": "Via dell'Oriuolo 24, 50122 Firenze",
+      "lat": 43.7724,
+      "lng": 11.2601,
+      "description": "Florence's beloved free public library in a former 14th-century convent, two minutes from the Duomo. Free membership gets you wifi and study rooms, and the rooftop caffetteria has the best cheap-cappuccino Duomo view in the city, with laptop-covered tables of students all afternoon. The unbeatable combo of free, central, and social makes it THE default student study spot.",
+      "recScore": 9,
+      "reviewSummary": "Named the top study spot by virtually every student blog and guide, with the only knocks being crowding at exam time and limited daily wifi hours.",
+      "quotes": [
+        {
+          "text": "Biblioteca delle Oblate is the most important meeting point for the students living close to the centre of Florence.",
+          "source": "StudentsVille",
+          "url": "https://www.studentsville.it/libraries-in-florence/"
+        },
+        {
+          "text": "A quiet place to study with the absolute best rooftop view of the Duomo.",
+          "source": "Eating Around Italy",
+          "url": "https://eatingarounditaly.com/best-places-in-florence-for-studying-and-working/"
+        },
+        {
+          "text": "Hidden on top of the Biblioteca delle Oblate, one of Florence's most peaceful public spaces... a calm environment where everyone is working.",
+          "source": "Atlas Field Notes",
+          "url": "https://atlasfieldnotes.com/the-best-cafes-in-florence-for-study-abroad-students-and-young-travelers/"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": true,
+        "hours": "Mon 14-19, Tue-Sat 9-19 (caffetteria follows library hours)",
+        "price": "€"
+      },
+      "links": {
+        "website": "https://www.biblioteche.comune.fi.it/biblioteca_delle_oblate",
+        "maps": "https://maps.google.com/?q=Biblioteca+delle+Oblate+Firenze"
+      }
+    },
+    {
+      "id": "giunti-odeon",
+      "name": "Giunti Odeon (Libreria e Cinema)",
+      "category": "bookshop-cafe",
+      "address": "Piazza degli Strozzi 1, 50123 Firenze",
+      "lat": 43.7714,
+      "lng": 11.2519,
+      "description": "A 1922 movie palace reborn in 2023 as a bookstore-cinema-cafe hybrid: by day you can plant a laptop in the plush cinema seats or at the daytime workstations under the frescoed dome. Free wifi, tables built for laptops and tablets, and a cafe on site. Films still screen in the evenings, so it flips from study hall to cinema after dark.",
+      "recScore": 9,
+      "reviewSummary": "Reviewers consistently call it one of the most beautiful places to work in Florence, purpose-equipped for students, docked only for daytime-hours limits and weekend crowds.",
+      "quotes": [
+        {
+          "text": "A book store, a library, a cinema, and a nice place to sit and work on your laptop.",
+          "source": "Tripadvisor reviews",
+          "url": "https://www.tripadvisor.com/Attraction_Review-g187895-d5958289-Reviews-Go_Giunti_Odeon_Liberia_e_Cinema-Florence_Tuscany.html"
+        },
+        {
+          "text": "A quiet morning or evening studying in one of the most beautiful theaters in Florence.",
+          "source": "Eating Around Italy",
+          "url": "https://eatingarounditaly.com/best-places-in-florence-for-studying-and-working/"
+        },
+        {
+          "text": "With the goal of attracting students and young people, the daytime area is equipped with workstations for laptops and tablets.",
+          "source": "Magenta Florence",
+          "url": "https://www.magentaflorence.com/giunti-odeon-a-new-space-a-new-story/"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": true,
+        "hours": "Daily ~10-20 for study; cinema screenings evenings",
+        "price": "€€"
+      },
+      "links": {
+        "website": "https://www.giuntiodeon.com/en",
+        "maps": "https://maps.google.com/?q=Giunti+Odeon+Piazza+Strozzi+Firenze"
+      }
+    },
+    {
+      "id": "la-cite",
+      "name": "La Cité Libreria Café",
+      "category": "bookshop-cafe",
+      "address": "Borgo San Frediano 20r, 50124 Firenze",
+      "lat": 43.7693,
+      "lng": 11.2452,
+      "description": "Bohemian two-floor bookshop-cafe in San Frediano with wooden tables tucked between bookcases, big cozy chairs and a mezzanine balcony. Wifi and outlets near most tables, cheap coffee, and a decades-long tradition of letting students camp out all day; it morphs into a bar with live music and readings at aperitivo hour.",
+      "recScore": 9,
+      "reviewSummary": "Cited by nearly every source as the classic student-friendly cafe in Florence, with the caveat that it gets loud and social after late afternoon.",
+      "quotes": [
+        {
+          "text": "One of the oldest cafes in Florence to welcome students... big chairs to get cozy in, several tables, balcony seating.",
+          "source": "Eating Around Italy",
+          "url": "https://eatingarounditaly.com/best-places-in-florence-for-studying-and-working/"
+        },
+        {
+          "text": "Absolutely perfect for getting some work done.",
+          "source": "Romeing Firenze",
+          "url": "https://www.romeing.it/florence/7-smart-working-cafes-florence/"
+        },
+        {
+          "text": "Extremely cosy, a bit hipstery.",
+          "source": "Outlandish Blog",
+          "url": "https://outlandishblog.com/work-friendly-cafes-in-florence/"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": true,
+        "hours": "Mon-Sat 9-02, Sun 15-02",
+        "price": "€"
+      },
+      "links": {
+        "website": "https://www.facebook.com/lacitelibreriacafe/",
+        "maps": "https://maps.google.com/?q=La+Cite+Libreria+Cafe+Borgo+San+Frediano+Firenze"
+      }
+    },
+    {
+      "id": "ditta-artigianale-sprone",
+      "name": "Ditta Artigianale – Via dello Sprone",
+      "category": "cafe",
+      "address": "Via dello Sprone 5r, 50125 Firenze",
+      "lat": 43.7676,
+      "lng": 11.2515,
+      "description": "The Oltrarno outpost of Florence's most famous specialty roaster, spread over multiple bright rooms near Piazza della Passera. Seriously good flat whites and brunch, wifi, and enough quiet corners that laptop sessions are normal on weekdays. Pricier than a standing espresso bar, but you're paying for the right to linger.",
+      "recScore": 9,
+      "reviewSummary": "The most-recommended work cafe across blogs and student guides, combining the city's best coffee with genuine laptop tolerance; loses a point for price and weekend crowds.",
+      "quotes": [
+        {
+          "text": "You can usually find a quiet corner to hole up in for awhile... seriously good coffee.",
+          "source": "Romeing Firenze",
+          "url": "https://www.romeing.it/florence/7-smart-working-cafes-florence/"
+        },
+        {
+          "text": "Tucked away in Oltrarno, ideal for slow mornings... a place that's used to people staying for longer study sessions.",
+          "source": "Atlas Field Notes",
+          "url": "https://atlasfieldnotes.com/the-best-cafes-in-florence-for-study-abroad-students-and-young-travelers/"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": true,
+        "hours": "Daily ~8-24",
+        "price": "€€"
+      },
+      "links": {
+        "website": "https://dittaartigianale.com/en/pages/punti-vendita",
+        "maps": "https://maps.google.com/?q=Ditta+Artigianale+Via+dello+Sprone+Firenze"
+      }
+    },
+    {
+      "id": "le-murate-caffe-letterario",
+      "name": "Le Murate Caffè Letterario",
+      "category": "cafe",
+      "address": "Piazza delle Murate, 50122 Firenze",
+      "lat": 43.7692,
+      "lng": 11.2654,
+      "description": "Literary cafe in the courtyard of a former convent-turned-prison near Sant'Ambrogio market, now an arts complex. Reliable wifi, big communal tables inside and out on the piazza, deliberately student-level prices (a full lunch runs about €10), plus readings, exhibitions and music at night. Nobody will ever hurry you along here.",
+      "recScore": 9,
+      "reviewSummary": "The consensus budget pick — genuinely built for lingering students, with reliable wifi and the cheapest sit-down prices in the center; the courtyard gets lively in the evening.",
+      "quotes": [
+        {
+          "text": "Le Murate is much-frequented by Florentine students: you see them swapping exam notes... making the most of the student prices.",
+          "source": "The Florentine",
+          "url": "https://www.theflorentine.net/2017/02/06/favourite-study-spots-florence/"
+        },
+        {
+          "text": "One of the best places for studying and working in Florence if you are on a budget.",
+          "source": "Eating Around Italy",
+          "url": "https://eatingarounditaly.com/best-places-in-florence-for-studying-and-working/"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": true,
+        "hours": "Weekdays 10:30-01, weekends from 15",
+        "price": "€"
+      },
+      "links": {
+        "website": "https://www.lemurate.it/",
+        "maps": "https://maps.google.com/?q=Le+Murate+Caffe+Letterario+Firenze"
+      }
+    },
+    {
+      "id": "la-menagere",
+      "name": "La Ménagère",
+      "category": "cafe",
+      "address": "Via de' Ginori 8r, 50123 Firenze",
+      "lat": 43.7758,
+      "lng": 11.2549,
+      "description": "Concept store, flower shop, restaurant and cafe in one gorgeous industrial-rustic space near San Lorenzo — the most Instagrammed work spot in Florence. Big shared tables and wifi make daytime laptop sessions easy, but it's on the pricey side and fills up fast at lunch. Open early morning until past midnight.",
+      "recScore": 8,
+      "reviewSummary": "Universally praised for atmosphere and long hours, but marked down for cost and lunch-hour competition for tables.",
+      "quotes": [
+        {
+          "text": "A gorgeous space that blends modern interior design with rustic bare walls.",
+          "source": "Romeing Firenze",
+          "url": "https://www.romeing.it/florence/7-smart-working-cafes-florence/"
+        },
+        {
+          "text": "Part flower shop, part restaurant, part cafe... like stepping into a Pinterest board.",
+          "source": "Atlas Field Notes",
+          "url": "https://atlasfieldnotes.com/the-best-cafes-in-florence-for-study-abroad-students-and-young-travelers/"
+        },
+        {
+          "text": "It can get busy which is why I recommend it for light study.",
+          "source": "Eating Around Italy",
+          "url": "https://eatingarounditaly.com/best-places-in-florence-for-studying-and-working/"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": "some",
+        "hours": "Daily ~7-24",
+        "price": "€€€"
+      },
+      "links": {
+        "website": "https://www.lamenagere.it/",
+        "maps": "https://maps.google.com/?q=La+Menagere+Via+de+Ginori+Firenze"
+      }
+    },
+    {
+      "id": "ditta-artigianale-sant-ambrogio",
+      "name": "Ditta Artigianale – Sant'Ambrogio",
+      "category": "cafe",
+      "address": "Via Giosuè Carducci 2/4r, 50121 Firenze",
+      "lat": 43.7729,
+      "lng": 11.2678,
+      "description": "Ditta's biggest location, set in a restored 14th-century refectory near Sant'Ambrogio market, with a Hario brew bar, spacious rooms and large tables built for settling in. The residential neighborhood keeps tourist traffic lower than the center, making it the Ditta most reliably suited to a full Sunday of schoolwork.",
+      "recScore": 8,
+      "reviewSummary": "Student guides single this location out for space and comfortable long sessions, with only price keeping it below the top tier.",
+      "quotes": [
+        {
+          "text": "The classic, sit-down-with-your-laptop environment – essential for a Sunday afternoon filled with schoolwork.",
+          "source": "SRISA study abroad blog",
+          "url": "https://blog.srisa.org/2025/07/02/florence-study-abroad-guide-cafes/"
+        },
+        {
+          "text": "Spacious rooms, large tables, comfortable seating, and tasty, well-priced food.",
+          "source": "SRISA study abroad blog",
+          "url": "https://blog.srisa.org/2023/10/20/florence-cafes-fit-for-finals-studying/"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": true,
+        "hours": "Daily ~8-22",
+        "price": "€€"
+      },
+      "links": {
+        "website": "https://dittaartigianale.com/en/pages/punti-vendita",
+        "maps": "https://maps.google.com/?q=Ditta+Artigianale+Sant+Ambrogio+Firenze"
+      }
+    },
+    {
+      "id": "ditta-artigianale-riva-darno",
+      "name": "Ditta Artigianale – Riva d'Arno",
+      "category": "cafe",
+      "address": "Lungarno Soderini 5r, 50124 Firenze",
+      "lat": 43.77,
+      "lng": 11.2432,
+      "description": "Small, colorful riverside Ditta in San Frediano with an outdoor terrace facing the Arno. Plugs at many tables and a fully laptop-tolerant policy make it a favorite of remote workers, though its size means seats go fast — locals recommend booking or arriving early.",
+      "recScore": 8,
+      "reviewSummary": "Praised for outlets, river views and a genuinely work-friendly attitude; loses points for limited seating.",
+      "quotes": [
+        {
+          "text": "Jolly, colourful and fun... multiple plugs available for charging laptops and phones.",
+          "source": "Outlandish Blog",
+          "url": "https://outlandishblog.com/work-friendly-cafes-in-florence/"
+        },
+        {
+          "text": "The Lungarno locations are better for work.",
+          "source": "Eating Around Italy",
+          "url": "https://eatingarounditaly.com/best-places-in-florence-for-studying-and-working/"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": true,
+        "hours": "Daily ~8-20",
+        "price": "€€"
+      },
+      "links": {
+        "website": "https://dittaartigianale.com/en/pages/punti-vendita",
+        "maps": "https://maps.google.com/?q=Ditta+Artigianale+Lungarno+Soderini+Firenze"
+      }
+    },
+    {
+      "id": "ditta-artigianale-neri",
+      "name": "Ditta Artigianale – Via dei Neri",
+      "category": "cafe",
+      "address": "Via dei Neri 32r, 50122 Firenze",
+      "lat": 43.7682,
+      "lng": 11.2578,
+      "description": "The 2013 flagship that started Florence's specialty coffee scene, steps from Palazzo Vecchio. Great gin-bar-meets-roastery energy and wifi, but it's the busiest Ditta and laptops are banned on weekends — treat it as a weekday spot and go elsewhere on Saturday.",
+      "recScore": 7,
+      "reviewSummary": "Iconic coffee and central location, but the weekend laptop ban and constant tourist crush make it the least studyable Ditta.",
+      "quotes": [
+        {
+          "text": "Laptops are banned on weekends.",
+          "source": "Outlandish Blog",
+          "url": "https://outlandishblog.com/work-friendly-cafes-in-florence/"
+        },
+        {
+          "text": "Known for some of the best coffee in Florence.",
+          "source": "Eating Around Italy",
+          "url": "https://eatingarounditaly.com/best-places-in-florence-for-studying-and-working/"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": "some",
+        "hours": "Mon-Thu 8-22, Fri-Sat to 24, Sun 9:30-22; laptops weekdays only",
+        "price": "€€"
+      },
+      "links": {
+        "website": "https://dittaartigianale.com/en/pages/punti-vendita",
+        "maps": "https://maps.google.com/?q=Ditta+Artigianale+Via+dei+Neri+Firenze"
+      }
+    },
+    {
+      "id": "todo-modo",
+      "name": "Todo Modo",
+      "category": "bookshop-cafe",
+      "address": "Via dei Fossi 15r, 50123 Firenze",
+      "lat": 43.7717,
+      "lng": 11.2477,
+      "description": "Independent bookshop, wine bar and cafe near Santa Maria Novella with 20,000 volumes and a little cafe-enoteca in back. A calm, literary place to work on a weekday afternoon surrounded by floor-to-ceiling shelves — though seating is limited, so it suits a couple of focused hours more than an all-day camp.",
+      "recScore": 8,
+      "reviewSummary": "Beloved atmosphere and one of Italy's best indie bookshops, kept from a higher score by limited seats for long sessions.",
+      "quotes": [
+        {
+          "text": "The temptation to buy a book on your way out may be the biggest workplace hazard.",
+          "source": "Romeing Firenze",
+          "url": "https://www.romeing.it/florence/7-smart-working-cafes-florence/"
+        },
+        {
+          "text": "A small family run bookshop with one of the best selections... I would not recommend staying here for a few hours.",
+          "source": "Eating Around Italy",
+          "url": "https://eatingarounditaly.com/best-places-in-florence-for-studying-and-working/"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": "few",
+        "hours": "Tue-Sun 10-20, Mon from 16",
+        "price": "€€"
+      },
+      "links": {
+        "website": "https://todomodo.org/en",
+        "maps": "https://maps.google.com/?q=Todo+Modo+Via+dei+Fossi+Firenze"
+      }
+    },
+    {
+      "id": "rivarno-cafe",
+      "name": "Rivarno Café",
+      "category": "cafe",
+      "address": "Lungarno delle Grazie 12r, 50122 Firenze",
+      "lat": 43.767,
+      "lng": 11.2612,
+      "description": "Small organic-leaning cafe right on the Arno east of the Uffizi, with fresh sandwiches and juices, dependable wifi and famously easygoing staff who don't blink at six-hour laptop sessions. Cheaper than the fashionable spots; tables are few, so late afternoon is the safe window.",
+      "recScore": 8,
+      "reviewSummary": "Repeatedly praised as the friendliest true laptop cafe in the center with river views and budget prices, limited only by its size and 5pm close.",
+      "quotes": [
+        {
+          "text": "Their coffee is great, the wifi works well, and the staff is really easygoing.",
+          "source": "No Maps or Foot Tracks",
+          "url": "https://nomapsorfoottracks.com/blog/best-coffee-shops-florence-digital-nomads"
+        },
+        {
+          "text": "Friendly staff... much cheaper than many of the others.",
+          "source": "Atlas Field Notes",
+          "url": "https://atlasfieldnotes.com/the-best-cafes-in-florence-for-study-abroad-students-and-young-travelers/"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": "some",
+        "hours": "Daily ~8-17",
+        "price": "€"
+      },
+      "links": {
+        "website": "https://www.facebook.com/rivarnocafe/",
+        "maps": "https://maps.google.com/?q=Rivarno+Cafe+Lungarno+delle+Grazie+Firenze"
+      }
+    },
+    {
+      "id": "santarosa-bistrot",
+      "name": "Santarosa Bistrot",
+      "category": "cafe",
+      "address": "Lungarno di Santa Rosa, 50144 Firenze",
+      "lat": 43.7717,
+      "lng": 11.2395,
+      "description": "Garden bistrot built into the old city walls on the San Frediano riverbank, with a big plant-filled terrace and grassy surroundings well away from tourist flow. Daytime coffee-and-laptop crowd gives way to a buzzy aperitivo scene; best as a fair-weather, outdoors-y study spot.",
+      "recScore": 8,
+      "reviewSummary": "The consistently recommended off-the-beaten-path outdoor work spot, weather-dependent and busier at aperitivo.",
+      "quotes": [
+        {
+          "text": "A top pick for studying and working if you are looking to get off the beaten path... beautifully situated just off the Arno river.",
+          "source": "Eating Around Italy",
+          "url": "https://eatingarounditaly.com/best-places-in-florence-for-studying-and-working/"
+        },
+        {
+          "text": "A great outdoor venue with a patio and grassy area for studying.",
+          "source": "No Maps or Foot Tracks",
+          "url": "https://nomapsorfoottracks.com/blog/best-coffee-shops-florence-digital-nomads"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": "few",
+        "hours": "Daily ~10-24",
+        "price": "€€"
+      },
+      "links": {
+        "website": "https://www.santarosabistrot.com/",
+        "maps": "https://maps.google.com/?q=Santarosa+Bistrot+Firenze"
+      }
+    },
+    {
+      "id": "il-conventino",
+      "name": "Il Conventino Caffè Letterario",
+      "category": "cafe",
+      "address": "Via Giano della Bella 20/1, 50124 Firenze",
+      "lat": 43.7621,
+      "lng": 11.2382,
+      "description": "Cafe, artisan workshops and gallery inside a quiet former convent near Porta Romana, with a leafy courtyard and generous indoor seating. Almost no tourists, honest prices, and a calm creative atmosphere that makes long study sessions easy — worth the 15-minute walk from the center.",
+      "recScore": 8,
+      "reviewSummary": "A locals' hidden gem with space and calm to spare, scoring just below the top spots because it's outside the historic center.",
+      "quotes": [
+        {
+          "text": "This hidden gem has ample indoor and outdoor seating with a great menu.",
+          "source": "Eating Around Italy",
+          "url": "https://eatingarounditaly.com/best-places-in-florence-for-studying-and-working/"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": true,
+        "hours": "Tue-Sun ~9-20",
+        "price": "€"
+      },
+      "links": {
+        "website": "https://www.conventinofirenze.it/",
+        "maps": "https://maps.google.com/?q=Il+Conventino+Via+Giano+della+Bella+Firenze"
+      }
+    },
+    {
+      "id": "harold-acton-library",
+      "name": "Harold Acton Library (British Institute of Florence)",
+      "category": "library",
+      "address": "Lungarno Guicciardini 9, 50125 Firenze",
+      "lat": 43.7694,
+      "lng": 11.2478,
+      "description": "The largest English-language lending library in mainland Europe, housed in the heritage rooms of Palazzo Lanfredini with reading desks overlooking the Arno. Paid membership (student rates available) buys silence, wifi, armchairs and a weekly cultural program including the beloved Wednesday lectures and tea.",
+      "recScore": 8,
+      "reviewSummary": "Reviewers call it an oasis and one of the loveliest rooms in Florence to work in; the membership fee and genteel quiet keep it niche.",
+      "quotes": [
+        {
+          "text": "A timeless oasis of peace in the beautiful heritage rooms of Palazzo Lanfredini overlooking the Arno – a place for study and contemplation.",
+          "source": "British Institute of Florence",
+          "url": "https://www.britishinstitute.it/en/library/harold-acton-library"
+        },
+        {
+          "text": "One of my favourite places in Florence.",
+          "source": "Tripadvisor reviews",
+          "url": "https://www.tripadvisor.com/Attraction_Review-g187895-d7624646-Reviews-The_British_Institute_of_Florence_Harold_Acton_Library-Florence_Tuscany.html"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": true,
+        "hours": "Mon-Fri ~10-18 (members)",
+        "price": "€€"
+      },
+      "links": {
+        "website": "https://www.britishinstitute.it/en/library/harold-acton-library",
+        "maps": "https://maps.google.com/?q=British+Institute+Harold+Acton+Library+Firenze"
+      }
+    },
+    {
+      "id": "the-social-hub-lavagnini",
+      "name": "The Social Hub – Lavagnini",
+      "category": "coworking",
+      "address": "Viale Spartaco Lavagnini 70-72, 50129 Firenze",
+      "lat": 43.7842,
+      "lng": 11.2555,
+      "description": "Hotel-coworking hybrid ten minutes north of the Duomo: huge desks with plugs under most tables, fast wifi, a cafe open to anyone, plus gym, rooftop pool and courtyard for members. Day passes make it the easiest 'real office for a day' in Florence, with a young international crowd.",
+      "recScore": 8,
+      "reviewSummary": "Widely described as THE coworking center in Florence for students and nomads; scores an 8 because the vibe is corporate-modern rather than Florentine.",
+      "quotes": [
+        {
+          "text": "A hip co-working space, hotel/long term stay, restaurant and bar all in one... THE co-working center in Florence.",
+          "source": "Eating Around Italy",
+          "url": "https://eatingarounditaly.com/best-places-in-florence-for-studying-and-working/"
+        },
+        {
+          "text": "Massive desk spaces with plugs under most tables to charge up, natural light, and a courtyard area.",
+          "source": "No Maps or Foot Tracks",
+          "url": "https://nomapsorfoottracks.com/blog/best-coffee-shops-florence-digital-nomads"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": true,
+        "hours": "Cafe/cowork daily ~8-22; day passes bookable",
+        "price": "€€"
+      },
+      "links": {
+        "website": "https://www.thesocialhub.co/florence-lavagnini/co-working-space/",
+        "maps": "https://maps.google.com/?q=The+Social+Hub+Firenze+Lavagnini"
+      }
+    },
+    {
+      "id": "giardino-delle-rose",
+      "name": "Giardino delle Rose",
+      "category": "outdoor",
+      "address": "Viale Giuseppe Poggi 2, 50125 Firenze",
+      "lat": 43.7627,
+      "lng": 11.2617,
+      "description": "Free terraced rose garden just below Piazzale Michelangelo with one of the best panoramas of the city and a fraction of the crowds. No wifi or outlets — this is for reading, problem sets on paper, or offline laptop work on the grass among the roses and Folon sculptures. Open 9am to sunset.",
+      "recScore": 8,
+      "reviewSummary": "Locals and bloggers rate it the best free open-air study/reading spot in Florence; it scores high on beauty and calm but offers zero amenities.",
+      "quotes": [
+        {
+          "text": "One of the city's most beautiful yet surprisingly overlooked green spaces.",
+          "source": "Bubbly Living",
+          "url": "https://www.bubblyliving.com/giardino-delle-rose-florence/"
+        },
+        {
+          "text": "The lower terraces are almost entirely unused by tourists and are a good option if you want to sit and read.",
+          "source": "Florence-On-Line",
+          "url": "https://florence-on-line.com/parks-gardens/giardino-delle-rose-rose-garden.html"
+        }
+      ],
+      "practical": {
+        "wifi": false,
+        "outlets": false,
+        "hours": "Daily 9-sunset, free entry",
+        "price": "€"
+      },
+      "links": {
+        "website": "https://www.feelflorence.it/en/node/17762",
+        "maps": "https://maps.google.com/?q=Giardino+delle+Rose+Firenze"
+      }
+    },
+    {
+      "id": "la-loggia-degli-albizi",
+      "name": "Caffè La Loggia degli Albizi",
+      "category": "cafe",
+      "address": "Borgo degli Albizi 39r, 50122 Firenze",
+      "lat": 43.7712,
+      "lng": 11.2607,
+      "description": "Old-school pasticceria-cafe hidden on Borgo degli Albizi between the Duomo and Sant'Ambrogio, adored by regulars for its pastries and unusually patient staff. Complimentary wifi and a back room where students settle in for hours; seating is limited, so mid-morning and mid-afternoon are best.",
+      "recScore": 7,
+      "reviewSummary": "A quieter local favorite with genuinely welcoming staff, rated slightly lower for cramped seating and no-frills amenities.",
+      "quotes": [
+        {
+          "text": "An exceptional cafe for those seeking a tranquil spot to study for hours.",
+          "source": "SRISA study abroad blog",
+          "url": "https://blog.srisa.org/2025/02/17/florence-study-abroad-guide-cafes-to-study/"
+        },
+        {
+          "text": "A local favorite that often flies under the radar... consistently good coffee.",
+          "source": "Atlas Field Notes",
+          "url": "https://atlasfieldnotes.com/the-best-cafes-in-florence-for-study-abroad-students-and-young-travelers/"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": "few",
+        "hours": "Mon-Sat ~7-19:30",
+        "price": "€"
+      },
+      "links": {
+        "website": "https://www.facebook.com/laloggiadeglialbizi/",
+        "maps": "https://maps.google.com/?q=La+Loggia+degli+Albizi+Firenze"
+      }
+    },
+    {
+      "id": "shake-cafe-cavour",
+      "name": "Shake Café – Via Cavour",
+      "category": "cafe",
+      "address": "Via Camillo Cavour 67/69r, 50129 Firenze",
+      "lat": 43.779,
+      "lng": 11.2588,
+      "description": "American-style smoothie-and-brunch cafe with several branches; the roomy Cavour location near San Marco is the study one, with individual tables, big co-working tables, free wifi and a menu full of vegan/GF options. Feels like home for US study-abroad students, which is both its charm and its crowd.",
+      "recScore": 7,
+      "reviewSummary": "Reliable, laptop-friendly and dietary-restriction-heaven per student blogs, but pricier than Italian bars and often packed with study-abroad crowds.",
+      "quotes": [
+        {
+          "text": "A huge menu catering to all kinds of dietary restrictions... in a laptop friendly atmosphere.",
+          "source": "Eating Around Italy",
+          "url": "https://eatingarounditaly.com/best-places-in-florence-for-studying-and-working/"
+        },
+        {
+          "text": "Perfect for those craving a slice of home.",
+          "source": "SRISA study abroad blog",
+          "url": "https://blog.srisa.org/2025/02/17/florence-study-abroad-guide-cafes-to-study/"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": "some",
+        "hours": "Daily ~7:30-19:30",
+        "price": "€€"
+      },
+      "links": {
+        "website": "https://www.shakecafe.bio/",
+        "maps": "https://maps.google.com/?q=Shake+Cafe+Via+Cavour+Firenze"
+      }
+    },
+    {
+      "id": "mamas-bakery",
+      "name": "Mama's Bakery",
+      "category": "cafe",
+      "address": "Via della Chiesa 34r, 50125 Firenze",
+      "lat": 43.7657,
+      "lng": 11.2436,
+      "description": "American-run bakery in Santo Spirito with bagels, drip coffee from a self-service refill bar, and a small courtyard. Order at the counter and stay as long as you like — no table service means no pressure to leave, and prices stay student-friendly.",
+      "recScore": 7,
+      "reviewSummary": "Loved for its zero-pressure counter-service model and courtyard, though wifi and outlets are modest and it closes mid-afternoon.",
+      "quotes": [
+        {
+          "text": "Order at the counter, fill up your coffee from the self-service bar.",
+          "source": "Eating Around Italy",
+          "url": "https://eatingarounditaly.com/best-places-in-florence-for-studying-and-working/"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": "few",
+        "hours": "Daily ~8-16",
+        "price": "€"
+      },
+      "links": {
+        "website": "https://www.mamasbakery.it/",
+        "maps": "https://maps.google.com/?q=Mamas+Bakery+Via+della+Chiesa+Firenze"
+      }
+    },
+    {
+      "id": "red-feltrinelli",
+      "name": "RED – La Feltrinelli",
+      "category": "bookshop-cafe",
+      "address": "Piazza della Repubblica 26r, 50123 Firenze",
+      "lat": 43.7717,
+      "lng": 11.254,
+      "description": "Big 'Read-Eat-Dream' Feltrinelli bookstore-cafe under the arcades of Piazza della Repubblica, with numerous large tables, wifi and long hours in the absolute center of town. More casual and anonymous than the indie spots — nobody notices how long you sit — but noisy at lunch and full of foot traffic.",
+      "recScore": 7,
+      "reviewSummary": "The dependable central fallback: plenty of tables and total anonymity, marked down for noise and chain-store atmosphere.",
+      "quotes": [
+        {
+          "text": "Numerous large tables... good for laptop work; avoid lunch hour.",
+          "source": "Romeing Firenze",
+          "url": "https://www.romeing.it/florence/7-smart-working-cafes-florence/"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": "some",
+        "hours": "Daily ~9-21",
+        "price": "€€"
+      },
+      "links": {
+        "website": "https://www.lafeltrinelli.it/",
+        "maps": "https://maps.google.com/?q=RED+Feltrinelli+Piazza+della+Repubblica+Firenze"
+      }
+    },
+    {
+      "id": "biblioteca-nazionale",
+      "name": "Biblioteca Nazionale Centrale di Firenze",
+      "category": "library",
+      "address": "Piazza dei Cavalleggeri 1, 50122 Firenze",
+      "lat": 43.7663,
+      "lng": 11.2632,
+      "description": "Italy's largest library, a monumental riverside palace with a grand reading room open free to anyone 16+ with ID. Registration and a bag-locker routine are required and no food is allowed, but for silent, serious deep work under high ceilings nothing else in Florence compares.",
+      "recScore": 7,
+      "reviewSummary": "Unmatched grandeur and silence for free, offset by bureaucratic entry, weekday-only hours and a strict no-snacks policy.",
+      "quotes": [
+        {
+          "text": "Florence's biggest public library and archive with the grandest study hall.",
+          "source": "Eating Around Italy",
+          "url": "https://eatingarounditaly.com/best-places-in-florence-for-studying-and-working/"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": "some",
+        "hours": "Mon-Fri ~9-19, Sat morning; bring ID to register",
+        "price": "€"
+      },
+      "links": {
+        "website": "https://www.bncf.firenze.sbn.it/",
+        "maps": "https://maps.google.com/?q=Biblioteca+Nazionale+Centrale+Firenze"
+      }
+    },
+    {
+      "id": "biblioteca-marucelliana",
+      "name": "Biblioteca Marucelliana",
+      "category": "library",
+      "address": "Via Cavour 43, 50129 Firenze",
+      "lat": 43.7776,
+      "lng": 11.2578,
+      "description": "A 1752 public library on Via Cavour whose wood-galleried Monumental Hall is one of the most atmospheric free places to study in the city. Open to anyone 16+ at no charge; hours are short (mornings most days, until 17:00 Tue/Thu), so it rewards early risers.",
+      "recScore": 7,
+      "reviewSummary": "Stunning historic reading room and free entry, but the limited morning-heavy schedule caps its usefulness for all-day sessions.",
+      "quotes": [
+        {
+          "text": "Citizens (both Italian and foreign) who have reached age 16 can freely access the library.",
+          "source": "Biblioteca Marucelliana (official)",
+          "url": "https://marucelliana.cultura.gov.it/"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": "few",
+        "hours": "Mon/Wed/Fri 8:30-14, Tue/Thu 8:30-17",
+        "price": "€"
+      },
+      "links": {
+        "website": "https://marucelliana.cultura.gov.it/",
+        "maps": "https://maps.google.com/?q=Biblioteca+Marucelliana+Firenze"
+      }
+    },
+    {
+      "id": "sit-n-breakfast",
+      "name": "Sit'N'Breakfast",
+      "category": "coworking",
+      "address": "Via San Gallo 21r, 50129 Firenze",
+      "lat": 43.7773,
+      "lng": 11.2569,
+      "description": "Part coworking space, part caffetteria with a garden, part lending library near the Accademia. Hourly, daily and monthly desk rates include wifi, plugs, printers and scanners — the practical choice when you actually need to print a paper or book a meeting table in the historic center.",
+      "recScore": 7,
+      "reviewSummary": "Valued for real office amenities (printers, plugs, meeting space) rare in the centro storico; more functional than atmospheric.",
+      "quotes": [
+        {
+          "text": "An actual co-working space... WiFi, plugs, printers, ample table space.",
+          "source": "Romeing Firenze",
+          "url": "https://www.romeing.it/florence/7-smart-working-cafes-florence/"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": true,
+        "hours": "Mon-Sat 10-20",
+        "price": "€€"
+      },
+      "links": {
+        "website": "https://www.italiancoworking.it/firenze/spazi/sitnbreakfast/",
+        "maps": "https://maps.google.com/?q=Sit+N+Breakfast+Via+San+Gallo+Firenze"
+      }
+    },
+    {
+      "id": "impact-hub-firenze",
+      "name": "Impact Hub Firenze",
+      "category": "coworking",
+      "address": "Via Panciatichi 16, 50127 Firenze",
+      "lat": 43.799,
+      "lng": 11.238,
+      "description": "Florence's node of the global Impact Hub network, in the Novoli/Rifredi district reachable by tram. Fixed and flexible desks, day passes, meeting rooms and a social-innovation community — the pick for longer-term remote workers who want networking over Renaissance views.",
+      "recScore": 7,
+      "reviewSummary": "Solid professional coworking with a real community, held back for students by its location well outside the historic center.",
+      "quotes": [
+        {
+          "text": "A mix between an innovation laboratory, accelerator, business center and social business.",
+          "source": "Coworker.com",
+          "url": "https://www.coworker.com/italy/florence/impact-hub-florence"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": true,
+        "hours": "Mon-Fri ~9-18, day passes available",
+        "price": "€€"
+      },
+      "links": {
+        "website": "https://florence.impacthub.net/",
+        "maps": "https://maps.google.com/?q=Impact+Hub+Firenze+Via+Panciatichi"
+      }
+    },
+    {
+      "id": "the-social-hub-belfiore",
+      "name": "The Social Hub – Belfiore",
+      "category": "coworking",
+      "address": "Viale Belfiore 11, 50144 Firenze",
+      "lat": 43.7834,
+      "lng": 11.2404,
+      "description": "The newer, bigger Social Hub near Porta al Prato and the tramline, with the same formula as Lavagnini: bookable day-pass coworking, cafe, gym and rooftop pool in a shiny modern complex. Quieter desks than its sibling but a step further from the center.",
+      "recScore": 7,
+      "reviewSummary": "Same reliable desks-plugs-wifi package as Lavagnini with newer facilities, slightly less central and less student-trafficked.",
+      "quotes": [
+        {
+          "text": "Massive desk spaces... a thriving international student/remote worker community.",
+          "source": "No Maps or Foot Tracks",
+          "url": "https://nomapsorfoottracks.com/blog/best-coffee-shops-florence-digital-nomads"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": true,
+        "hours": "Daily ~8-22; day passes bookable",
+        "price": "€€"
+      },
+      "links": {
+        "website": "https://www.thesocialhub.co/florence-belfiore/co-working-space/",
+        "maps": "https://maps.google.com/?q=The+Social+Hub+Firenze+Belfiore"
+      }
+    },
+    {
+      "id": "manifattura-tabacchi",
+      "name": "Manifattura Tabacchi",
+      "category": "coworking",
+      "address": "Via delle Cascine 35, 50144 Firenze",
+      "lat": 43.7822,
+      "lng": 11.2283,
+      "description": "A former 1930s tobacco factory beside Cascine park, regenerated into a creative district of studios, coworking, cafes, shops and event spaces. The rationalist architecture and rotating cultural program draw Florence's design crowd; come for a change of scenery and stay for exhibitions and aperitivo.",
+      "recScore": 7,
+      "reviewSummary": "The city's coolest regeneration project with genuine creative energy, but it's a tram ride from the center and amenities vary by building.",
+      "quotes": [
+        {
+          "text": "Manifattura Tabacchi opened its doors as a co-working space in 2018, attracting digital nomads to a new district of the city.",
+          "source": "The Florentine",
+          "url": "https://www.theflorentine.net/2023/01/31/digital-nomads-florence/"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": true,
+        "hours": "District daily; workspaces Mon-Fri ~9-19",
+        "price": "€€"
+      },
+      "links": {
+        "website": "https://www.manifatturatabacchi.com/",
+        "maps": "https://maps.google.com/?q=Manifattura+Tabacchi+Firenze"
+      }
+    },
+    {
+      "id": "giardino-orticoltura",
+      "name": "Giardino dell'Orticoltura",
+      "category": "outdoor",
+      "address": "Via Vittorio Emanuele II 4, 50139 Firenze",
+      "lat": 43.7885,
+      "lng": 11.2549,
+      "description": "Public horticulture garden north of the center, famous for its 1880 glass-and-iron Tepidarium greenhouse. Shaded lawns, benches, a kiosk-bar in summer and a local (not tourist) crowd make it a low-key spot to read or work offline on nice days.",
+      "recScore": 7,
+      "reviewSummary": "A genuine locals' park that's lovely for offline studying, without the panorama of the Rose Garden or any reliable wifi.",
+      "quotes": [
+        {
+          "text": "One of the most beautiful parks and gardens in Florence.",
+          "source": "Culture Trip",
+          "url": "https://theculturetrip.com/europe/italy/articles/the-most-beautiful-parks-and-gardens-in-florence"
+        }
+      ],
+      "practical": {
+        "wifi": false,
+        "outlets": false,
+        "hours": "Daily ~8:30-sunset, free entry",
+        "price": "€"
+      },
+      "links": {
+        "website": "https://www.feelflorence.it/en/node/17765",
+        "maps": "https://maps.google.com/?q=Giardino+dell+Orticoltura+Firenze"
+      }
+    },
+    {
+      "id": "biblioteca-thouar",
+      "name": "Biblioteca Pietro Thouar",
+      "category": "library",
+      "address": "Piazza Torquato Tasso 3, 50124 Firenze",
+      "lat": 43.766,
+      "lng": 11.2412,
+      "description": "Neighborhood branch library on Piazza Tasso in San Frediano — small, calm and blissfully free of the exam-season seat wars at the Oblate. Free entry; a library card unlocks the wifi. A dependable hunker-down option when you need hours of quiet on the Oltrarno side.",
+      "recScore": 6,
+      "reviewSummary": "Reliable and uncrowded but plain, with modest hours and wifi gated behind a library card — a workhorse rather than a destination.",
+      "quotes": [
+        {
+          "text": "A quiet library located on the outskirts... a great place to hunker down if you need a lot of time.",
+          "source": "Eating Around Italy",
+          "url": "https://eatingarounditaly.com/best-places-in-florence-for-studying-and-working/"
+        }
+      ],
+      "practical": {
+        "wifi": true,
+        "outlets": "some",
+        "hours": "Mon-Sat, roughly 9-19 (varies by day)",
+        "price": "€"
+      },
+      "links": {
+        "website": "https://www.biblioteche.comune.fi.it/biblioteca_thouar",
+        "maps": "https://maps.google.com/?q=Biblioteca+Thouar+Piazza+Tasso+Firenze"
+      }
+    }
+  ]
+}
