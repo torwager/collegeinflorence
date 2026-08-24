@@ -303,6 +303,18 @@ body {
 
 .panel-desc { font-size: 0.92rem; line-height: 1.55; margin-bottom: 1.1rem; }
 
+.panel-caution {
+  background: #fff6e5;
+  border: 1px solid #f3ddae;
+  border-left: 4px solid #e8a20c;
+  border-radius: 10px;
+  padding: 0.7rem 0.9rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #7a5410;
+  margin-bottom: 1.1rem;
+}
+
 .panel-section-title {
   font-size: 0.72rem;
   font-weight: 700;

@@ -33,7 +33,8 @@
         "instagram": "https://www.instagram.com/volumefirenze/",
         "maps": "https://maps.google.com/?q=Volume+Piazza+Santo+Spirito+Firenze"
       },
-      "openLate": true
+      "openLate": true,
+      "caution": "Late-night note: avoid lingering in the Santo Spirito area late at night — once the piazza empties it gets sketchy. Leave with a group and stick to well-lit main streets (the same goes for the blocks south of the train station)."
     },
     {
       "id": "bulli-e-balene",
@@ -61,7 +62,8 @@
         "instagram": "https://www.instagram.com/bulliebalene_firenze/",
         "maps": "https://maps.google.com/?q=Bulli+e+Balene+Firenze"
       },
-      "openLate": false
+      "openLate": false,
+      "caution": "Late-night note: avoid lingering in the Santo Spirito area late at night — once the piazza empties it gets sketchy. Leave with a group and stick to well-lit main streets (the same goes for the blocks south of the train station)."
     },
     {
       "id": "sosta-dei-papi",
@@ -204,7 +206,8 @@
         "instagram": "https://www.instagram.com/santarosa.bistrot/",
         "maps": "https://maps.google.com/?q=Santarosa+Bistrot+Firenze"
       },
-      "openLate": true
+      "openLate": true,
+      "caution": "Late-night note: avoid lingering in the Santo Spirito area late at night — once the piazza empties it gets sketchy. Leave with a group and stick to well-lit main streets (the same goes for the blocks south of the train station)."
     },
     {
       "id": "la-cite",
@@ -232,7 +235,8 @@
         "website": "https://www.lacitelibreria.info",
         "maps": "https://maps.google.com/?q=La+Cite+Libreria+Cafe+Firenze"
       },
-      "openLate": true
+      "openLate": true,
+      "caution": "Late-night note: avoid lingering in the Santo Spirito area late at night — once the piazza empties it gets sketchy. Leave with a group and stick to well-lit main streets (the same goes for the blocks south of the train station)."
     },
     {
       "id": "lions-fountain",
@@ -268,34 +272,6 @@
       "openLate": true
     },
     {
-      "id": "red-garter",
-      "name": "Red Garter",
-      "category": "bar-pub",
-      "address": "Via de' Benci 33r, 50122 Firenze",
-      "lat": 43.7679,
-      "lng": 11.2601,
-      "description": "A 1962-vintage American-style steakhouse-bar that functions as study-abroad HQ on Via de' Benci: sports on the screens, a dance floor, and a full karaoke stage with a live guitarist. Come for beer pong and NFL games, stay for the chaos after midnight. Touristy, but a rite of passage.",
-      "recScore": 7,
-      "reviewSummary": "Universally known and reliably fun for the student crowd, though reviewers agree it's an American bubble rather than an Italian night out.",
-      "quotes": [
-        {
-          "text": "Florence's unofficial study abroad headquarters... the biggest appeal is the karaoke on a full-blown stage with a live guitar player.",
-          "source": "The Tab (Syracuse)",
-          "url": "https://archive.thetab.com/us/syracuse/2017/01/12/best-places-party-florence-italy-9596"
-        }
-      ],
-      "practical": {
-        "price": "€€",
-        "bestFor": "karaoke + game nights",
-        "hours": "Daily ~11am-3am"
-      },
-      "links": {
-        "website": "https://www.redgarterflorence.com",
-        "maps": "https://maps.google.com/?q=Red+Garter+Firenze"
-      },
-      "openLate": true
-    },
-    {
       "id": "kikuya",
       "name": "Kikuya Pub",
       "category": "bar-pub",
@@ -325,33 +301,6 @@
       "links": {
         "website": "https://www.kikuyapub.it",
         "maps": "https://maps.google.com/?q=Kikuya+Pub+Firenze"
-      },
-      "openLate": true
-    },
-    {
-      "id": "shot-cafe",
-      "name": "Shot Café",
-      "category": "bar-pub",
-      "address": "Via de' Pucci 5, 50122 Firenze",
-      "lat": 43.7748,
-      "lng": 11.2576,
-      "description": "A neon-lit dive near the Duomo that study-abroad students treat as the official pregame: trays of flavored shots, pitchers of mixed drinks and happy-hour prices most of the night. Loud, sticky and cheerfully unpretentious. Nobody's first choice for a quiet drink, everybody's first stop before the club.",
-      "recScore": 7,
-      "reviewSummary": "Wins on price and party energy across student guides; drink quality is beside the point.",
-      "quotes": [
-        {
-          "text": "One of the cheapest bars in Florence, offering shot trays, large mixed-drink pitchers, and varied shot options.",
-          "source": "Bus2alps nightlife guide",
-          "url": "https://bus2alps.com/a-night-by-night-guide-to-going-out-in-florence/"
-        }
-      ],
-      "practical": {
-        "price": "€",
-        "bestFor": "pregame shot trays",
-        "hours": "Daily ~6pm-3am"
-      },
-      "links": {
-        "maps": "https://maps.google.com/?q=Shot+Cafe+Firenze"
       },
       "openLate": true
     },
@@ -440,7 +389,8 @@
         "instagram": "https://www.instagram.com/madsoulsandspirits/",
         "maps": "https://maps.google.com/?q=Mad+Souls+%26+Spirits+Firenze"
       },
-      "openLate": true
+      "openLate": true,
+      "caution": "Late-night note: avoid lingering in the Santo Spirito area late at night — once the piazza empties it gets sketchy. Leave with a group and stick to well-lit main streets (the same goes for the blocks south of the train station)."
     },
     {
       "id": "il-santino",
@@ -467,40 +417,8 @@
       "links": {
         "maps": "https://maps.google.com/?q=Il+Santino+Firenze"
       },
-      "openLate": false
-    },
-    {
-      "id": "space-club",
-      "name": "Space Club",
-      "category": "club",
-      "address": "Via Palazzuolo 37, 50123 Firenze",
-      "lat": 43.7746,
-      "lng": 11.2461,
-      "description": "The biggest club in the historic center: two floors, international DJs, a karaoke area and a crowd that's heavily study-abroad on weekends. Cover usually includes a drink; it goes late Tuesday through Saturday. The default 'everyone's going to Space' night out.",
-      "recScore": 7.5,
-      "reviewSummary": "The most consistently named club in student guides; big, reliable fun even if drinks inside add up.",
-      "quotes": [
-        {
-          "text": "Florence's biggest club of them all... multiple floors, dancers everywhere, some of the world's biggest DJ's.",
-          "source": "Bus2alps nightlife guide",
-          "url": "https://bus2alps.com/a-night-by-night-guide-to-going-out-in-florence/"
-        },
-        {
-          "text": "The biggest club in the historic centre, with two dance floors... attracts people from all over the world.",
-          "source": "Trip.com clubs list",
-          "url": "https://uk.trip.com/toplist/tripbest/florence-best-clubs-100900005727"
-        }
-      ],
-      "practical": {
-        "price": "€€",
-        "bestFor": "big weekend club night",
-        "hours": "Tue-Sat ~10pm-4am"
-      },
-      "links": {
-        "website": "https://www.spaceclubfirenze.com",
-        "maps": "https://maps.google.com/?q=Space+Club+Firenze"
-      },
-      "openLate": true
+      "openLate": false,
+      "caution": "Late-night note: avoid lingering in the Santo Spirito area late at night — once the piazza empties it gets sketchy. Leave with a group and stick to well-lit main streets (the same goes for the blocks south of the train station)."
     },
     {
       "id": "yab",

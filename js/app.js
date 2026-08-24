@@ -116,6 +116,8 @@
            esc(p.reviewSummary || "Synthesized from public reviews, Reddit, and student blogs.") + "</div></div>";
     }
 
+    if (p.caution) h += '<div class="panel-caution">⚠️ ' + esc(p.caution) + "</div>";
+
     if (p.description) h += '<p class="panel-desc">' + esc(p.description) + "</p>";
 
     // Colleges: facts + programs
